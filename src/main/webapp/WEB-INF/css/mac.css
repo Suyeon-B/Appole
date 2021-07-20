@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* 메뉴바 부분 */
+.menu_bar_wrapper{
+	height: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.menu{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-style: solid;
+	border-color: antiquewhite;
+}
+
+.move_button{
+	background: yellow;
+}
+
+.banner_wrapper{
+	background: green;
+	margin: 0 auto;
+}
+
+
+/* 제품 소개 부분 */
+.product_wrapper{
+	background: blue;
+	height: 550px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.product{
+	background: gray;
+}
+
+.new{
+	background: white;
+	margin-top: 100px;
+}
+
+.button{
+	background: skyblue;
+}
+
+.iMac_image{
+	background: pink;
+	height: 400px;
+	width: 700px;
+	margin: 0 auto;
+}
