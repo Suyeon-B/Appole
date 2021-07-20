@@ -1,19 +1,20 @@
 @charset "UTF-8";
 
+/* 기본 글씨체 */
+body {
+    font-family: "SF Pro KR","SF Pro Display","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
 /* 메뉴바 부분 */
 .menu_bar_wrapper{
-	height: 150px;
 	margin: 0 auto;
 	text-align: center;
 }
 
 .menu{
-	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	border-style: solid;
-	border-color: antiquewhite;
 }
 
 .move_button{
@@ -25,31 +26,212 @@
 	margin: 0 auto;
 }
 
+.MacBook_Air.icon {
+    width: 51px;
+    height: 54px;
+    background-size: 51px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/familybrowser/macbookair_light__fj8r9488gr6u_large.svg);
+    margin: 0 auto;
+}
+.menu_button {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: block;
+    margin: 0;
+    word-break: keep-all;
+    font-style: normal;
+}
+
+.menu.MacBook_Pro_13 {
+    width: 51px;
+    height: 54px;
+    background-size: 51px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/familybrowser/macbook_pro_13_light__erjvypflcis2_large.svg);
+}
+
+.menu.MacBook_Pro_16 {
+    width: 58px;
+    height: 54px;
+    background-size: 58px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/familybrowser/macbook_pro_16_light__cialfoihbk02_large.svg);
+}
+
+.menu.iMac_24 {
+    width: 45px;
+    height: 54px;
+    background-size: 45px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/familybrowser/imac_24__e0tdvilut5qq_large.svg);
+}
+
+.menu.iMac_27 {
+    width: 48px;
+    height: 54px;
+    background-size: 48px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/familybrowser/imac_27_light__gbkfmaud0qaa_large.svg);
+}
+
+.menu.Mac_Pro {
+    width: 35px;
+    height: 54px;
+    background-size: 35px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/familybrowser/mac_pro_light__dq2h14cvit6q_large.svg);
+}
+
+.menu.Mac_mini {
+    width: 28px;
+    height: 54px;
+    background-size: 28px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/familybrowser/mac_mini_light__chxdj29efvrm_large.svg);
+}
+
+.menu.compare {
+    width: 73px;
+    height: 54px;
+    background-size: 73px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/familybrowser/mac_compare__cixm3zhf3k76_large.svg);
+}
+
+.menu.Pro_Display_XDR {
+    width: 46px;
+    height: 54px;
+    background-size: 46px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/familybrowser/mac_pro_display_light__ditp43qhvlm6_large.svg);
+}
+
+.menu.Accessories {
+    width: 33px;
+    height: 54px;
+    background-size: 33px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/familybrowser/mac_accessories_light__bow96z0024qa_large.svg);
+}
+
+.menu.Big_Sur {
+    width: 35px;
+    height: 54px;
+    background-size: 35px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/familybrowser/mac_os__e6brlkg0n10m_large.svg);
+}
+
+.banner_wrapper {
+	height: 30px;
+    background: #f5f5f7;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.banner {
+    color: #1d1d1f;
+    margin-right: 5px;
+}
+
+.banner_button {
+    color: #06c;
+}
+
 
 /* 제품 소개 부분 */
 .product_wrapper{
-	background: blue;
-	height: 550px;
 	margin: 0 auto;
-	text-align: center;
+    text-align: center;
+    margin-top: 60px;
 }
 
-.product{
-	background: gray;
+.mac_main_iMac {
+    margin-top: 6px;
 }
 
 .new{
-	background: white;
-	margin-top: 100px;
+	color: #f56300;
+    font-size: large;
+    font-weight: 500;
+}
+
+.mac_main_iMac.iMac {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.mac_main_iMac.phrases {
+    line-height: 1.25;
+    font-family: "SF Pro KR","SF Pro Display","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: .007em;
+}
+
+.mac_main_iMac.price {
+    line-height: 1.58824;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .button{
-	background: skyblue;
+	cursor: pointer;
+}
+
+.button.buy {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    font-size: medium;
+    margin-top: 15px;
+}
+
+.button.buy:hover {
+    background-color: #0077ED;
+}
+
+.button.buy:focus {
+    box-shadow: 0 0 0 4px rgb(0 125 250 / 60%);
+    outline: none;
+}
+
+.button.more_info_wrapper {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .iMac_image{
-	background: pink;
-	height: 400px;
-	width: 700px;
-	margin: 0 auto;
+	background: url(../../../image/iMac.jpeg) 0% 0% / cover;
+    height: 446px;
+    width: 1070px;
+    margin: 0 auto;
 }
+
