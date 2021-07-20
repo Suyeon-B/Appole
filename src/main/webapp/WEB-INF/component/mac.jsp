@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css"
 	href="/css/mac.css">
 </head>
-<body>
+<body> 
 	<div class="menu_bar_wrapper">
 		<div class="menu">
 			<div class="menu move_button button_left"></div>
