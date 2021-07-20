@@ -35,6 +35,6 @@ public class HomeController {
 	//현준 작업용 iPhone
 	@GetMapping(value = "/iPhone")
 	public String iPhone() {
-	    return "/iPhone";
+	    return "component/iPhone";
 	}
 }

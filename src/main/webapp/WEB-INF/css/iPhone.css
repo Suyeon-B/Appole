@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/*전체 페이지 wrapper*/
+.main{
+	background: pink;
+	color: red;
+	margin: 0 auto;
+}
+
+
+/*전체 페이지 wrapper*/
+.chapterNav_item{
+	width: 50px;
+	height: 50px;
+	background: white;
+}
+.chapterNav_box{
+	background: rgba(29,29,31,0.6);
+	
+	
+}
+.chapterNav_items {
+    position: relative;
+    height: 100%;
+    padding: 5px;
+    justify-content: space-around;
+    display: flex;
+}
+.section{
+	width: 50px;
+	height: 50px;
+	background: red;
+	margin: 0 auto;
+}
+.titleBanner{
+	margin: 0 auto;
+}
+.titleBanner_themeWhite_item{
+	margin: auto;
+	margin-top: 15px;
+	align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.titleBanner_themeDark_item{
+	margin: auto;
+	margin-top: 15px;
+	align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.price{
+	font-size: 17px;
+}
+.button{
+	align-items: center;
+	text-decoration:none;
+	cursor: pointer;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 50px;
+    background: #0071e3;
+    color: #fff;
+    padding: 8px 16px 8px 16px;
+    white-space: nowrap;
+}
+.moreInfo{
+	text-decoration:none;
+	color: #0071e3;
+}
+a.moreInfo:hover {
+   text-decoration: underline;
+}
+
+.titleBanner_themeWhite_image{
+	align-items: center;
+	width: 1263px;
+    height: 452px;
+    background: purple;
+}
+.titleBanner_themeDark_image{
+	width: 1263px;
+    height: 452px;
+    background: gold;
+}
+.titleBanner_themeWhite_imageBox {
+    display: flex;
+    justify-content: center;
+}
+.titleBanner_themeDark_imageBox{
+	display: flex;
+	justify-content: center;
+}
+.titleBanner_themeWhite_box{
+	margin-bottom: 38px;
+}
+.titleBanner_themeDark_box{
+	margin-bottom: 38px;
+}
+.titleBanner_themeWhite_container{
+	padding-top: 150px;
+	padding-bottom: 15px;
+	background: white;
+}
+.titleBanner_themeDark_container{
+	padding-top: 150px;
+	padding-bottom: 15px;
+	background: black;
+}
+.compare{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: white;
+}
+.compare_box{
+	display: flex;
+    justify-content: center;
+}
+.compareTable{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, auto);
+    grid-row-gap: 25px;
+    grid-column-gap: 35px;
+    grid-auto-flow: column;
+}
+.grid_item{
+	display: flex;
+	justify-content: center;
+}
+.compareTable_box{
+	padding-top: 70px;
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: center;
+}
+.purchase_box{
+	display: flex;
+	justify-content: center;
+}
+.purchase{
+	background: gray;
+}
+
+/* 그리드 뷰 안 css*/
+.device_info__title{
+	font-size: 23px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+	justify-content: center;
+}
+.device_info__price{
+	font-size: 14px;
+    font-weight: 400;
+    color: black;
+    display: flex;
+	justify-content: center;
+}
+.device_info__subtitle{
+	font-size: 19px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+	justify-content: center;
+}
+.device_info__button{
+	display: flex;
+	justify-content: center;
+}
