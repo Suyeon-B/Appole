@@ -91,11 +91,12 @@
 			</div>
 			<div class="select_button motion_bar"></div>
 		</div>
-		<!-- Mac 라인 제품 비교 : MacBook_Air -->
+		<!-- Mac 라인 제품 비교 : MacBook_Air / MacBook_Pro_13 / MacBook_Pro_16 -->
 		<div class="laptop_models_wrapper">
+			<!-- Mac 라인 제품 비교 : MacBook_Air -->
 			<div class="laptop_models MacBook_Air">
 				<div class="MacBook_Air info">
-					<div class="info picture"></div>
+					<div class="MacBook_Air info picture"></div>
 					<div class="info title">MacBook Air</div>
 					<div class="info price">₩1,290,000부터</div>
 					<div class="info color"></div>
@@ -151,12 +152,10 @@
 					<div class="more_info_icon"></div>
 				</div>
 			</div>
-		</div>
-		<!-- Mac 라인 제품 비교 : MacBook_Pro_13 -->
-		<div class="laptop_models_wrapper">
+			<!-- Mac 라인 제품 비교 : MacBook_Pro_13 -->
 			<div class="laptop_models MacBook_Pro_13">
 				<div class="MacBook_Pro_13 info">
-					<div class="info picture"></div>
+					<div class="MacBook_Pro_13 info picture"></div>
 					<div class="info title">MacBook Pro 13형</div>
 					<div class="info price">₩1,690,000부터</div>
 					<div class="info color"></div>
@@ -216,12 +215,10 @@
 					<div class="more_info_icon"></div>
 				</div>
 			</div>
-		</div>
-		<!-- Mac 라인 제품 비교 : MacBook_Pro_16 -->
-		<div class="laptop_models_wrapper">
+			<!-- Mac 라인 제품 비교 : MacBook_Pro_16 -->
 			<div class="laptop_models MacBook_Pro_16">
 				<div class="MacBook_Pro_16 info">
-					<div class="info picture"></div>
+					<div class="MacBook_Pro_16 info picture"></div>
 					<div class="info title">MacBook Pro 16형</div>
 					<div class="info price">₩3,190,000부터</div>
 					<div class="info color"></div>
