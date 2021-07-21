@@ -33,10 +33,10 @@
 						<div class = "titleBanner_themeWhite_item price">\950,000부터(보상 판매* 미적용 가격)</div>
 					</div>
 					<div class = "titleBanner_themeWhite_item">
-						<a class = "button" href="https://www.apple.com/kr/shop/buy-iPhome/iPhome-12">구입하기</a>
+						<a class = "button" href="https://www.apple.com/kr/shop/buy-iphone/iphone-12">구입하기</a>
 					</div>
 					<div class = "titleBanner_themeWhite_item">
-						<a class = "moreInfo" href="https://www.apple.com/kr/iPhome-12/">더 알아보기 ></a>
+						<a class = "moreInfo" href="https://www.apple.com/kr/iphone-12/">더 알아보기 ></a>
 					</div>
 				</div>
 				<div class = "titleBanner_themeWhite_imageBox">
@@ -51,10 +51,10 @@
 						<div class = "titleBanner_themeDark_item price">\1,350,000부터(보상 판매* 미적용 가격)</div>
 					</div>
 					<div class = "titleBanner_themeDark_item">
-						<a class = "button" href="https://www.apple.com/kr/shop/buy-iPhome/iPhome-12">구입하기</a>
+						<a class = "button" href="https://www.apple.com/kr/shop/buy-iphone/iphone-12">구입하기</a>
 					</div>
 					<div class = "titleBanner_themeDark_item">
-						<a class = "moreInfo" href="https://www.apple.com/kr/iPhome-12/">더 알아보기 ></a>
+						<a class = "moreInfo" href="https://www.apple.com/kr/iphone-12/">더 알아보기 ></a>
 					</div>
 				</div>
 				<div class = "titleBanner_themeDark_imageBox">
@@ -67,10 +67,12 @@
 		<div class = "compare">
 			<div class ="compare_box">
 				<div class = "compare_item">어떤 iPhome이 당신에게 맞을까요?</div>
+				
 			</div>
-			<div class = "titleBanner_themeDark_item">
-				<a class = "moreInfo compare_moreInfo" href="https://www.apple.com/kr/iPhome-12/">모든 iPhome 모델 비교하기 ></a>
+			<div class ="compare_box">
+				<a class = "moreInfo compare_moreInfo" href="https://www.apple.com/kr/iphone-12/">모든 iPhome 모델 비교하기 ></a>
 			</div>
+			
 			<div class = "compareTable_box">
 				<div class = "compareTable">
 					<div class = "iPhome_12_pro_device">
@@ -146,7 +148,7 @@
 					<div class = "iPhome_12_camera grid_item">iPhome_12_camera</div>
 					<div class = "iPhome_12_lidar grid_item">iPhome_12_lidar</div>
 					<div class = "iPhome_12_magsafe grid_item">iPhome_12_magsafe</div>
-					<a class = "moreInfo grid_item" href="/kr/iPhome-12/">더 알아보기</a>
+					<a class = "moreInfo grid_item" href="/kr/iphone-12/">더 알아보기</a>
 					<div class = "iPhome_se_device">
 						<div class = "iPhome_device_image_box">
 							<div class = "iPhome_se_device_image"></div>
