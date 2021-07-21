@@ -256,3 +256,84 @@ body {
 	background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_swatches_three_colors__e2hki8qb5cia_large_2x.png);
 }
 
+.laptop_models_wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.main_compare_Mac_wrapper {
+	margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fafafa;
+    padding-top: 92px;
+}
+
+.button.mac_compare_button {
+    margin-top: 30px;
+}
+
+
+.select_button_wrapper {
+    margin: 0 calc(max(env(safe-area-inset-left) + 24px, 34px));
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    padding: 0 0 3.17647em;
+}
+
+.select_button {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    border-bottom: 1px solid #d2d2d7;
+    list-style: none;
+    outline: none;
+    word-break: keep-all;
+    font-style: normal;
+}
+
+.select_button.desktop {
+    padding-left: 60px;
+    border-bottom: 1px solid #d2d2d7;
+    list-style: none;
+    outline: none;
+}
+
+.MacBook_Air.info.picture {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_mba__gdncw5gbxoq6_large.png);
+    width: 276px;
+    height: 167px;
+	background-size: 276px 167px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.MacBook_Pro_13.info.picture {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_mbp13__geounnnz6oa6_large_2x.png);
+    width: 276px;
+    height: 167px;
+	background-size: 276px 167px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.MacBook_Pro_16.info.picture {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_mbp16__fykfvftfaeuu_large_2x.png);
+    width: 276px;
+    height: 167px;
+	background-size: 276px 167px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
