@@ -133,6 +133,9 @@ a.moreInfo:hover {
 	padding-bottom: 80px;
 	display: flex;
 	justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
 }
 .purchase_box{
 	display: flex;
@@ -143,6 +146,62 @@ a.moreInfo:hover {
 }
 
 /* 그리드 뷰 안 css*/
+
+/* 그리드 뷰 안 iPhone 이미지 작업 */
+.iPhone_device_image_box{
+	min-height: 256px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+.iPhone_12_pro_device_image{
+    width: 199px;
+    height: 256px;
+    background-size: 199px 256px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/compare/compare_iphone_12_pro__gmn3556ju3am_large.jpg);
+}
+.iPhone_12_device_image{
+    width: 183px;
+    height: 256px;
+    background-size: 183px 256px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/compare/compare_iphone_12__btq63lk8td7m_large.jpg);
+}
+.iPhone_se_device_image{
+    width: 136px;
+    height: 256px;
+    background-size: 136px 256px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/compare/compare_iphone_se__1uyg4tzyd4ya_large.jpg);
+}
+.iPhone_11_device_image{
+    width: 155px;
+    height: 256px;
+    background-size: 155px 256px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/compare/compare_iphone_11__bzjboswm5hbm_large.jpg);
+}
+
+.device_info__image{
+    margin-top: 14px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/compare/swatches_iphone_12_pro__for4g8pne0ey_large.jpg);
+	background-size: 97px 19px;
+	width: 97px;
+    height: 19px;
+	
+}
+.iPhone_12_pro_color {
+	width: 97px;
+    height: 19px;
+}
+
 .device_info__title{
 	font-size: 23px;
     font-weight: 600;
@@ -165,6 +224,19 @@ a.moreInfo:hover {
 	justify-content: center;
 }
 .device_info__button{
+	display: flex;
+	justify-content: center;
+}
+.display_info__title{
+	font-size: 17px;
+	color: black;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 6px;
+}
+.display_info__subtitle{
+	font-size: 14px;
+	color: black;
 	display: flex;
 	justify-content: center;
 }

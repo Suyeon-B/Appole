@@ -20,7 +20,7 @@
 				<div class = "chapterNav_item"></div>
 				<div class = "chapterNav_item"></div>
 				<div class = "chapterNav_item"></div>
-				<div class = "chapterNav_item"></div>
+				<div class = "chapterNav_item"></div>W
 			</div>
 		</div>
 		
@@ -69,26 +69,57 @@
 			</div>
 			<div class = "compareTable_box">
 				<div class = "compareTable">
-					<div class = "iPhone_12_pro_device grid_item">
-						<div class = "iPhone_12_pro_device_image"></div>
+					<div class = "iPhone_12_pro_device">
+						<div class = "iPhone_device_image_box">
+							<div class = "iPhone_12_pro_device_image"></div>
+						</div>
 						<div class = "iPhone_12_pro_device_info">
 							<div class = "device_info__title">iPhone 12 pro</div>
 							<div class = "device_info__price">\1,350,000부터</div>
+							<div class = "device_info__image iPhone_12_pro_color"></div>
 							<div class = "device_info__subtitle">궁극의 iPhone.</div>
 							<div class = "device_info__button">
 								<a class = "button">구입하기</a>
 							</div>
 						</div>
 					</div>
-					<div class = "iPhone_12_pro_display grid_item">iPhone_12_pro_display</div>
-					<div class = "iPhone_12_pro_cellular grid_item">iPhone_12_pro_cellular</div>
-					<div class = "iPhone_12_pro_chip grid_item">iPhone_12_pro_chip</div>
-					<div class = "iPhone_12_pro_camera grid_item">iPhone_12_pro_camera</div>
-					<div class = "iPhone_12_pro_lidar grid_item">iPhone_12_pro_lidar</div>
-					<div class = "iPhone_12_pro_magsafe grid_item">iPhone_12_pro_magsafe</div>
+					<div class = "iPhone_12_pro_display">
+						<div class = "iPhone_12_pro_display_info">
+							<div class = "display_info__title">6.1형 또는 6.7형</div>
+							<div class = "display_info__subtitle">전면 화면 OLED 디스플레이</div>
+						</div>
+					</div>
+					<div class = "iPhone_12_pro_cellular">
+						<div class = "celluler_info__image"></div>
+						<div class = "celluler_info__title">5G 셀룰러</div>
+					</div>
+					<div class = "iPhone_12_pro_chip">
+						<div class = "chip_info__image"></div>
+						<div class = "chip_info__title">A14 Bionic 칩</div>
+						<div class = "chip_info__subtitle">스마트폰 사상 가장 빠른 칩</div>
+					</div>
+					<div class = "iPhone_12_pro_camera grid_item">
+						<div class = "camera_info__image"></div>
+						<div class = "camera_info__title">프로급 카메라 시스템</div>
+						<div class = "camera_info__subtitle">울트라 와이드, 와이드, 망원</div>
+					</div>
+					<div class = "iPhone_12_pro_lidar grid_item">
+						<div class = "lidar_info__image"></div>
+						<div class = "lidar_info__title">LiDAR 스캐너</div>
+						<div class = "lidar_info__subtitles">
+							<div class = "lidar_info__subtitle">야간 모드 인물 사진 지원 </div>
+							<div class = "lidar_info__subtitle">및 새로운 차원의 AR 경험 제공</div>
+						</div>
+					</div>
+					<div class = "iPhone_12_pro_magsafe grid_item">
+						<div class = "magsafe_info__image"></div>
+						<div class = "magsafe_info__title">MagSafe 액세서리와 호환</div>
+					</div>
 					<a class = "moreInfo grid_item">더 알아보기</a>
-					<div class = "iPhone_12_device grid_item">
-						<div class = "iPhone_12_device_image"></div>
+					<div class = "iPhone_12_device">
+						<div class = "iPhone_device_image_box">	
+							<div class = "iPhone_12_device_image"></div>
+						</div>
 						<div class = "iPhone_12_device_info">
 							<div class = "device_info__title">iPhone 12</div>
 							<div class = "device_info__price">\950,000부터</div>
@@ -99,15 +130,22 @@
 							
 						</div>
 					</div>
-					<div class = "iPhone_12_display grid_item">iPhone_12_display</div>
+					<div class = "iPhone_12_display grid_item">
+						<div class = "iPhone_12_display_info">
+							<div class = "display_info__title">5.4형 또는 6.1형</div>
+							<div class = "display_info__subtitle">전면 화면 OLED 디스플레이</div>
+						</div>
+					</div>
 					<div class = "iPhone_12_cellular grid_item">iPhone_12_cellular</div>
 					<div class = "iPhone_12_chip grid_item">iPhone_12_chip</div>
 					<div class = "iPhone_12_camera grid_item">iPhone_12_camera</div>
 					<div class = "iPhone_12_lidar grid_item">iPhone_12_lidar</div>
 					<div class = "iPhone_12_magsafe grid_item">iPhone_12_magsafe</div>
 					<a class = "moreInfo grid_item" href="/kr/iphone-12/">더 알아보기</a>
-					<div class = "iPhone_se_device grid_item">
-						<div class = "iPhone_se_device_image"></div>
+					<div class = "iPhone_se_device">
+						<div class = "iPhone_device_image_box">
+							<div class = "iPhone_se_device_image"></div>
+						</div>
 						<div class = "iPhone_se_device_info">
 							<div class = "device_info__title">iPhone se</div>
 							<div class = "device_info__price">\550,000부터</div>
@@ -125,8 +163,10 @@
 					<div class = "iPhone_se_lidar grid_item">iPhone_se_lidar</div>
 					<div class = "iPhone_se_magsafe grid_item">iPhone_se_magsafe</div>
 					<a class = "moreInfo grid_item">더 알아보기</a>
-					<div class = "iPhone_11_device grid_item">
-						<div class = "iPhone_11_device_image"></div>
+					<div class = "iPhone_11_device">
+						<div class = "iPhone_device_image_box">
+							<div class = "iPhone_11_device_image"></div>
+						</div>
 						<div class = "iPhone_11_device_info">
 							<div class = "device_info__title">iPhone 11</div>
 							<div class = "device_info__price">\850,000부터</div>
