@@ -19,8 +19,6 @@
 	
 }
 .chapterNav_items {
-    position: relative;
-    height: 100%;
     padding: 5px;
     justify-content: space-around;
     display: flex;
@@ -62,7 +60,6 @@
     background: #0071e3;
     color: #fff;
     padding: 8px 16px 8px 16px;
-    white-space: nowrap;
 }
 .purchase_button{
 	margin-top: 9.6px;
@@ -78,14 +75,12 @@ a.moreInfo:hover {
 .titleBanner_themeWhite_image{
 	width: 981px;
     height: 352px;
-    background-size: 981px 352px;
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/hero/iphone_12_non_ar__exn70uq91eeu_medium.jpg);
 	background-color: #f2f2f2
 }
 .titleBanner_themeDark_image{
 	width: 1505px;
     height: 601px;
-    background-size: 1505px 601px;
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/hero/iphone_12_pro__f7wokw1n4lm6_large.jpg);
     position: relative;
 }
@@ -124,6 +119,7 @@ a.moreInfo:hover {
 	color: black;
 }
 .compare_box{
+	margin-top: 25px;
 	display: flex;
     justify-content: center;
 }
@@ -173,25 +169,21 @@ a.moreInfo:hover {
 .iPhome_12_pro_device_image{
     width: 199px;
     height: 256px;
-    background-size: 199px 256px;
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/compare/compare_iphone_12_pro__gmn3556ju3am_large.jpg);
 }
 .iPhome_12_device_image{
     width: 183px;
     height: 256px;
-    background-size: 183px 256px;
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/compare/compare_iphone_12__btq63lk8td7m_large.jpg);
 }
 .iPhome_se_device_image{
     width: 136px;
     height: 256px;
-    background-size: 136px 256px;
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/compare/compare_iphone_se__1uyg4tzyd4ya_large.jpg);
 }
 .iPhome_11_device_image{
     width: 155px;
     height: 256px;
-    background-size: 155px 256px;
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/compare/compare_iphone_11__bzjboswm5hbm_large.jpg);
 }
 
@@ -203,23 +195,19 @@ a.moreInfo:hover {
     margin-right: auto;
 }
 .iPhome_12_pro_color {
-	background-size: 97px 19px;
 	background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/compare/swatches_iphone_12_pro__for4g8pne0ey_large.jpg);
 	width: 97px;
 }
 .iPhome_12_color {
     width: 149px;
-    background-size: 149px 19px;
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/compare/swatches_iphone_12__5s5b8qkrwtem_large.jpg);
 }
 .iPhome_se_color{
 	width: 71px;
-    background-size: 71px 19px;
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/compare/swatches_iphone_se__d3qy28c9nk2u_large.jpg);
 }
 .iPhome_11_color{
 	width: 149px;
-    background-size: 149px 19px;
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/compare/swatches_iphone_11__cu7cy45l7iy6_large.jpg);
 }
 
