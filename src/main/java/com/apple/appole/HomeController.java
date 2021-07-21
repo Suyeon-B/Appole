@@ -37,4 +37,10 @@ public class HomeController {
 	public String iPhone() {
 	    return "component/iPhone";
 	}
+	
+	//현준 작업용 iPad
+	@GetMapping(value = "/iPad")
+	public String iPad() {
+	    return "component/iPad";
+	}
 }
