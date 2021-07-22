@@ -3,6 +3,30 @@
 	background: white;
 	margin: 0 auto;
 }
+
+/*교육 할인 스토어 start*/
+
+.eduBanner{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin: 0 auto;
+	height: 30px;
+    background: #f5f5f7;
+    font-size: 12px;
+    font-weight: 400;
+}
+.eduBanner_bitton{
+	align-items: center;
+	text-decoration:none;
+	cursor: pointer;
+    text-align: center;
+    color: #0071e3;
+}
+
+/*교육 할인 스토어 end*/
+
+
 .submain{
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -118,14 +142,24 @@ a.moreInfo:hover {
 
 
 
-
 .compare_container{
-	width: auto;
-    max-width: 1440px;
+    width: 1440px;
     padding: 0 30px;
     margin: 0 auto;
     margin-bottom: 30px;
 }
+.trade_container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.os_container{
+    width: 1440px;
+    padding: 0 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 
 /* compare 그리드 뷰 start*/
 
@@ -145,12 +179,14 @@ a.moreInfo:hover {
 	margin-top: 25px;
 	display: flex;
     justify-content: center;
+    font-family: "SF Pro KR","SF Pro Text","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .compareTable{
+	text-align: center;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(8, auto);
-    grid-row-gap: 25px;
+    grid-row-gap: 40px;
     grid-column-gap: 35px;
     grid-auto-flow: column;
 }
@@ -167,7 +203,27 @@ a.moreInfo:hover {
     width: 980px;
 }
 
-/* compare 그리드 뷰 end*/
+.info__image_box{
+	display: flex;
+    justify-content: center;
+}
+
+
+
+
+.info__title{
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
 /* 그리드 뷰 내 image start*/
 .ipad_device_image_box{
 	min-height: 214px;
@@ -198,7 +254,109 @@ a.moreInfo:hover {
     height: 155px;
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_ipad_mini__czcsk9ukpeie_large.png);
 }
+.info__image{
+	margin-bottom: 10px;
+    background-repeat: no-repeat;
+}
 
+.pro_chip_image{
+	width: 38px;
+    height: 38px;
+	background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_m1_chip__ev9f5zgvwo02_large.png);
+}
+.pro_connecter_image{
+	width: 61px;
+    height: 22px;
+	background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_usbc_thunderbolt__fuat6j3gyc2u_large.png);
+}
+.pro_cellular_image{
+	width: 48px;
+    height: 35px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_cellular_5g__gck9kjr82ci2_large.png);
+}
+.pro_pencil_image{
+	width: 62px;
+    height: 6px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_pencil__2ii95qsgy0y6_large.png);
+}
+.pro_keyboard_image{
+	width: 68px;
+    height: 49px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_magic_keyboard__cr367s50ehkm_large.png);
+}
+.air_chip_image{
+	width: 38px;
+    height: 38px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_a14_chip__eflvurt7ywia_large.png);
+}
+.air_connecter_image{
+	width: 32px;
+    height: 22px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_usbc__gnv70qm6mcuq_large.png);
+}	
+.air_cellular_image{
+	width: 48px;
+    height: 35px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_cellular_4g__emz9l1sj4yye_large.png);
+}
+.air_pencil_image{
+	width: 62px;
+    height: 6px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_pencil__2ii95qsgy0y6_large.png);
+}
+.ipad_chip_image{
+	width: 38px;
+    height: 38px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_a12_chip__f4cnj28qh5qq_large.png);
+}
+.ipad_connecter_image{
+	width: 32px;
+    height: 22px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_lightning__drp7mpo3oyie_large.png);
+}
+.ipad_cellular_image{
+	width: 48px;
+    height: 35px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_cellular_4g__emz9l1sj4yye_large.png);
+}
+
+.ipad_pencil_image{
+	width: 62px;
+    height: 6px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_pencil__2ii95qsgy0y6_large.png);
+}
+    
+    
+.ipad_keyboard_image{
+    width: 68px;
+    height: 49px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_smart_keyboard__gh56kiymgfam_large.png);
+}    
+.mini_chip_image{
+	width: 38px;
+    height: 38px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_a12_chip__f4cnj28qh5qq_large.png);
+} 
+.mini_connecter_image{
+	width: 32px;
+    height: 22px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_lightning__drp7mpo3oyie_large.png);
+}    
+.mini_cellular_image{
+	width: 48px;
+    height: 35px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_cellular_4g__emz9l1sj4yye_large.png);
+}
+.mini_pencil_image{
+	width: 62px;
+    height: 6px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_pencil__2ii95qsgy0y6_large.png);
+}
+.mini_keyboard_image{
+	width: 68px;
+    height: 49px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_bluetooth_keyboard__fsfc35t22vqu_large.png);
+}
 
 
 /* 그리드 뷰 내 image end*/
@@ -222,12 +380,17 @@ a.moreInfo:hover {
 	display: flex;
 	justify-content: center;
 }
-
+.air_keyboard_image{
+	width: 68px;
+    height: 49px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/compare_magic_keyboard__cr367s50ehkm_large.png);
+}
 
 
 /* 그리드 뷰 세부사항 css end*/
 /* 그리드 뷰 내 색상선택 css start*/
 .device_info__color{
+	background-repeat: no-repeat;
 	height: 19px;
     margin-top: 14px;
     margin-bottom: 20px;
@@ -253,27 +416,133 @@ a.moreInfo:hover {
 }
 
 /* 그리드 뷰 내 색상선택 css end*/
+/* compare 그리드 뷰 end*/
+/* trade_container 내부 start*/
 
+.trade{
+	padding-top: 70px;
+	background: white;
+	display: flex;
+	justify-content: center;
+}
 
-
-
-
-
-
-
-.compare_container{
-	width: auto;
-    max-width: 1440px;
-    padding: 0 30px;
+.trade_image{
+	margin-top: 100px;
+    width: 356px;
+    height: 348px;
+    background-size: 356px 348px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/trade_in__ejwkdm497no2_medium.jpg);
+}
+.trade_info_box{
+	
+	margin-left: 50px;
+	word-break: keep-all;
+	text-align: center;
+}
+.trade_info__title{
+	font-size: 48px;
+	font-weight:600;
+	text-align: center;
+	width: 550px;
     margin: 0 auto;
-    margin-bottom: 30px;
+}
+.trade_info__subtitle{
+	font-size: 20px;
+	font-weight:400;
+	text-align: center;
+	width: 480px;
+    margin: 30px auto;
+    
+}
+
+/*trade end*/
+/*os start*/
+.os{
+	padding-top: 70px;
+	padding-bottom: 30px;
+	background: white;
+}
+.os_info_box{
+	font-size: 21px;
+	
+	text-align: center;
+}
+.os_info__title{
+	font-size: 48px;
+    font-weight: 600;
+}
+.os_info__subtitle{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 21px;
+    font-weight: 400;
+}
+.os_image{
+	
+	margin: 0 auto;
+	width: 1000px;
+    height: 500px;
+    background-size: 1000px 500px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/ipados_preview__fpet23yxiju6_medium.jpg);
 }
 
 
 
+/*trade end*/
+/*benefit start*/
+.benefit_container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    word-break: keep-all;
+}
+.benefit{
+	display: flex;
+    width: 1440px;
+    justify-content: space-evenly;
+}
+.benefit_box{
+	margin: 40px;
+}
+.benefit__image{
+	margin: 0 auto;
+	justify-content: center;
+    display: flex;
+    width: 55px;
+    height: 75px;
+    background-size: 55px 75px;
+}
+.benefit__title{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 25px;
+    font-weight: 600;
+}
+.benefit__subtitle{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 21px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.delivery_image{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/icon_delivery__bs8f0g1fv0eu_medium.png);
+}
+.finance_image{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/icon_financing__ctvbzjuwg02u_large.png);
+}
+.personal_image{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/icon_engraving__cv9oecgi9r0i_medium.png);
+}
+.benefit__moreInfo{
+	font-size: 21px;
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+}
 
 
 
-
-
+/*benefit end*/
 
