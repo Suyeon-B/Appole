@@ -275,6 +275,14 @@ body {
     margin-top: 30px;
 }
 
+.mac_compare_button_wrapper {
+    height: 27px;
+    width: 722px;
+    margin: 0 auto;
+    color: #06c;
+    letter-spacing: inherit;
+    margin-bottom: 50px;
+}
 
 .select_button_wrapper {
     margin: 0 calc(max(env(safe-area-inset-left) + 24px, 34px));
@@ -284,6 +292,12 @@ body {
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
     padding: 0 0 3.17647em;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .select_button {
@@ -337,3 +351,245 @@ body {
     margin: 0 auto;
 }
 
+.info.title {
+    font-family: "SF Pro KR","SF Pro Display","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: .4em;
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 500;
+    letter-spacing: .011em;
+}
+
+
+.info.price {
+    font-size: 14px;
+    font-weight: 400;
+    visibility: visible;
+    margin-top: .7em;
+    margin-bottom: .7em;
+    line-height: 1.42859;
+    letter-spacing: 0.03em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-block-start: 1em;
+}
+
+
+.info.color {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_swatches_two_colors__02sdegyq25eq_large_2x.png);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 19px;
+    background-size: 45px 19px;
+}
+
+.info.color_MacBook_Air {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_swatches_three_colors__e2hki8qb5cia_large_2x.png);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 70px;
+    height: 19px;
+    background-size: 70px 19px;
+    background-repeat: no-repeat;
+}
+
+.button.buy.laptop_models {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 400;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    margin-top: 23px;
+    margin-bottom: 28px;
+    font-size: 12px;
+    line-height: 1.33337;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 23px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-style: normal;
+}
+
+.button.buy.laptop_models:hover {
+    background-color: #0077ED;
+}
+
+.button.buy.laptop_models:focus {
+    box-shadow: 0 0 0 4px rgb(0 125 250 / 60%);
+    outline: none;
+}
+
+.info_detail {
+    margin: 0 auto;
+}
+
+.inch.title {
+    border-top-style: solid;
+    border-top: 1px solid #d2d2d7;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.main_compare.title {
+    font-style: normal;
+    font-weight: 700;
+    color: #1d1d1f;
+    font-size: 45px;
+    line-height: 1.1875;
+    letter-spacing: 0em;
+    font-family: "SF Pro KR","SF Pro Display","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.icon {
+    width: 51px;
+    height: 54px;
+    background-size: 51px 54px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.core.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_icon_m1__fz8nzgohw2ai_large_2x.png);
+    width: 48px;
+    height: 44px;
+    background-size: 48px 44px;
+}
+
+.core.MacBook_Pro_13_icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_icon_intel__etladu21xu6a_large_2x.png);
+    width: 48px;
+    height: 44px;
+    background-size: 48px 44px;
+    margin: 0 auto;
+}
+
+.memory.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_icon_unified_memory__buw4hhhvj4uq_large_2x.png);
+    width: 48px;
+    height: 44px;
+    background-size: 48px 44px;
+}
+
+.memory.MacBook_Pro_13_icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_icon_memory__d1hszl4x5yy6_large_2x.png);
+    width: 48px;
+    height: 44px;
+    background-size: 48px 44px;
+    margin: 0 auto;
+}
+
+.battery.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_icon_battery__gbh9jzw6c7u6_large_2x.png);
+    width: 48px;
+    height: 44px;
+    background-size: 48px 44px;
+}
+
+.camera.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_icon_camera__ejp1p20yq1me_large_2x.png);
+    width: 48px;
+    height: 44px;
+    background-size: 48px 44px;
+}
+
+.touch_ID.MacBook_Air_icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_icon_touchid__e9878ag21q6i_large_2x.png);
+    width: 48px;
+    height: 44px;
+    background-size: 48px 44px;
+    margin: 0 auto;
+}
+
+.touch_ID.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_icon_touchbar__f7w2g23m47u6_large_2x.png);    
+    width: 165px;
+    height: 38px;
+    background-size: 165px 38px;
+    margin: 0 auto;
+}
+
+.title {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 500;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.subtitle_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle {
+        display: block;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.content {
+	color: #86868b;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.subtitle_note_num {
+    font-size: 0.7px;
+}
+
+
+.info_detail.inch {
+    height: 150px;
+}
+
+.info_detail.core {
+    height: 150px;
+}
+
+.info_detail.memory {
+    height: 150px;
+}
+
+.info_detail.capacity {
+    height: 100px;
+}
+
+.info_detail.battery {
+    height: 100px;
+}
+
+.info_detail.camera {
+    height: 150px;
+}
+
+.info_detail.weight {
+    height: 100px;
+}
+
+.info_detail.touch_ID {
+    height: 100px;
+}
