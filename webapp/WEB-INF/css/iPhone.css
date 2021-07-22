@@ -1,11 +1,16 @@
 @charset "UTF-8";
 /*전체 페이지 wrapper start*/
 .main{
-	background: pink;
-	color: red;
+	background: white;
+	color: black;
 	margin: 0 auto;
 }
-
+.submain{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #f5f5f7;
+	margin: 0 auto;
+}
 
 /*전체 페이지 wrapper end*/
 .chapterNav_item{
@@ -253,3 +258,63 @@ a.moreInfo:hover {
 	display: flex;
 	justify-content: center;
 }
+
+
+
+
+/*benefit start*/
+
+.benefit_container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    word-break: keep-all;
+}
+.benefit{
+	display: flex;
+    width: 1440px;
+    justify-content: space-evenly;
+}
+.benefit_box{
+	margin: 40px;
+}
+.benefit__image{
+	margin: 0 auto;
+	justify-content: center;
+    display: flex;
+    width: 55px;
+    height: 75px;
+    background-size: 55px 75px;
+}
+.benefit__title{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 25px;
+    font-weight: 600;
+}
+.benefit__subtitle{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 21px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.delivery_image{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/icon_delivery__bs8f0g1fv0eu_medium.png);
+}
+.finance_image{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/icon_financing__ctvbzjuwg02u_large.png);
+}
+.personal_image{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/icon_engraving__cv9oecgi9r0i_medium.png);
+}
+.benefit__moreInfo{
+	font-size: 21px;
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+
+/*benefit end*/
