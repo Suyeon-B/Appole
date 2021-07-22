@@ -43,4 +43,16 @@ public class HomeController {
 	public String iPad() {
 	    return "component/iPad";
 	}
+	
+	//현준 작업용 고객지원
+	@GetMapping(value = "/customer")
+	public String customer() {
+	    return "component/customer";
+	}
+	
+	//현준 작업용 로그인
+	@GetMapping(value = "/login")
+	public String login() {
+	    return "component/login";
+	}
 }
