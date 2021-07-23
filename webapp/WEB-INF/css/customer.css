@@ -1,1 +1,74 @@
 @charset "EUC-KR";
+
+.titleBanner_image{
+	min-height: 600px;
+	min-width: 1800px;
+    height: auto;
+    background-size: cover;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+	background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/hero-banner-baker-homepage.image.small_2x.jpg);
+}
+.titleBanner{
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+
+
+
+/*choiceBanner start*/
+.mainBanner_choiceBanner{
+	display: flex;
+	margin: 0 auto;
+	padding-top: 40px;
+	max-width: 1024px;
+}
+.mainBanner_choiceBanner__box{
+	margin: 0 auto;
+	width: 170px;
+	height: 110px;
+}
+.choiceBanner__title{
+	text-align: center;
+}
+
+
+
+
+/*choiceBanner image start*/
+.choiceBanner__image_box{
+	padding-bottom: 15px;
+}
+.choiceBanner__image{
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 16px;
+	width: 84px;
+	height: 68px;
+	margin: 0 auto;
+}
+.iphone_image{
+	background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productnav_iphone_2x.png);
+}
+.mac_image{
+	background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productnav_imac_2x.png);
+}
+.ipad_image{
+	background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productnav_ipad_2x.png);
+}
+.watch_image{
+	background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productnav_apple_watch_2x.png);
+}
+.airpods_image{
+	background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/homepage-productdrawer-airpods-dark_2x.png);
+}
+.music_image{
+	background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productdrawer_applemusic_2x.png);
+}
+
+
+/*choiceBanner image end*/
+/*choiceBanner end*/

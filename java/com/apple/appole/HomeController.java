@@ -55,4 +55,10 @@ public class HomeController {
 	public String login() {
 	    return "component/login";
 	}
+	
+	//현준 작업용 회원가입
+	@GetMapping(value = "/signup")
+	public String signup() {
+	    return "component/signup";
+	}
 }

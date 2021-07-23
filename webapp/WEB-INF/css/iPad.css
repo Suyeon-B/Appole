@@ -4,6 +4,98 @@
 	margin: 0 auto;
 }
 
+.chapter_container{
+	background: white;
+}
+.chapter_item{
+	font-weight: 400;
+	justify-content: center;
+	padding-bottom: 10px;
+	min-width: 55px;
+}
+
+.chapter_item:hover{
+	cursor: pointer;
+	color: #0080ff;
+}
+
+
+
+
+.chapter_box{
+	margin: 0 auto;
+	width: 900px;
+	
+	
+}
+.chapter_items {
+    padding: 5px;
+    justify-content: space-around;
+    display: flex;
+}
+.chapter_info{
+	font-size: 12px;
+	text-align: center;
+}
+.chapter_new{
+	color: #f56300;
+	font-weight: 400;
+	font-size: 10px;
+	text-align: center;
+}
+/*chapter image start*/
+.chapter_image_box{
+    justify-content: center;
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.chapter_image{
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 54px;
+}
+.chapter_ipad_pro{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/ipadpro_light__eksnhatoqzu6_large.svg);
+    width: 41px;
+}
+.chapter_ipad_air{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/ipadair_light__fwcr6ummn722_large.svg);
+    width: 30px;
+}
+.chapter_ipad{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/ipad_light__fcshltpasu6i_large.svg);
+    width: 30px;
+}
+.chapter_ipad_mini{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/ipadmini_light__fax9y0phijyq_large.svg);
+    width: 22px;
+}
+.chapter_compare{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/ipad_comp_light__dsuwb5gy4uqa_large.svg);
+    width: 48px;
+}
+.chapter_pencil{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/apple_pencil_light__b56nts0623aq_large.svg);
+    width: 3px;
+}
+.chapter_keyboard{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/keyboard_light__emvaymybnp6q_large.svg);
+    width: 65px;
+}
+.chapter_airpods{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/airpods_light__cpbagvnfsxea_large.svg);
+    width: 27px;
+}
+.chapter_accessary{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/ipad_acc_light__gau97p46jyye_large.svg);
+    width: 31px;
+}
+.chapter_os{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/ipados_light__iolxd8nzzcqe_large.svg);
+    width: 33px;
+}
+/*chapter image end*/
 /*교육 할인 스토어 start*/
 
 .eduBanner{
@@ -48,46 +140,36 @@
     padding: 8px 16px 8px 16px;
 }
 
-.titleBanner__ipad_pro_container{
+.titleBanner_container{
 	margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 40px;
-    padding-bottom: 130px;
-}
-.titleBanner__ipad_air_container{
-	margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 140px;
-}
-.titleBanner__ipad_container{
-	margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-	padding-bottom: 140px;
-}
-.titleBanner__ipad_mini_container{
-	margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 140px;
+    padding-bottom: 80px;
+    width: 1000px;
 }
 
-
-.titleBanner__ipad_pro_box{
-	margin-left: 400px;
+.titleBanner__info_box{
+	width: 300px;
 }
-
+.left_box{
+	text-align: left;
+}
+.right_box{
+	text-align: right;
+}
+.titleBanner__image_box{
+	width: 600px;
+}
 .titleBanner__ipad_pro_image{
 	width: 1335px;
     height: 598px;
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/hero/ipad_pro_hero__bh3eq6sqfjw2_large.jpg);
    
+}
+.titleBanner__ipad_air_image_box{
+	margin-right: 50px;
 }
 .titleBanner__ipad_air_image{
 	width: 519px;
@@ -108,6 +190,7 @@
 .titleBanner__info_status{
 	font-size: 12px;
     font-weight: 400;
+    color: red;
 }
 
 
