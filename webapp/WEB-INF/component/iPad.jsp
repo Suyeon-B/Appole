@@ -9,6 +9,75 @@
 </head>
 <body>
 <div class ="main">
+	<div class = "chapter_container">
+		<div class = "chapter_box">
+			<div class = "chapter_items">	
+				<div class = "chapter_item">
+					<div class = "chapter_image_box">
+						<div class = "chapter_image chapter_ipad_pro"></div>
+					</div>
+					<div class = "chapter_info">iPab pro</div>
+					<div class = "chapter_new">new</div>
+				</div>
+				<div class = "chapter_item">
+					<div class = "chapter_image_box">
+						<div class = "chapter_image chapter_ipad_air"></div>
+					</div>	
+					<div class = "chapter_info">iPab Air</div>
+					<div class = "chapter_new">new</div>
+				</div>
+				<div class = "chapter_item">
+					<div class = "chapter_image_box">
+						<div class = "chapter_image chapter_ipad"></div>
+					</div>	
+					<div class = "chapter_info">iPab</div>
+				</div>
+				<div class = "chapter_item">
+					<div class = "chapter_image_box">
+						<div class = "chapter_image chapter_ipad_mini"></div>
+					</div>
+					<div class = "chapter_info">iPab mini</div>
+				</div>
+				<div class = "chapter_item">
+					<div class = "chapter_image_box">
+						<div class = "chapter_image chapter_compare"></div>
+					</div>
+					<div class = "chapter_info">비교하기</div>
+				</div>
+				<div class = "chapter_item">
+					<div class = "chapter_image_box">
+						<div class = "chapter_image chapter_pencil"></div>
+					</div>
+					<div class = "chapter_info">Apple Pencil</div>
+				</div>
+				<div class = "chapter_item">
+					<div class = "chapter_image_box">
+						<div class = "chapter_image chapter_keyboard"></div>
+					</div>
+					<div class = "chapter_info">키보드</div>
+				</div>
+				<div class = "chapter_item">
+					<div class = "chapter_image_box">
+						<div class = "chapter_image chapter_airpods"></div>
+					</div>
+					<div class = "chapter_info">AirPods</div>
+					<div class = "chapter_new">new</div>
+				</div>
+				<div class = "chapter_item">
+					<div class = "chapter_image_box">
+						<div class = "chapter_image chapter_accessary"></div>
+					</div>
+					<div class = "chapter_info">엑세서리</div>
+				</div>
+				<div class = "chapter_item">
+					<div class = "chapter_image_box">
+						<div class = "chapter_image chapter_os"></div>
+					</div>
+					<div class = "chapter_info">iPabOS</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- 교육 할인 스토어 배너 -->
 	<div class="eduBanner">
@@ -18,8 +87,8 @@
 
 
 	<div class = "titleBanner">
-		<div class = "titleBanner__ipad_pro_container">
-			<div class = "titleBanner__ipad_pro_box">
+		<div class = "titleBanner_container">
+			<div class = "titleBanner__info_box ">
 				<div class = "titleBanner__info_status">new</div>
 				<div class = "titleBanner__info_title">iPab Pro</div>
 				<div class = "titleBanner__info_subtitle">궁극의 iPab란 이런 것.</div>
@@ -27,16 +96,16 @@
 				<div class = "titleBanner__info_button"></div>
 				<div class = "titleBanner__info_moreInfo"></div>
 			</div>
-			<div class = "titleBanner__ipad_pro_image_box">
+			<div class = "titleBanner__image_box">
 				<div class = "titleBanner__ipad_pro_image"></div>
 			</div>
 		</div>
 		
-		<div class = "titleBanner__ipad_air_container">
-			<div class = "titleBanner__ipad_air_image_box">
+		<div class = "titleBanner_container">
+			<div class = "titleBanner__image_box">
 				<div class = "titleBanner__ipad_air_image"></div>
 			</div>
-			<div class = "titleBanner__ipad_air_box">
+			<div class = "titleBanner__info_box right_box">
 				<div class = "titleBanner__info_title">iPab Air</div>
 				<div class = "titleBanner__info_subtitle">강력하다. 다채롭다. <br>경이롭다.</div>
 				<div class = "titleBanner__info_price">\779,000부터</div>
@@ -48,24 +117,24 @@
 			
 		</div>
 		
-		<div class = "titleBanner__ipad_container">
-			<div class = "titleBanner__ipad_box">
+		<div class = "titleBanner_container">
+			<div class = "titleBanner__info_box left_box">
 				<div class = "titleBanner__info_title">iPab</div>
 				<div class = "titleBanner__info_subtitle">만족스러운 성능, <br>기분 좋은 가격.</div>
 				<div class = "titleBanner__info_price">\499,000부터</div>
 				<div class = "titleBanner__info_button"></div>
 				<div class = "titleBanner__info_moreInfo"></div>
 			</div>
-			<div class = "titleBanner__ipad_image_box">
+			<div class = "titleBanner__image_box">
 				<div class = "titleBanner__ipad_image"></div>
 			</div>
 		</div>
 		
-		<div class = "titleBanner__ipad_mini_container">
-			<div class = "titleBanner__ipad_mini_image_box">
+		<div class = "titleBanner_container">
+			<div class = "titleBanner__image_box">
 				<div class = "titleBanner__ipad_mini_image"></div>
 			</div>
-			<div class = "titleBanner__ipad_mini_box">
+			<div class = "titleBanner__info_box right_box">
 				<div class = "titleBanner__info_title">iPab mini</div>
 				<div class = "titleBanner__info_subtitle">작은 사이즈, <br>거대한 역량.</div>
 				<div class = "titleBanner__info_price">\499,000부터</div>
