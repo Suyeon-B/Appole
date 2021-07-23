@@ -460,6 +460,67 @@
 	
 	
 	
+	
+	<div class = "essential_container">
+		<div class = "essential_title">iPab와 천생연분</div>
+		<div class = "essential">
+			<div class = "essential_box">
+				<div class = "essential_info_box">
+					<div class = "essential_info_title">Apple Pencil</div>
+					<div class = "essential_info_subtitle">상상을 적어내다.</div>
+					<div class = "essential_info_link_box"></div>
+				
+				</div>
+				<div class = "essential_image_box"></div>
+			</div>
+			
+			<div class = "essential_box">
+				<div class = "essential_image_box"></div>	
+				<div class = "essential_info_box">
+					<div class = "essential_info_title">iPab용 키보드</div>
+					<div class = "essential_info_subtitle">마음까지 든든해지는 키보드.</div>
+					<div class = "essential_info_link_box"></div>
+				</div>
+			</div>
+			
+			<div class = "essential_box">
+				<div class = "essential_info_box">
+					<div class = "essential_info_title">액세서리</div>
+					<div class = "essential_info_subtitle">케이스, 커버, AirPods, Apple Pencil, 그 밖에<br>다양한 액세서리를 만나보세요.</div>
+					<div class = "essential_info_link_box"></div>
+				</div>
+				<div class = "essential_image_box"></div>	
+			</div>
+			
+			<div class = "essential_box">
+				<div class = "essential_info_box">
+					<div class = "essential_info_title">자신만의 이야기를 새기다</div>
+					<div class = "essential_info_subtitle">iPad, Apple Pencil, AirPods를 위한<br>새로운 각인 옵션. 글자, 이모티콘, 숫자<br>조합으로 더욱 개성 있게.</div>
+					<div class = "essential_info_link_box"></div>
+				</div>
+				<div class = "essential_image_box"></div>
+			</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		</div>
+	
+	
+	
+	
+	</div>
+	
+	
+	
 </div>
 
 <script src="/js/iPad.js"></script>
