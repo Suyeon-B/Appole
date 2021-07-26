@@ -628,4 +628,103 @@ a.moreInfo:hover {
 
 
 /*benefit end*/
+/*essential start*/
+.essential_container{
+	padding-top: 50px;
+	text-align: center;
+	width: 1440px;
+	margin: 0 auto;
+}
+.essential_title{
+	font-size: 56px;
+    font-weight: 600;
+}
+.essential{
+	margin-top: 100px;
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, auto);
+	grid-row-gap: 50px;
+    grid-column-gap: 20px;
+}
+.essential_box{
+	width: 675px;
+	background: white;
+}
+.essential_image{
+	background-repeat: no-repeat;
+}
+.essential_pencil_image{
+	width: 675px;
+    height: 373px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/apple_pencil__ekq506kmmys2_large.jpg);
+}
+.essential_keyboard_image{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/smart_keyboard_folio__b8j0ydqvjq2q_large.jpg);
+    background-position: top center;
+    padding-top: 344px;
+    padding-bottom: 75px;
+}
+.essential_accessory_image{
+	width: 675px;
+    height: 324px;
+    background-size: 675px 324px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/accessories__gdpezee1naai_large.jpg);
+}
+.essential_personal_image{
+	width: 557px;
+    height: 274px;
+    background-size: 557px 274px;
+    background-image: url(https://www.apple.com/kr/ipad/home/bn/images/overview/ipad_airpods_engraving_update__c7k9a8xo7466_large.jpg);
+}
 
+
+.essential_info_title{
+	font-size: 48px;
+    font-weight: 600;
+}
+.essential_info_subtitle{
+	margin-top: 20px;
+	font-size: 21px;
+    font-weight: 400;
+}
+
+
+
+
+.everything_container{
+	width: 1440px;
+	margin: 0 auto;
+}
+.everything_box{
+	display: flex;
+}
+.everything_image{
+	background-repeat: no-repeat;
+}
+.everything_choice_image{
+	width: 613px;
+    height: 458px;
+    background-size: 613px 458px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/why_ipad__fyckwbl8w5u2_large.jpg);
+}
+.everything_os_image{
+	background-size: 1380px 500px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/ipados__fu0z8lgcmn2i_large.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 500px;
+}
+.everything_iCloud_image{
+	width: 594px;
+    height: 280px;
+    background-size: 594px 280px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/icloud__czqjzr040qc2_large.jpg);
+}
+
+
+
+
+
+
+/*essential end*/

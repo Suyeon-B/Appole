@@ -8,6 +8,8 @@
 <title>iPab</title>
 </head>
 <body>
+<!--  상단 메뉴바 -->
+<%@ include file="../component/top.jsp" %>
 <div class ="main">
 	<div class = "chapter_container">
 		<div class = "chapter_box">
@@ -456,6 +458,131 @@
 				<div class="benefit__moreInfo moreInfo">더 알아보기</div>
 			</div>
 		</div>
+	</div>
+	
+	
+	
+	
+	<div class = "essential_container">
+		<div class = "essential_title">iPab와 천생연분</div>
+		<div class = "essential">
+			<div class = "essential_box">
+				<div class = "essential_info_box">
+					<div class = "essential_info_title">Apple Pencil</div>
+					<div class = "essential_info_subtitle">상상을 적어내다.</div>
+					<div class = "essential_info_link_box"></div>
+				
+				</div>
+				<div class = "essential_image_box">
+					<div class = "essential_image essential_pencil_image"></div>
+				</div>
+			</div>
+			
+			<div class = "essential_box">
+				<div class = "essential_image_box">
+					<div class = "essential_image essential_keyboard_image"></div>
+				</div>	
+				<div class = "essential_info_box">
+					<div class = "essential_info_title">iPab용 키보드</div>
+					<div class = "essential_info_subtitle">마음까지 든든해지는 키보드.</div>
+					<div class = "essential_info_link_box"></div>
+				</div>
+			</div>
+			
+			<div class = "essential_box">
+				<div class = "essential_info_box">
+					<div class = "essential_info_title">액세서리</div>
+					<div class = "essential_info_subtitle">케이스, 커버, AirPods, Apple Pencil, 그 밖에<br>다양한 액세서리를 만나보세요.</div>
+					<div class = "essential_info_link_box"></div>
+				</div>
+				<div class = "essential_image_box">
+					<div class = "essential_image accessory_image">
+						<div class = "essential_image essential_accessory_image"></div>
+					</div>
+				</div>	
+			</div>
+			
+			<div class = "essential_box">
+				<div class = "essential_info_box">
+					<div class = "essential_info_title">자신만의 이야기를 새기다</div>
+					<div class = "essential_info_subtitle">iPad, Apple Pencil, AirPods를 위한<br>새로운 각인 옵션. 글자, 이모티콘, 숫자<br>조합으로 더욱 개성 있게.</div>
+					<div class = "essential_info_link_box"></div>
+				</div>
+				<div class = "essential_image_box">
+					<div class = "essential_image essential_personal_image"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	<div class = "everything_container">
+		<div class = "everything_title">iPab를 iPab답게 만드는 모든 것.</div>
+		<div class = "everything">
+			<div class = "everything_box">
+				<div class = "everything_image_box">
+					<div class = "everything_image everything_choice_image"></div>
+				</div>
+				<div class = "everything_info_box">
+					<div class = "everything_info_title">iPab를<br>선택하는 이유</div>
+					<div class = "everything_info_subtitle">생각했던 것은 물론,<br>생각지도 못했던 것까지.</div>
+				</div>
+				<div class = "everything_link_box">
+					<div class = "everything_link"></div>
+				</div>
+			</div>
+			
+			<div class = "everything_box">
+				<div class = "everything_image_box">
+					<div class = "everything_image everything_os_image"></div>
+				</div>
+				<div class = "everything_info_box">
+					<div class = "everything_info_title">iPabOS</div>
+					<div class = "everything_info_subtitle">오직 iPab이기에 가능한<br>새로운 가능성.</div>
+				</div>
+				<div class = "everything_link_box">
+					<div class = "everything_link"></div>
+				</div>
+			</div>
+			
+			<div class = "everything_box">
+				<div class = "everything_image_box">
+					<div class = "everything_image everything_iCloud_image"></div>
+				</div>
+				<div class = "everything_info_box">
+					<div class = "everything_info_title">iCloud</div>
+					<div class = "everything_info_subtitle">모든 사진과 파일 등을 담기에<br>더할 나위 없이 좋은 곳.</div>
+				</div>
+				<div class = "everything_link_box">
+					<div class = "everything_link"></div>
+				</div>
+			</div>
+		</div>
+	</div> 
+	<div class = "tip_container">
+		<div class = "tip_title">iPab를 더욱더 잘 활용하는 법</div>
+		<div class = "tip">
+			<div class = "tip_online_box"></div>
+			<div class = "tip_online_box"></div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		</div>
+	
+	
+	
+	
+	
+	
 	</div>
 	
 	
