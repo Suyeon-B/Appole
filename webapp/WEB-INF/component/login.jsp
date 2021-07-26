@@ -8,6 +8,8 @@
 <title>로그인</title>
 </head>
 <body>
+<!--  상단 메뉴바 -->
+<%@ include file="../component/top.jsp" %>
 <div class = "main">
 	<div class = "title_container">
 		<div class = "title">로그인.</div>

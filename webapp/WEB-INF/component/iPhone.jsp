@@ -8,6 +8,8 @@
 <title>iPhome</title>
 </head>
 <body>
+<!--  상단 메뉴바 -->
+<%@ include file="../component/top.jsp" %>
 <div class ="main">
 	<div class = "chapter_container">
 		<div class = "chapter_box">

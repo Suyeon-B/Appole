@@ -7,7 +7,8 @@
 <title>회원가입</title>
 </head>
 <body>
-
+<!--  상단 메뉴바 -->
+<%@ include file="../component/top.jsp" %>
 
 
 

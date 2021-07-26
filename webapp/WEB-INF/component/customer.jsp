@@ -8,6 +8,8 @@
 <title>고객 지원</title>
 </head>
 <body>
+<!--  상단 메뉴바 -->
+<%@ include file="../component/top.jsp" %>
 <div class = "title">
 	<div class = "titleBanner">
 		<div class = "titleBanner_image"></div>
