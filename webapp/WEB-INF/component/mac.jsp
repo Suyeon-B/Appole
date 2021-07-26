@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css"
-	href="/css/mac.css">
+<link rel="stylesheet" type="text/css" href="/css/mac.css">
 </head>
 <body> 
+	<%@ include file="../component/top.jsp" %>
 	<!-- 상단 메뉴바 -->
 	<div class="menu_bar_wrapper">
 		<div class="menu">
@@ -73,7 +73,7 @@
 			<div class="mac_main_iMac phrases">이제 새롭게 만날 시간.</div>
 			<div class="mac_main_iMac price">₩1,690,000부터</div>
 			<div class="button buy">구입하기</div>
-			<div class="button more_info_wrapper">
+			<div class="button mac_main_iMac more_info_wrapper">
 				<div class="button more_info">더 알아보기</div>
 				<div class="button more_info_icon"></div>
 			</div>
@@ -150,7 +150,7 @@
 						<div class="touch_ID subtitle">Touch ID</div>
 					</div>
 				</div>
-				<div class="button more_info_wrapper">
+				<div class="button laptop_models more_info_wrapper">
 					<div class="more_info">더 알아보기</div>
 					<div class="more_info_icon"></div>
 				</div>
@@ -213,7 +213,7 @@
 						<div class="touch_ID subtitle">Touch Bar 및 Touch ID</div>
 					</div>
 				</div>
-				<div class="button more_info_wrapper">
+				<div class="button laptop_models more_info_wrapper">
 					<div class="more_info">더 알아보기</div>
 					<div class="more_info_icon"></div>
 				</div>
@@ -270,7 +270,7 @@
 						<div class="touch_ID subtitle">Touch Bar 및 Touch ID</div>
 					</div>
 				</div>
-				<div class="button more_info_wrapper">
+				<div class="button laptop_models more_info_wrapper">
 				<div class="more_info">미리 만나보기</div>
 				<div class="more_info_icon"></div>
 			</div>
@@ -345,7 +345,7 @@
 		<div class="mac_promo_section_wrapper">
 			<div class="mac_promo section num1">
 				<div class="mac_promo title">Mac을 선택하는 이유</div>
-				<div class="mac_promo main_title">초강력해서. 초간단해서.</div>
+				<div class="mac_promo num1 main_title">초강력해서. 초간단해서.</div>
 				<div class="button more_info_wrapper">
 					<div class="more_info">더 알아보기</div>
 					<div class="more_info_icon"></div>
@@ -354,7 +354,7 @@
 			<div class="mac_promo section num2">
 				<div class="mac_promo section_2 title">macOS Big Sur</div>
 				<div class="mac_promo section_2 main_title">거칠 것 없는 능력. 완전히 새로운 방식.</div>
-				<div class="button section_2 more_info_wrapper">
+				<div class="mac_promo button section_2 more_info_wrapper">
 					<div class="button section_2 more_info_sub_wrapper">
 						<div class="more_info">더 알아보기</div>
 						<div class="more_info_icon"></div>
@@ -369,7 +369,7 @@
 		<div class="mac_promo_section_wrapper">
 			<div class="mac_promo section num3">
 				<div class="mac_promo title">연속성</div>
-				<div class="mac_promo main_title">당신의 모든 기기가 하나처럼 연결된 경험.</div>
+				<div class="mac_promo num3 main_title">당신의 모든 기기가 하나처럼 연결된 경험.</div>
 				<div class="button more_info_wrapper">
 					<div class="more_info">더 알아보기</div>
 					<div class="more_info_icon"></div>
@@ -377,7 +377,7 @@
 			</div>
 			<div class="mac_promo section num4">
 				<div class="mac_promo title">iCloud</div>
-				<div class="mac_promo main_title">무엇이든 저장하고 어디서든 열어보고.</div>
+				<div class="mac_promo num4 main_title">무엇이든 저장하고 어디서든 열어보고.</div>
 				<div class="button more_info_wrapper">
 					<div class="more_info">더 알아보기</div>
 					<div class="more_info_icon"></div>
@@ -400,7 +400,7 @@
 		</div>
 		<div class="safari subtitle">웹을 더욱 즐길 수 있게 해주는 혁신적 기능을 갖춘 Safari. 이제 보다 다양한 측면에서 그 즐거움을 뒷받침해줍니다. 웹서핑 중에도 당신의 정보와 Mac을 안전하게 보호할 수 있도록 강력한 개인 정보 보호 기능이 내장되어 있고, 즐겨 찾는 웹사이트를 쉽고 빠르게 저장하고, 찾고, 공유할 수 있게 시작 페이지도 새롭게 업데이트되었습니다. 게다가 Siri 제안 기능이 책갈피, 읽기 목록의 링크, ‘iCloud 탭’, 메시지 앱에서 받은 링크 등을 표시해 더 나은 웹 경험을 구현하죠.</div>
 		<div class="button more_info_wrapper">
-			<div class="more_info">Safari에 대해 더 알아보기</div>
+			<div class="built_in_app more_info">Safari에 대해 더 알아보기</div>
 			<div class="more_info_icon"></div>
 		</div>
 		<div class="safari_image"></div>
@@ -417,20 +417,22 @@
 			<div class="compressor icon"></div>
 		</div>
 		<div class="logic_pro subtitle">Mac에서 완전한 녹음 겸 MIDI 제작 스튜디오를 경험할 수 있게 해주는 Logic Pro. 그 어느 때보다 훌륭한 작곡, 녹음, 편집 그리고 믹싱 작업을 위한 모든 것을 갖추었죠. 게다가 수천 가지 사운드 및 루프와 더불어 모든 기능을 갖춘 방대한 플러그인 컬렉션은, 처음 떠오른 악상을 완성된 곡으로 마무리할 때까지 필요한 모든 것을 마련해줍니다. 만들고 싶은 음악의 종류와 상관없이 말이죠.</div>
-		<div class="button more_info_wrapper">
-			<div class="more_info">Logic Pro에 대해 더 알아보기</div>
+		<div class="button logic_pro more_info_wrapper">
+			<div class="pro_app more_info">Logic Pro에 대해 더 알아보기</div>
 			<div class="more_info_icon"></div>
 		</div>
 		<div class="logic_pro_image"></div>
 	</div>
 	<!-- Mac App Store -->
 	<div class="Mac_App_Store_section">
-		<div class="Mac_App_Store icon"></div>
-		<div class="Mac_App_Store subtitle_wrapper">
-			<div class="Mac_App_Store subtitle">Mac App Store에서 에디터가 추천한 풍성한 콘텐츠와 멋진 Mac용 앱들을 만나볼 수 있습니다.</div>
-			<div class="button more_info_wrapper">
-				<div class="more_info">Mac App Store 살펴보기</div>
-				<div class="more_info_icon"></div>
+		<div class="Mac_App_Store_section_wrapper">
+			<div class="Mac_App_Store icon"></div>
+			<div class="Mac_App_Store subtitle_wrapper">
+				<div class="subtitle Mac_App_Store">Mac App Store에서 에디터가 추천한 풍성한 콘텐츠와 멋진 Mac용 앱들을 만나볼 수 있습니다.</div>
+				<div class="button Mac_App_Store more_info_wrapper">
+					<div class="Mac_App_Store more_info">Mac App Store 살펴보기</div>
+					<div class="more_info_icon"></div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -472,24 +474,28 @@
 	</div>
 	<!-- Apple과 교육 -->
 	<div class="education">
-		<div class="education main_title">Apple과 교육</div>
-		<div class="education content">더 나은 세상을 만들 수 있는 힘을 교육자와 학생들에게.</div>
-		<div class="button more_info_wrapper get_more_promo_section">
-			<div class="more_info">더 알아보기</div>
-			<div class="more_info_icon"></div>
+		<div class="education_wrapper">
+			<div class="education main_title">Apple과 교육</div>
+			<div class="education content">더 나은 세상을 만들 수 있는 힘을 교육자와 학생들에게.</div>
+			<div class="button more_info_wrapper get_more_promo_section">
+				<div class="more_info">더 알아보기</div>
+				<div class="more_info_icon"></div>
+			</div>
 		</div>
 	</div>
 	<!-- 비즈니스를 위한 Mac -->
 	<div class="business">
-		<div class="business main_title">비즈니스를 위한 Mac</div>
-		<div class="business content">비즈니스를 한 단계 더 도약시키는 막강한 힘.</div>
-		<div class="button more_info_wrapper get_more_promo_section">
-			<div class="more_info">비즈니스를 위한 Mac에 대해 알아보기</div>
-			<div class="more_info_icon"></div>
-		</div>
-		<div class="button more_info_wrapper get_more_promo_section">
-			<div class="more_info">비즈니스를 위한 제품 쇼핑하기</div>
-			<div class="more_info_icon"></div>
+		<div class="business_wrapper">
+			<div class="business main_title">비즈니스를 위한 Mac</div>
+			<div class="business content">비즈니스를 한 단계 더 도약시키는 막강한 힘.</div>
+			<div class="button more_info_wrapper get_more_promo_section">
+				<div class="more_info">비즈니스를 위한 Mac에 대해 알아보기</div>
+				<div class="more_info_icon"></div>
+			</div>
+			<div class="button more_info_wrapper get_more_promo_section">
+				<div class="more_info">비즈니스를 위한 제품 쇼핑하기</div>
+				<div class="more_info_icon"></div>
+			</div>
 		</div>
 	</div>
 </body>

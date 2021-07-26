@@ -4,6 +4,7 @@
 body {
     font-family: "SF Pro KR","SF Pro Display","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
 	margin: 0;
+    color: #1d1d1f;
 }
 
 /* <!-- 상단 메뉴바 --> */
@@ -14,8 +15,10 @@ body {
 
 .menu{
 	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
+    align-items: end;
+    justify-content: space-evenly;
+    margin-bottom: 18px;
+    margin-top: 10px;
 }
 
 .menu_block{
@@ -26,9 +29,14 @@ body {
 	background: yellow;
 }
 
-.banner_wrapper{
-	background: green;
-	margin: 0 auto;
+.banner_wrapper {
+    height: 30px;
+    background: #f5f5f7;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
 }
 
 .icon{
@@ -54,6 +62,9 @@ body {
     margin: 0;
     word-break: keep-all;
     font-style: normal;
+}
+.menu_button:hover{
+	color:#0080FF;
 }
 
 .MacBook_Pro_13.icon {
@@ -129,16 +140,6 @@ body {
 
 
 /* <!-- 교육 할인 스토어 배너 --> */
-.banner_wrapper {
-	height: 30px;
-    background: #f5f5f7;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: small;
-}
-
 .banner {
     color: #1d1d1f;
     margin-right: 5px;
@@ -223,9 +224,12 @@ body {
     outline: none;
 }
 
+.button.mac_main_iMac.more_info_wrapper {
+    margin-top: 0;
+}
+
 .button.more_info_wrapper {
     margin-top: 15px;
-    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -258,6 +262,11 @@ body {
 
 
 /* <!-- Mac 라인 제품 비교 --> */
+.laptop_models {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 .laptop_models.MacBook_Air.info.picture{
 	background-image: url(https://www.apple.com/v/mac/home/be/images/overview/compare/compare_mba__gdncw5gbxoq6_medium_2x.png);
 }
@@ -438,7 +447,15 @@ body {
     box-shadow: 0 0 0 4px rgb(0 125 250 / 60%);
     outline: none;
 }
-
+.button.laptop_models.more_info_wrapper {
+	margin-bottom: 100px;
+    border-top: 1px solid #d2d2d7;
+    padding-top: 22px;
+    font-size: smaller;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+}
 .info_detail {
     margin: 0 auto;
 }
@@ -606,7 +623,6 @@ body {
 
 
 /* <!-- 액세서리 및 크레딧 --> */
-
 .mac_Accessories_credit_wrapper {
     display: flex;
     align-items: center;
@@ -740,9 +756,12 @@ body {
 }
 
 /* <!-- Mac 프로모션 --> */
+.mac_promo {
+    margin: 0 auto;
+}
+
 .mac_promo_section {
     text-align: center;
-    padding-top: 140px;
 }
 
 .mac_promo.bigger.main_title {
@@ -752,6 +771,7 @@ body {
     letter-spacing: -.009em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     padding-bottom: 80px;
+    padding-top: 140px;
 }
 
 .mac_promo.section {
@@ -763,7 +783,7 @@ body {
 }
 
 .mac_promo_section_wrapper {
-    max-width: 1440px;
+    max-width: 1470px;
     margin: 0 auto;
     display: flex;
     text-align: center;
@@ -775,10 +795,13 @@ body {
     margin-top: 60px;
 }
 
+.mac_promo.section{
+	height: 600px;
+}
 .mac_promo.section.num1 {
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/kr/mac/home/be/images/overview/macos/why_mac__eilvvja113ki_large.jpg);
-    background-position-y: bottom;
+	background-position-y: 260px;
     background-position-x: center;
 }
  
@@ -788,7 +811,6 @@ body {
     background-image: url(https://www.apple.com/v/mac/home/be/images/overview/bigsur/big_sur__vsy5fc1nv5e2_large.jpg);
     background-position-x: center;
     background-position-y: bottom;
-    height: 600px;
 }
 
 .mac_promo.section.num3 {
@@ -796,11 +818,298 @@ body {
     background-image: url(https://www.apple.com/kr/mac/home/be/images/overview/macos/continuity__wt9898ut9n66_large.jpg);
     background-position-y: bottom;
     background-position-x: center;
+    height: 600px;
 }
 
 .mac_promo.section.num4 {
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/security__f0bb6423ze6a_large.jpg);
-    background-position-y: bottom;
+    background-position-y: 320px;
     background-position-x: center;
+}
+
+.mac_promo.section_2 {
+    color: white;
+}
+
+.mac_promo.section_2.title {
+    padding-top: 130px;
+}
+
+.mac_promo.section_2.main_title {
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.more_info {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.mac_promo.num1.main_title {
+    width: 40%;
+}
+
+.mac_promo.num3.main_title {
+    width: 67%;
+}
+
+.mac_promo.num4.main_title {
+    width: 60%;
+}
+
+
+/* <!-- 내장 앱 --> */
+.built_in_app_section {
+    background-color: #fbfbfd;
+    width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.built_in_app.main_title {
+    padding-top: 75px;
+}
+
+.built_in_app.subtitle {
+    margin-top: .8em;
+    display: block;
+    width: 47%;
+    margin: 0 auto;
+}
+
+.pro_app_section {
+    background-color: #fbfbfd;
+    width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pro_app.main_title {
+    padding-top: 75px;
+}
+
+.built_in_app.icons_wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #d2d2d7;
+	width: 47%;
+}
+
+.safari.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/built-in-apps/nav_icon_safari__g20e4xjgcxme_large_2x.jpg);
+    background-size: 48px 59px;
+}
+.photo.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/built-in-apps/nav_icon_photos__d81k6es8jvau_large_2x.jpg);
+    background-size: 48px 59px;
+}
+.iMovie.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/built-in-apps/nav_icon_imovie__enh5zqh9p6mq_large_2x.jpg);
+    background-size: 48px 59px;
+}
+.GarageBand.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/built-in-apps/nav_icon_garageband__c0fmttdfhi6a_large_2x.jpg);
+    background-size: 48px 59px;
+}
+.pages.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/built-in-apps/nav_icon_pages__e2fzc7v3smye_large_2x.jpg);
+    background-size: 48px 59px;
+}
+.numbers.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/built-in-apps/nav_icon_numbers__bm4bw9tf055y_large_2x.jpg);
+    background-size: 48px 59px;
+}
+.keynote.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/built-in-apps/nav_icon_keynote__crxuc5g7gzo2_large_2x.jpg);
+    background-size: 48px 59px;
+}
+
+.built_in_app.more_info {
+    padding-bottom: 52px;
+}
+
+/* <!-- 프로용 앱 --> */
+.pro_app.icons_wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #d2d2d7;
+	width: 47%;
+}
+
+.logic_pro.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/pro-apps/nav_icon_logicpro__d3j2w5izcdyu_large_2x.jpg);
+    background-size: 48px 59px;
+}
+.mainStage.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/pro-apps/nav_icon_mainstage__b3ll985e4cj6_large_2x.jpg);
+    background-size: 48px 59px;
+}
+.filnal_cut_pro.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/pro-apps/nav_icon_finalcut__ghgrp93p0hiu_large_2x.jpg);
+    background-size: 48px 59px;
+}
+.motion.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/pro-apps/nav_icon_motion__zyzm9f0yu82a_large_2x.jpg);
+    background-size: 48px 59px;
+}
+.compressor.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/pro-apps/nav_icon_compressor__cjka2d49sj2a_large_2x.jpg);
+    background-size: 48px 59px;
+}
+.pro_app.more_info {
+    padding-bottom: 52px;
+}
+.button.logic_pro.more_info_wrapper {
+    margin-bottom: 0;
+}
+
+/* <!-- Mac App Store --> */
+.Mac_App_Store_section {
+	background-color: #fbfbfd;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Mac_App_Store_section_wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 30px;
+    padding: 3.58824em 0 5.29412em;
+}
+.Mac_App_Store.icon {
+    width: 71px;
+    height: 71px;
+    background-size: 71px 71px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/macos/pro-apps/icon_appstore__f9kpspokaru6_large.png);
+    margin-left: 18px;
+    min-width: 88px;
+}
+
+.Mac_App_Store.subtitle_wrapper {
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.button.Mac_App_Store.more_info_wrapper {
+    margin-bottom: 0;
+    justify-content: flex-start;
+}
+.subtitle.Mac_App_Store {
+    margin-top: 0;
+}
+.Mac_App_Store.more_info {
+    margin-left: 0;
+}
+
+/* <!-- Mac을 더 잘 활용하는 법 --> */
+.get_more_promo_section {
+    text-align: center;
+}
+/* <!-- online_session --> */
+.online_session_section {
+    background-color: #fbfbfd;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.online_session_image {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/get-more/virtual_sessions__etcx2xbk644m_large_2x.jpg);
+    width: 703px;
+    height: 504px;
+    background-size: 703px 504px;
+    background-repeat: no-repeat;
+    margin-left: 85px;
+}
+/* <!-- Apple Arcade_session --> */
+.Apple_Arcade_section {
+    background-color: #fbfbfd;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	margin-top: 30px;
+	height: 500px;
+}
+.Apple_Arcade.title {
+    width: 180px;
+    height: 40px;
+    background-size: 180px 40px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/get-more/logo_apple_arcade__bd8u98dy4gr6_large_2x.png);
+    position: relative;
+    left: 50%;
+    margin-left: -90px;
+}
+.Apple_Arcade.content {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Apple_Arcade_session_image {
+    width: 797px;
+    height: 227px;
+    background-size: 797px 227px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/mac/home/be/images/overview/get-more/apple_arcade__cxemfxlq682u_large_2x.jpg);
+    position: relative;
+    left: 0%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+/* <!-- Apple과 교육 --> */
+.education {
+	margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+.education_wrapper {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/get-more/education__foui99z103ue_large_2x.jpg);
+    background-size: 1440px 600px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    height: 600px;
+}
+.education.main_title {
+    padding-top: 242px;
+}
+.education.content {
+    color: white;
+}
+
+/* <!-- 비즈니스를 위한 Mac --> */
+.business {
+	margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+.business_wrapper {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/get-more/business__cqey3ja2yyc2_large_2x.jpg);
+    background-size: 1440px 600px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    height: 600px;
+}
+.business.main_title {
+    padding-top: 242px;
+}
+.business.content {
+    color: white;
 }

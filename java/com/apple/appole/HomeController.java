@@ -25,7 +25,7 @@ public class HomeController {
 		return "component/home";
 	}
 	
-	// 수연 작업용
+	// 수연 작업용 mac
 	@GetMapping(value = "/mac")
 	public String mac() {
 		return "component/mac";
