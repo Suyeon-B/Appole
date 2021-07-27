@@ -1,0 +1,123 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+	line-height: 1.58824;
+    letter-spacing: 0em;
+    font-family: "SF Pro KR","SF Pro Text","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+	color: #1d1d1f;
+}
+
+/* <!-- 상단 메뉴바 --> */
+.menu_bar_wrapper{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    height: 123px;
+}
+
+.menu{
+	display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    margin-bottom: 18px;
+    margin-top: 10px;
+}
+
+.menu_block{
+	display: inline-block;
+}
+
+.menu_button {
+	color: #1d1d1f;
+	cursor: pointer;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: block;
+    margin: 0;
+    word-break: keep-all;
+    font-style: normal;
+}
+.menu_button:hover{
+	color:#0080FF;
+}
+
+.icon{
+    height: 54px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.series_6.icon {
+	width: 23px;
+	background-size: 23px 54px;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/icons/watch_nav_se__en4ntkxi5guq_large.svg);
+}
+
+.SE.icon {
+    width: 25px;
+    background-size: 25px 54px;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/icons/watch_nav_series_2__efs7961t4e2q_large.svg);
+}
+
+.series_3.icon {
+    width: 25px;
+    background-size: 25px 54px;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/icons/watch_nav_edition__ctk20b9sq0sy_large.svg);
+}
+
+.Nike.icon {
+    width: 25px;
+    background-size: 25px 54px;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/icons/watch_nav_nike__bxk9igzhjuuu_large.svg);
+}
+
+.Hermes.icon {
+    width: 37px;
+    background-size: 37px 54px;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/icons/watch_nav_hermes__1cpmu6xs8eq6_large.svg);
+}
+
+.Apple_Watch_Studio.icon {
+    background-size: auto auto;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/icons/watch_nav_studio__bicst81uptn6_large.svg);
+}
+
+.compare.icon {
+    width: 71px;
+    background-size: 71px 54px;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/icons/watch_nav_compare__b9nnoiqjkxki_large.svg);
+}
+
+.band.icon {
+    width: 17px;
+    background-size: 17px 54px;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/icons/watch_nav_bands__fyke1oo6sfyy_large.svg);
+}
+
+.AirPods.icon {
+    width: 27px;
+    background-size: 27px 54px;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/icons/watch_nav_airpods__b481yj4nw0vm_large.svg);
+}
+
+.Accessories.icon {
+    width: 52px;
+    background-size: 52px 54px;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/icons/watch_nav_accessories__bu98chbn5rea_large.svg);
+}
+
+.watchOs.icon {
+    width: 35px;
+    background-size: 35px 54px;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/icons/watch_nav_watch_os__bv24twycj3aq_large.svg);
+}
