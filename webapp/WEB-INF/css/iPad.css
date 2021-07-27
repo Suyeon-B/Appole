@@ -644,8 +644,8 @@ a.moreInfo:hover {
 	display:grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, auto);
-	grid-row-gap: 50px;
-    grid-column-gap: 20px;
+	grid-row-gap: 70px;
+    grid-column-gap: 70px;
 }
 .essential_box{
 	width: 675px;
@@ -672,6 +672,7 @@ a.moreInfo:hover {
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/accessories__gdpezee1naai_large.jpg);
 }
 .essential_personal_image{
+	margin: 0 auto;
 	width: 557px;
     height: 274px;
     background-size: 557px 274px;
@@ -689,19 +690,37 @@ a.moreInfo:hover {
     font-weight: 400;
 }
 
-
-
+/*essential end*/
+/*everything start*/
 
 .everything_container{
 	width: 1440px;
 	margin: 0 auto;
+	text-align: center;
+}
+.everything_title{
+	text-align: center;
+	font-size: 56px;
+    font-weight: 600;
 }
 .everything_box{
 	display: flex;
+	background: white;
 }
 .everything_image{
 	background-repeat: no-repeat;
 }
+.everything_info_box{
+}
+.everything_info_title{
+	font-size: 48px;
+    font-weight: 600;
+}
+.everything_info_subtitle{
+	font-size: 21px;
+    font-weight: 400;
+}
+
 .everything_choice_image{
 	width: 613px;
     height: 458px;
@@ -709,6 +728,8 @@ a.moreInfo:hover {
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/why_ipad__fyckwbl8w5u2_large.jpg);
 }
 .everything_os_image{
+	width: 1380px;
+	height: 500px;
 	background-size: 1380px 500px;
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/ipados__fu0z8lgcmn2i_large.jpg);
     background-position-x: center;
@@ -725,6 +746,32 @@ a.moreInfo:hover {
 
 
 
+/*everything end*/
+/*tip start*/
+.tip_container{
+	font-size: 56px;
+    font-weight: 600;
+}
 
 
-/*essential end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*tip end*/
+
