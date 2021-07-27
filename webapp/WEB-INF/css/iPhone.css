@@ -1,9 +1,10 @@
 @charset "UTF-8";
 /*전체 페이지 wrapper start*/
+
 .main{
 	background: white;
 	color: black;
-	margin: 0 auto;
+	margin: 40px auto;
 }
 .submain{
 	padding-top: 30px;
