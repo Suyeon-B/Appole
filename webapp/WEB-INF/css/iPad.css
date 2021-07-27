@@ -1,7 +1,8 @@
 @charset "EUC-KR";
+
 .main{
 	background: white;
-	margin: 0 auto;
+	margin: 40px auto;
 }
 
 .chapter_container{
@@ -752,17 +753,52 @@ a.moreInfo:hover {
 	font-size: 56px;
     font-weight: 600;
 }
+.tip_box{
+	display: flex;
+	text-align: center;
+}
+.tip_info_topic{
+	font-size: 28px;
+    font-weight: 600;
+}
+.tip_info_title{
+	font-size: 48px;
+    font-weight: 600;
+}
+.tip_info_subtitle{
+	font-size: 21px;
+    font-weight: 400;
+}
+.tip_info_link{
+	font-size: 21px;
+    font-weight: 400;
+    color: #06c;
+}
+.tip_info_link:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.tip_image{
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.tip_online_image{
+	background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/more-iphone/virtual_sessions__gio0zwbyrvmi_large.jpg);
+	width: 703px;
+    height: 504px;
+}
 
+.tip_info_topic_image{
+	width: 156px;
+    height: 39px;
+    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/more-iphone/apple_music_logo__ocze2os441m6_large.png);
+}
 
-
-
-
-
-
-
-
-
-
+.tip_music_image{
+	width: 554px;
+    height: 384px;
+    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/more-iphone/apple_music__djgc9tilelm6_large.jpg);
+}
 
 
 
