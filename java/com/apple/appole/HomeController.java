@@ -12,14 +12,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-/**
- * Handles requests for the application home page.
- */
 @Controller
-public class HomeController {	
-	/**
-	 * Simply selects the home view to render by returning its name.
-	 */
+public class HomeController {
+	// 수연 작업용 home
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		return "component/home";
@@ -31,6 +26,17 @@ public class HomeController {
 		return "component/mac";
 	}
 	
+	// 수연 작업용 watch
+	@GetMapping(value = "/Watch")
+	public String watch() {
+		return "component/watch";
+	}
+	
+	// 수연 작업용 music
+	@GetMapping(value = "/Music")
+	public String music() {
+		return "component/music";
+	}
 	
 	//현준 작업용 iPhone
 	@GetMapping(value = "/iPhone")
