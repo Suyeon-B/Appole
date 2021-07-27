@@ -29,7 +29,10 @@
 .mainBanner_choiceBanner__box{
 	margin: 0 auto;
 	width: 170px;
-	height: 110px;
+}
+.mainBanner_choiceBanner__box:hover{
+	cursor: pointer;
+	text-decoration: underline;
 }
 .choiceBanner__title{
 	text-align: center;
@@ -72,3 +75,47 @@
 
 /*choiceBanner image end*/
 /*choiceBanner end*/
+
+
+/*surviceBanner start*/
+.mainBanner_surviceBanner{
+	display: flex;
+	margin: 0 auto;
+	width: 1024px;
+	justify-content: space-evenly;
+}
+.surviceBanner_box{
+	color: #0070c9;
+    font-size: 14px;
+    font-weight: 400;
+    width: 33%;
+    text-align: center;
+}
+.surviceBanner_box:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.surviceBanner_image_box{
+	display: flex;
+	justify-content: center;
+}
+.surviceBanner_image{
+	background-size:cover;
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+}
+.surviceBanner_forgot_image{
+	background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/promo_icons/promo-icon-homepage-password_2x.png);
+}
+.surviceBanner_repair_image{
+	background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/promo_icons/promo-icon-homepage-repair_2x.png);
+}
+.surviceBanner_subscribe_image{
+	background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/promo_icons/promo-icon-homepage-subscriptions_2x.png);
+}
+
+
+
+
+

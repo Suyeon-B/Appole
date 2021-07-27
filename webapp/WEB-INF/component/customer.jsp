@@ -55,7 +55,31 @@
 			</div>
 		</div>
 					
-		<div class = "mainBanner_surviceBanner"></div>
+					
+					
+		<div class = "mainBanner_surviceBanner">
+			<div class = "surviceBanner_box">
+				<div class = "surviceBanner_image_box">
+					<div class = "surviceBanner_image surviceBanner_forgot_image"></div>
+				</div>
+				<div class = "surviceBanner_info">Apple ID 또는 암호를 잊어버림</div>
+			</div>
+			
+			<div class = "surviceBanner_box">
+				<div class = "surviceBanner_image_box">
+					<div class = "surviceBanner_image surviceBanner_repair_image"></div>
+				</div>
+				<div class = "surviceBanner_info">Apple 수리</div>
+			</div>
+			
+			<div class = "surviceBanner_box">
+				<div class = "surviceBanner_image_box">
+					<div class = "surviceBanner_image surviceBanner_subscribe_image"></div>
+				</div>
+				<div class = "surviceBanner_info">청구 및 구독</div>
+			</div>
+			
+		</div>
 		<div class = "mainBanner_"></div>
 		<div class = "mainBanner_"></div>
 		<div class = "mainBanner_"></div>
