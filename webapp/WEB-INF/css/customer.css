@@ -80,7 +80,7 @@
 /*surviceBanner start*/
 .mainBanner_surviceBanner{
 	display: flex;
-	margin: 0 auto;
+	margin: 100px auto;
 	width: 1024px;
 	justify-content: space-evenly;
 }
@@ -96,6 +96,7 @@
 	text-decoration: underline;
 }
 .surviceBanner_image_box{
+	margin-bottom: 30px;
 	display: flex;
 	justify-content: center;
 }
@@ -115,7 +116,41 @@
 	background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/promo_icons/promo-icon-homepage-subscriptions_2x.png);
 }
 
-
-
-
-
+/*tipBAnner start*/
+.mainBanner_tipBanner{
+	width: 1024px;
+	margin: 0 auto;
+	display: flex;
+}
+.tipBanner_image_box{
+	display: flex;
+    justify-content: center;
+}
+.tipBanner_image{
+	background-size:cover;
+	width: 240px;
+	height: 175px;
+}
+.tipBanner_design_image{
+	background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/content-link-accessibility-features_2x.png);
+}
+.tipBanner_help_image{
+	background-image: url(https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/content-link-apple-for-kids_2x.png);
+}
+.tipBanner_info_title{
+	font-size: 32px;
+    font-weight: 500;
+}
+.tipBanner_info_subtitle{
+	font-size: 17px;
+    font-weight: 400;
+}
+.tipBanner_info_link{
+	font-size: 17px;
+    font-weight: 400;
+	color: #0070c9;
+}
+.tipBanner_info_link:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}

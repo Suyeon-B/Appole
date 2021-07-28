@@ -521,6 +521,7 @@
 	<div class = "everything_container">
 		<div class = "everything_title">iPab를 iPab답게 만드는 모든 것.</div>
 		<div class = "everything">
+		
 			<div class = "everything_box">
 				<div class = "everything_image_box">
 					<div class = "everything_image everything_choice_image"></div>
@@ -528,22 +529,24 @@
 				<div class = "everything_info_box">
 					<div class = "everything_info_title">iPab를<br>선택하는 이유</div>
 					<div class = "everything_info_subtitle">생각했던 것은 물론,<br>생각지도 못했던 것까지.</div>
-				</div>
-				<div class = "everything_link_box">
-					<div class = "everything_link"></div>
+				
+					<div class = "everything_link_box">
+						<div class = "everything_link">더 알아보기</div>
+					</div>
 				</div>
 			</div>
 			
-			<div class = "everything_box">
-				<div class = "everything_image_box">
-					<div class = "everything_image everything_os_image"></div>
-				</div>
-				<div class = "everything_info_box">
-					<div class = "everything_info_title">iPabOS</div>
-					<div class = "everything_info_subtitle">오직 iPab이기에 가능한<br>새로운 가능성.</div>
-				</div>
-				<div class = "everything_link_box">
-					<div class = "everything_link"></div>
+			<div class = "everything_os_box">
+				<div class = "everything_image everything_os_image">
+					
+					<div class = "everything_info_box white_box">
+						<div class = "everything_info_title">iPabOS</div>
+						<div class = "everything_info_subtitle">오직 iPab이기에 가능한<br>새로운 가능성.</div>
+					
+						<div class = "everything_link_box">
+							<div class = "everything_link">더 알아보기</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			
@@ -554,9 +557,10 @@
 				<div class = "everything_info_box">
 					<div class = "everything_info_title">iCloud</div>
 					<div class = "everything_info_subtitle">모든 사진과 파일 등을 담기에<br>더할 나위 없이 좋은 곳.</div>
-				</div>
-				<div class = "everything_link_box">
-					<div class = "everything_link"></div>
+				
+					<div class = "everything_link_box">
+						<div class = "everything_link">더 알아보기</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -564,6 +568,7 @@
 	<div class = "tip_container">
 		<div class = "tip_title">iPab를 더욱더 잘 활용하는 법.</div>
 		<div class = "tip">
+		
 			<div class = "tip_box">
 				<div class ="tip_info_box">
 					<div class = "tip_info_topic">Today at Apple</div>
@@ -577,17 +582,70 @@
 			</div>
 			
 			<!-- 박스명 수정할 것 -->
-			<div class = "tip_box">
-				<div class ="tip_info_box">
-					<div class = "tip_info_topic_image_box">
-						<div class = "tip_image tip_info_topic_image"></div>
+			<div class = "tip_grid">
+			
+				<div class = "tip_grid_box">
+					<div class ="tip_info_box">
+						<div class = "tip_info_topic_image_box">
+							<div class = "tip_image tip_info_topic_image"></div>
+						</div>
+						<div class = "tip_info_subtitle">7천5백만 곡 이상. 첫 3개월은 무료.</div>
+						<div class = "tip_info_link_box">
+							<div class = "tip_info_link">무료 체험하기</div>
+						</div>
 					</div>
-					<div class = "tip_info_subtitle">7천5백만 곡 이상. 첫 3개월은 무료.</div>
-					<div class = "tip_info_link">무료 체험하기</div>
+					<div class ="tip_image_box">
+						<div class = "tip_image tip_music_image"></div>	
+					</div>
 				</div>
-				<div class ="tip_image_box">
-					<div class = "tip_image tip_music_image"></div>	
+				
+				<div class = "tip_grid_box">
+					<div class ="tip_info_box">
+						<div class = "tip_info_topic_image_box">
+							<div class = "tip_image tip_info_topic_image"></div>
+						</div>
+						<div class = "tip_info_subtitle">iPad를 구입하면 Apple Arcade가<br>3개월 무료.</div>
+						<div class = "tip_info_link_box">
+							<div class = "tip_info_link">무료 체험하기</div>
+							<div class = "tip_info_link">더 알아보기</div>
+						</div>
+					</div>
+					<div class ="tip_image_box">
+						<div class = "tip_image tip_music_image"></div>	
+					</div>
 				</div>
+				
+				<div class = "tip_grid_box">
+					<div class ="tip_info_box">
+						<div class = "tip_info_topic_image_box">
+							<div class = "tip_image tip_info_topic_image"></div>
+						</div>
+						<div class = "tip_info_subtitle">7천5백만 곡 이상. 첫 3개월은 무료.</div>
+						<div class = "tip_info_link_box">
+							<div class = "tip_info_link">무료 체험하기</div>
+						</div>
+					</div>
+					<div class ="tip_image_box">
+						<div class = "tip_image tip_music_image"></div>	
+					</div>
+				</div>
+				
+				<div class = "tip_grid_box">
+					<div class ="tip_info_box">
+						<div class = "tip_info_topic_image_box">
+							<div class = "tip_image tip_info_topic_image"></div>
+						</div>
+						<div class = "tip_info_subtitle">7천5백만 곡 이상. 첫 3개월은 무료.</div>
+						<div class = "tip_info_link_box">
+							<div class = "tip_info_link">무료 체험하기</div>
+						</div>
+					</div>
+					<div class ="tip_image_box">
+						<div class = "tip_image tip_music_image"></div>	
+					</div>
+				</div>
+				
+				
 			</div>
 		
 		
