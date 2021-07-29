@@ -797,6 +797,7 @@ a.moreInfo:hover {
 }
 .tip_info_box{
 	width: 50%;
+	margin: 0 auto;
 }
 .tip_image_box{
 	width: 50%;
@@ -825,24 +826,33 @@ a.moreInfo:hover {
 .tip_image{
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin: 0 auto;
+	width: 156px;
+    height: 39px;
 }
 .tip_online_image{
+	margin-bottom: 15px;
 	background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/more-iphone/virtual_sessions__gio0zwbyrvmi_large.jpg);
     height: 504px;
 }
-
-.tip_info_topic_image{
-	width: 156px;
-    height: 39px;
+.tip_info_topic_image_box{
+	margin: 0 auto;
+}
+.tip_info_topic_image_music{
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/more-iphone/apple_music_logo__ocze2os441m6_large.png);
 }
-
+.tip_info_topic_image_arcade{
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/arcade/apple_arcade_logo_tile__eou5pui8amc2_large.png);
+}
 .tip_music_image{
 	width: 554px;
     height: 384px;
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/more-iphone/apple_music__djgc9tilelm6_large.jpg);
 }
-
+.tip_arcade_image{
+    height: 600px;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/arcade/apple_arcade_tile__rpe6yxbxcnue_large.jpg);
+}
 .tip_grid{
 	margin-top:35px;
 	display: grid;
