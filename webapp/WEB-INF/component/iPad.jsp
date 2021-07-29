@@ -587,7 +587,7 @@
 				<div class = "tip_grid_box">
 					<div class ="tip_info_box">
 						<div class = "tip_info_topic_image_box">
-							<div class = "tip_image tip_info_topic_image"></div>
+							<div class = "tip_image tip_info_topic_image_music"></div>
 						</div>
 						<div class = "tip_info_subtitle">7천5백만 곡 이상. 첫 3개월은 무료.</div>
 						<div class = "tip_info_link_box">
@@ -602,7 +602,7 @@
 				<div class = "tip_grid_box">
 					<div class ="tip_info_box">
 						<div class = "tip_info_topic_image_box">
-							<div class = "tip_image tip_info_topic_image"></div>
+							<div class = "tip_image tip_info_topic_image_arcade"></div>
 						</div>
 						<div class = "tip_info_subtitle">iPad를 구입하면 Apple Arcade가<br>3개월 무료.</div>
 						<div class = "tip_info_link_box">
@@ -611,14 +611,14 @@
 						</div>
 					</div>
 					<div class ="tip_image_box">
-						<div class = "tip_image tip_music_image"></div>	
+						<div class = "tip_image tip_arcade_image"></div>	
 					</div>
 				</div>
 				
 				<div class = "tip_grid_box">
 					<div class ="tip_info_box">
 						<div class = "tip_info_topic_image_box">
-							<div class = "tip_image tip_info_topic_image"></div>
+							<div class = "tip_image tip_info_topic_image_arcade"></div>
 						</div>
 						<div class = "tip_info_subtitle">7천5백만 곡 이상. 첫 3개월은 무료.</div>
 						<div class = "tip_info_link_box">
