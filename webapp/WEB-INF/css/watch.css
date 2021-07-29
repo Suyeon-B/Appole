@@ -7,6 +7,9 @@ body{
     color: #1d1d1f;
     text-align: center;
 }
+.topContainer_wrapper {
+    position: absolute !important;
+}
 
 /* <!-- 상단 메뉴바 --> */
 .menu_bar_wrapper{
@@ -210,20 +213,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-   	color: #0071e3;
+    color: #0071e3;
+    margin-top: 13.6px;
 }
 .more_info_sub_wrapper {
     display: flex;
     align-items: center;
     padding-left: 23px;
-}
-.button.more_info {
-	margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   	color: #0071e3;
 }
 .more_info_sub_wrapper.black_background {
     color: #2997ff;
@@ -253,7 +249,7 @@ body{
 }
 .small.right_arrow_icon::after {
     content: "〉";
-    font-size: 13px;
+    font-size: 9px;
     font-weight: bolder;
     margin-left: 6px;
 }
@@ -262,6 +258,22 @@ body{
     font-size: 13px;
     font-weight: bolder;
     margin-left: 6px;
+}
+.small {
+    margin: 10px 0;
+    font-size: 17px;
+    line-height: 1.4211;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.middle {
+    font-size: 19.5px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .0045em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 1.2em;
 }
 
 
@@ -285,6 +297,7 @@ body{
 }
 .series_6.content {
     width: 695.5px;
+    margin-top: -120px;
 }
 .series_6.black_background.icon_title {
     width: 132px;
@@ -347,6 +360,9 @@ body{
     font-weight: 400;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
+.compare.button.buy {
+    margin-top: 20px;
+}
 .button.compare:hover {
     text-decoration: underline;
 }
@@ -402,10 +418,11 @@ body{
 }
 .compare.note_num {
     font-size: x-small;
+    margin-bottom: 0;
 }
 .compare.more_info_wrapper {
     justify-content: flex-start;
-    height: 50px;
+    font-size: small;
 }
 .compare.none {
     margin-bottom: 20px;
@@ -413,7 +430,20 @@ body{
 .compare.none::after {
     content: "─";
 }
-
+.compare.button.more_info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0071e3;
+}
+.small.right_arrow_icon {
+    font-size: x-small;
+}
+.compare.SE.small.content_4_wrapper, .compare.series_6.small.content_4_wrapper, .compare.series_6.small.content_6_wrapper, .compare.series_6.small.content_7_wrapper {
+    margin-top: -10px;
+}
 
 /* <!-- 전체 모델 비교하기 : series_6--> */
 .compare.series_6.image {
@@ -443,26 +473,347 @@ body{
 }
 
 /* <!-- international collection --> */
+.international_collection {
+    padding-left: 45px;
+}
 .international_collection.wrapper {
     display: flex;
     height: 743.39px;
-    --link-spacing: 0.8em;
-    align-items: center;
-    align-content: center;
-    justify-content: space-between;
     background: #fbfbfd;
-    text-align: center;
-}
-.international_collection.background {
-	width: 1118px;
-    height: 742px;
-    background-size: 1118px 755px;
+    background-size: 1118px 743.39px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/kr/watch/home/am/images/overview/international/tile_international__cqh8djsrfus2_large_2x.jpg);
     background-position-x: right;
+    background-position-y: center;
     bottom: 0;
     right: 0;
-    left: 19%;
+}
+.international_collection.big.title {
+    margin-left: 0;
+}
+.international_collection.middle.title {
+    color: #111;
+    font-size: 23px;
+    line-height: 1.16667;
+    font-weight: 700;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 180px;
+}
+.button.international {
+    color: #1d1d1f;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 980px;
+    background: #e8e8ed;
+}
+.check.international {
+    margin-right: 5px;
+}
+.button.international:hover {
+    background: #EBEBF0;
+}
+.plus_icon {
+    background-image: url(../../../image/plus-circle_6.svg);
+    width: 24.59px;
+    height: 21px;
+    background-size: 24.59px 21px;
+}
+.button.shopping:hover {
+    text-decoration: underline;
+}
+
+
+/* <!-- watchOS_8 --> */
+.watchOS_8.wrapper {
+    height: 760px;
+    background-size: 1390px 760px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/watchos8/tile_watchos__fo0tafi6nn6u_large_2x.jpg);
+    margin-top: 30px;
+}
+.watchOS_8.content {
+    padding-top: 515px;
+}
+.watchOS_8.big.title {
+    margin-left: 0;
+    font-weight: 500;
+}
+
+
+/* <!-- credit --> */
+.credit.wrapper {
+    height: 515.39px;
+}
+.credit.big.title {
+    line-height: 1.2;
+    margin-left: 0;
+    padding-top: 70px;
+}
+.credit.big.note_num {
+    font-size: 25px;
+}
+.credit_note_wrapper {
+    display: flex;
+    justify-content: center;
+}
+.credit_note_wrapper.credit.big.title {
+    margin: 0;
+    padding: 0;
+}
+.button.big.note_num:hover {
+	color: #06c;
+}
+.button.middle.more_info {
+    margin: 0;
+}
+
+
+/* <!-- Apple_Watch_Studio --> */
+.Apple_Watch_Studio.wrapper {
+    height: 1014px;
+    background-color: #fafafa;
+}
+.Apple_Watch_Studio.background {
+    height: 522px;
+    background-size: 2560px 522px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/watch/shared/configure/f/images/store/cto/watch/watch-cto-bands__6iohybnbhk2i_large_2x.jpg);
+    background-position: center;
+    padding-top: 780px;
+}
+.Apple_Watch_Studio.big.title {
+    margin-left: 0;
+}
+.Apple_Watch_Studio.middle.title {
+    margin-top: -680px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.Apple_Watch_Studio.button.my_style.inside {
+	width: fit-content;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    color: black;
+    padding: 10px 22px 9px;
+    text-align: center;
+    border-radius: 100px;
+    font-weight: 600;
+}
+.Apple_Watch_Studio.button.my_style.inside:before {
+    z-index: 0;
+    width: 99%;
+    height: 99%;
+    background: -webkit-gradient(linear, left top, right top, from(#FDDE5C), color-stop(#F8AB5E), color-stop(#F56A62), color-stop(#A176C8), color-stop(#759BEB), color-stop(#65BEB3), to(#70DB96));
+    background: -webkit-linear-gradient(left, #FDDE5C 0%, #F8AB5E calc(100% / 6), #F56A62 calc(100% / 6 * 2), #A176C8 calc(100% / 6 * 3), #759BEB calc(100% / 6 * 4), #65BEB3 calc(100% / 6 * 5), #70DB96 100%);
+    background: linear-gradient(to right, #FDDE5C 0%, #F8AB5E calc(100% / 6), #F56A62 calc(100% / 6 * 2), #A176C8 calc(100% / 6 * 3), #759BEB calc(100% / 6 * 4), #65BEB3 calc(100% / 6 * 5), #70DB96 100%);
+}
+.Apple_Watch_Studio.button.my_style.inside, .Apple_Watch_Studio.button.my_style.inside:before, .Apple_Watch_Studio.button.my_style.inside:after {
+    content: '';
+    position: absolute;
+    border-radius: 100px;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.Apple_Watch_Studio.button.my_style.inside:hover {
+    color: #06c;
+    background: -webkit-gradient(linear, left top, right top, from(#FDDE5C), color-stop(#F8AB5E), color-stop(#F56A62), color-stop(#A176C8), color-stop(#759BEB), color-stop(#65BEB3), to(#70DB96));
+    background: -webkit-linear-gradient(left, #FDDE5C 0%, #F8AB5E calc(100% / 6), #F56A62 calc(100% / 6 * 2), #A176C8 calc(100% / 6 * 3), #759BEB calc(100% / 6 * 4), #65BEB3 calc(100% / 6 * 5), #70DB96 100%);
+    background: linear-gradient(to right, #FDDE5C 0%, #F8AB5E calc(100% / 6), #F56A62 calc(100% / 6 * 2), #A176C8 calc(100% / 6 * 3), #759BEB calc(100% / 6 * 4), #65BEB3 calc(100% / 6 * 5), #70DB96 100%);
+}
+.Apple_Watch_Studio.button.my_style.inside:after {
+	z-index: 1;
+    width: calc(98% - 4px);
+    height: calc(97% - 4px);
+    background: white;
+}
+span {
+    position: relative;
+    z-index: 2;
+}
+.Apple_Watch_Studio.my_style {
+    padding-left: 42.5%;
+    padding-right: 45%;
+    padding-top: 40px;
+}
+.Apple_Watch_Studio.image {
+    width: 300px;
+    height: 522px;
+    background-size: 300px 522px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/watch/shared/configure/f/images/store/cto/watch/watch-cto-case__dm8sxecyffma_large_2x.png);
+    margin-top: -911px;
+    margin-left: 530px;
+}
+
+
+/* <!-- why --> */
+.why.wrapper {
+    background-color: #fafafa;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 159px;
+}
+.why.content {
+    width: 587.5px;
+    margin-top: -200px;
+}
+.why.background {
+    width: 785px;
+    height: 518px;
+    background-size: 785px 518px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/watch/home/am/images/overview/why-watch/tile_why_watch__bzxlfokkvj36_large_2x.jpg);
+}
+.why.middle.title {
+    font-size: 23px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.why.big.title {
+    margin-left: 0;
+    font-weight: bold;
+    font-size: 46.5px;
+    line-height: 1.28349;
+}
+
+
+/* <!-- watchOS_7 --> */
+.watchOS_7.wrapper {
+    height: 675px;
+    background-size: 1380px 675px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/watch/home/am/images/overview/wwdc/tile_watchos7__fs1gp8e4poq6_large_2x.jpg);
+    margin-top: 30px;
+}
+.watchOS_7.content {
+    padding-top: 515px;
+}
+.watchOS_7.big.title {
+    margin-left: 0;
+    font-weight: 700;
+}
+.watchOS_7.black_background.middle.subtitle {
+    font-weight: 500;
+    font-size: 24.5px;
+}
+.watchOS_7.content {
+    padding-top: 338px;
+}
+.watchOS_7.more_info_wrapper.black_background {
+    padding-top: 25px;
+}
+.black_background.button.middle.more_info {
+    color: #2997ff;
+}
+
+
+/* <!-- Accessories --> */
+.biger.title {
+    padding-top: 135px;
+    padding-bottom: 43px;
+    font-size: 52px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.band.big.title, .carving.big.title {
+    margin-left: 0;
+    margin-top: 80px;
+    font-size: 46px;
+    font-weight: 700;
+}
+.Accessories.band_carving {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.carving.background {
+    margin-left: 15px;
+    width: 50%;
+    background-color: #fafafa;
+    height: 823.59px;
+    background-size: 622px 305px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/watch/home/am/images/overview/airpods/tile_airpods_engraving_update__tacp8e7plv6u_large_2x.jpg);
+    background-position-y: 400px;
+    background-position-x: center;
+}
+.carving.middle.subtitle {
+    line-height: 1.681;
+    margin-top: 40px;
+}
+.carving.more_info_sub_wrapper {
+    padding-left: 0;
+}
+.band.background {
+    margin-right: 15px;
+    background-color: #fafafa;
+    width: 678px;
+    background-size: 678px 427px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/bands/tile_bands__4x5zbcsqc1ua_large_2x.jpg);
+    background-position-y: bottom;
+    background-position-x: center;
+}
+.band.more_info_wrapper {
+    margin-top: 20px;
+}
+
+
+/* <!-- Apple Watch 활용법 --> */
+.use.music_fitness {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.music.middle.subtitle {
+    line-height: 1.681;
+    margin-top: 40px;
+}
+.fitness.black_background.big.title {
+    margin-left: 0;
+}
+.music.background {
+    margin-right: 15px;
+    width: 50%;
+    background-color: #fafafa;
+    height: 823.59px;
+    background-size: 675px 721px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/watch/home/am/images/overview/music/tile-apple-music__eukr7jdumumq_large_2x.jpg);
+    background-position-x: center;
+}
+.fitness.background {
+	margin-left: 15px;
+    width: 50%;
+    background-color: black;
+    height: 721.8px;
+    background-size: 379px 382px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/rings/tile_rings__b6fsb8eh4j36_large_2x.jpg);
+    background-position-x: center;
+    background-position-y: 285px;
 }
 
 /* <!-- 배송정보 / 금융혜택 / 맞춤 세션 --> */

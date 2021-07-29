@@ -111,28 +111,28 @@
 				<div class="compare series_6 small content_3 none"></div>
 				<div class="compare series_6 small content_4_wrapper">
 					<div class="compare series_6 small content_4">GPS + Cellular</div>
-					<div class="compare series_6 note_num">1</div>
+					<div class="compare series_6 small note_num">1</div>
 				</div>
 				<div class="compare series_6 small content_5">GPS</div>
 				<div class="compare series_6 small content_6_wrapper">
 					<div class="compare series_6 small content_6">‘혈중 산소’ 앱</div>
-					<div class="compare series_6 note_num">2</div>
+					<div class="compare series_6 small note_num">2</div>
 				</div>
 				<div class="compare series_6 small content_7_wrapper">
 					<div class="compare series_6 small content_7">‘심전도’ 앱</div>
-					<div class="compare series_6 note_num">3</div>
+					<div class="compare series_6 small note_num">3</div>
 				</div>
 				<div class="compare series_6 small content_8">고심박수 및 저심박수 알림</div>
 				<div class="compare series_6 small content_9_wrapper">
 					<div class="compare series_6 small content_9">불규칙한 심장 박동 알림</div>
-					<div class="compare series_6 note_num">4</div>
+					<div class="compare series_6 small note_num">4</div>
 				</div>
 				<div class="compare series_6 small content_10_wrapper">
 					<div class="compare series_6 small content_10">50m 방수 등급</div>
-					<div class="compare series_6 note_num">5</div>
+					<div class="compare series_6 small note_num">5</div>
 				</div>
 				<div class="compare more_info_wrapper">
-					<div class="button buy">구입하기</div>
+					<div class="compare button buy">구입하기</div>
 				</div>
 				<div class="compare more_info_wrapper">
 					<div class="button more_info">더 알아보기</div>
@@ -149,7 +149,7 @@
 				<div class="compare SE small content_3">Retina 디스플레이</div>
 				<div class="compare SE small content_4_wrapper">
 					<div class="compare SE small content_4">GPS + Cellular</div>
-					<div class="compare SE note_num">1</div>
+					<div class="compare SE small note_num">1</div>
 				</div>
 				<div class="compare SE small content_5">GPS</div>
 				<div class="compare SE small content_6 none"></div>
@@ -157,14 +157,14 @@
 				<div class="compare SE small content_8">고심박수 및 저심박수 알림</div>
 				<div class="compare SE small content_9_wrapper">
 					<div class="compare SE small content_9">불규칙한 심장 박동 알림</div>
-					<div class="compare SE note_num">4</div>
+					<div class="compare SE small note_num">4</div>
 				</div>
 				<div class="compare SE small content_10_wrapper">
 					<div class="compare SE small content_10">50m 방수 등급</div>
-					<div class="compare SE note_num">5</div>
+					<div class="compare SE small note_num">5</div>
 				</div>
 				<div class="compare more_info_wrapper">
-					<div class="button buy">구입하기</div>
+					<div class="compare button buy">구입하기</div>
 				</div>
 				<div class="compare more_info_wrapper">
 					<div class="button more_info">더 알아보기</div>
@@ -186,14 +186,14 @@
 				<div class="compare series_3 small content_8">고심박수 및 저심박수 알림</div>
 				<div class="compare series_3 small content_9_wrapper">
 					<div class="compare series_3 small content_9">불규칙한 심장 박동 알림</div>
-					<div class="compare series_3 note_num">4</div>
+					<div class="compare series_3 small note_num">4</div>
 				</div>
 				<div class="compare series_3 small content_10_wrapper">
 					<div class="compare series_3 small content_10">50m 방수 등급</div>
-					<div class="compare series_3 note_num">5</div>
+					<div class="compare series_3 small note_num">5</div>
 				</div>
 				<div class="compare more_info_wrapper">
-					<div class="button buy">구입하기</div>
+					<div class="compare button buy">구입하기</div>
 				</div>
 				<div class="compare more_info_wrapper">
 					<div class="button more_info">더 알아보기</div>
@@ -206,13 +206,13 @@
 			<div class="international_collection content">
 				<div class="international_collection middle title">인터내셔널 컬렉션</div>
 				<div class="international_collection big title">뜨거운 응원을 손목에.</div>
-				<div class="international_collection middle content">각국의 국기를 모티프로 한 한정판 스포츠 루프 및 시계 페이스를 손목에 두르고 자신의 국가를 응원해보세요.</div>
-				<div class="international_collection button more_info_wrapper">
-					<div class="more_info_sub_wrapper">
-						<div class="button international">국가 보기</div>
+				<div class="international_collection middle content">각국의 국기를 모티프로 한 한정판 스포츠 루프 및<br>시계 페이스를 손목에 두르고 자신의 국가를<br>응원해보세요.</div>
+				<div class="international_collection middle more_info_wrapper">
+					<div class="button more_info_sub_wrapper international">
+						<div class="check international">국가 보기</div>
 						<div class="plus_icon"></div>
 					</div>
-					<div class="button more_info_sub_wrapper">
+					<div class="more_info_sub_wrapper">
 						<div class="button shopping">컬렉션 쇼핑하기</div>
 						<div class="big right_arrow_icon"></div>
 					</div>
@@ -224,8 +224,8 @@
 		<div class="watchOS_8 wrapper">
 			<div class="watchOS_8 background"></div>
 			<div class="watchOS_8 content">
-				<div class="watchOS_8 big title">건강의 미래, 이미 손목 위에.</div>
-				<div class="watchOS_8 middle subtitle">깊게 들여다보다. 멀리 앞서가다.</div>
+				<div class="watchOS_8 big title">watchOS 8</div>
+				<div class="watchOS_8 small subtitle">깊게 들여다보다. 멀리 앞서가다.</div>
 				<div class="watchOS_8 more_info_wrapper">
 					<div class="button more_info">새로운 기능 살펴보기</div>
 					<div class="big right_arrow_icon"></div>
@@ -235,31 +235,46 @@
 		<!-- credit -->
 		<div class="credit wrapper">
 			<div class="credit title_wrapper">
-				<div class="credit big title">새 Apple Watch 구매 시 사용할 수 있는 최대 ₩160,000 상당의 크레딧을 받는 법.</div>
-				<div class="credit big note_num">6</div>
+				<div class="credit big title">
+					새 Apple Watch
+					<br>
+					구매 시 사용할 수 있는
+					<br>
+					최대 ₩160,000 상당의
+					<div class="credit_note_wrapper">
+						<div class="credit_note_wrapper credit big title">크레딧을 받는 법.</div>
+						<div class="credit button big note_num">6</div>
+					</div>
+				</div>
 			</div>
-			<div class="credit middle subtitle">Apple Trade In을 통해 보상 판매 대상 Apple Watch를 새 Apple Watch 구매 시 쓸 수 있는 크레딧으로 교환할 수 있습니다. 기기의 가치를 최대한 활용하는 것, 당신은 물론 지구에게도 좋은 일이죠.</div>
+			<div class="credit middle subtitle">Apple Trade In을 통해 보상 판매 대상 Apple Watch를 새 Apple Watch 구매 시 쓸 수<br>있는 크레딧으로 교환할 수 있습니다. 기기의 가치를 최대한 활용하는 것, 당신은 물론<br>지구에게도 좋은 일이죠.</div>
 			<div class="credit button more_info_wrapper">
-				<div class="button more_info">보상 판매 가격 알아보기</div>
+				<div class="button middle more_info">보상 판매 가격 알아보기</div>
 				<div class="big right_arrow_icon"></div>
 			</div>
 		</div>
 		<!-- Apple_Watch_Studio -->
 		<div class="Apple_Watch_Studio wrapper">
-			<div class="Apple_Watch_Studio content">
-				<div class="Apple_Watch_Studio middle title">Apple Watch Studio</div>
-				<div class="Apple_Watch_Studio big title">다양한 케이스, 다양한 밴드로. 스타일 연출도 자유롭게.</div>
-				<div class="Apple_Watch_Studio button my_style">자신만의 스타일 완성하기</div>
+			<div class="Apple_Watch_Studio background">
+				<div class="Apple_Watch_Studio content">
+					<div class="Apple_Watch_Studio middle title">Apple Watch Studio</div>
+					<div class="Apple_Watch_Studio big title">다양한 케이스, 다양한 밴드로.<br>스타일 연출도 자유롭게.</div>
+					<div class="Apple_Watch_Studio my_style">
+						<div class="Apple_Watch_Studio button my_style inside">
+							<span>자신만의 스타일 완성하기</span>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="Apple_Watch_Studio background"></div>
+			<div class="Apple_Watch_Studio image"></div>
 		</div>
 		<!-- why Apple Watch -->
 		<div class="why wrapper">
 			<div class="why content">
 				<div class="why middle title">Apple Watch를 선택하는 이유</div>
-				<div class="why big title">건강한 삶을 위한 궁극의 기기니까.</div>
+				<div class="why big title">건강한 삶을 위한<br>궁극의 기기니까.</div>
 				<div class="more_info_wrapper">
-					<div class="button more_info">더 알아보기</div>
+					<div class="button middle more_info">더 알아보기</div>
 					<div class="big right_arrow_icon"></div>
 				</div>
 			</div>
@@ -269,10 +284,10 @@
 		<div class="watchOS_7 wrapper">
 			<div class="watchOS_7 background"></div>
 			<div class="watchOS_7 content">
-				<div class="watchOS_7 middle subtitle">watchOS 7</div>
-				<div class="watchOS_7 big title">차이는 그야말로 낮과 밤.</div>
-				<div class="watchOS_7 more_info_wrapper">
-					<div class="button more_info">더 알아보기</div>
+				<div class="watchOS_7 black_background middle subtitle">watchOS 7</div>
+				<div class="watchOS_7 black_background big title">차이는 그야말로<br>낮과 밤.</div>
+				<div class="watchOS_7 more_info_wrapper black_background">
+					<div class="button middle more_info">더 알아보기</div>
 					<div class="big right_arrow_icon"></div>
 				</div>
 			</div>
@@ -284,17 +299,17 @@
 				<div class="band big title">봄처럼, 화사하게.</div>
 				<div class="band more_info_wrapper">
 					<div class="button more_info_sub_wrapper">
-						<div class="button buy">최신 밴드 쇼핑하기</div>
+						<div class="button middle more_info">최신 밴드 쇼핑하기</div>
 						<div class="big right_arrow_icon"></div>
 					</div>
 				</div>
 			</div>
 			<div class="carving background">
 				<div class="carving big title">자신만의 이야기를 새기다.</div>
-				<div class="carving middle subtitle">AirPods을 위한 새로운 각인 옵션. 글자, 이모티콘, 숫자 조합으로 더욱 개성 있게.</div>
+				<div class="carving middle subtitle">AirPods을 위한 새로운 각인 옵션.<br>글자, 이모티콘, 숫자 조합으로<br>더욱 개성 있게.</div>
 				<div class="carving more_info_wrapper">
-					<div class="more_info_sub_wrapper">
-						<div class="button more_info">더 알아보기</div>
+					<div class="carving more_info_sub_wrapper">
+						<div class="button middle more_info">더 알아보기</div>
 						<div class="big right_arrow_icon"></div>
 					</div>
 				</div>
