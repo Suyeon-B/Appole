@@ -295,6 +295,9 @@ body{
     background-image: url(https://www.apple.com/kr/watch/home/am/images/overview/series-6/tile_watch_s6__bbw92knen8mq_large_2x.jpg);
     background-position-x: center;
 }
+.series_6.more_info_sub_wrapper.black_background {
+    margin-top: 0;
+}
 .series_6.content {
     width: 695.5px;
     margin-top: -120px;
@@ -309,6 +312,7 @@ body{
 }
 .series_6.button.more_info_wrapper {
     margin-left: 72px;
+    margin-top: 40px;
 }
 
 
@@ -335,6 +339,9 @@ body{
 }
 .SE.big.title, .SE.middle.price {
     margin-left: 0;
+}
+.SE.more_info_wrapper {
+    margin-top: 40px;
 }
 .SE.background {
     width: 717.5px;
@@ -657,8 +664,8 @@ span {
     background-size: 300px 522px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/kr/watch/shared/configure/f/images/store/cto/watch/watch-cto-case__dm8sxecyffma_large_2x.png);
-    margin-top: -911px;
-    margin-left: 530px;
+    margin-top: -913px;
+    margin-left: 532px;
 }
 
 
@@ -787,9 +794,18 @@ span {
     justify-content: center;
     margin-top: 30px;
 }
+.music.icon_title {
+    width: 161px;
+    height: 40px;
+    background-size: 161px 40px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/watch/home/am/images/overview/music/logo-apple-music__d3g9jd3q6d26_large_2x.png);
+    margin: 0 auto;
+    margin-top: 88px;
+}
 .music.middle.subtitle {
     line-height: 1.681;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 .fitness.black_background.big.title {
     margin-left: 0;
@@ -798,11 +814,15 @@ span {
     margin-right: 15px;
     width: 50%;
     background-color: #fafafa;
-    height: 823.59px;
+    height: 721.8px;
     background-size: 675px 721px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/kr/watch/home/am/images/overview/music/tile-apple-music__eukr7jdumumq_large_2x.jpg);
     background-position-x: center;
+
+}
+.music.middle.more_info_wrapper {
+    margin-top: 10px;
 }
 .fitness.background {
 	margin-left: 15px;
@@ -814,6 +834,27 @@ span {
     background-image: url(https://www.apple.com/v/watch/home/am/images/overview/rings/tile_rings__b6fsb8eh4j36_large_2x.jpg);
     background-position-x: center;
     background-position-y: 285px;
+}
+.button.try:hover {
+    text-decoration: underline;
+}
+.music.more_info_sub_wrapper {
+    align-items: end;
+    padding-left: 0;
+}
+.fitness.black_background.big.title {
+    margin-left: 0;
+    margin-top: 88px;
+}
+.music.button.note {
+    font-size: x-small;
+}
+.fitness.more_info_sub_wrapper.black_background {
+    padding-left: 0;
+}
+.more_info_sub_wrapper.black_background {
+    color: #2997ff;
+    margin-top: 40px;
 }
 
 /* <!-- 배송정보 / 금융혜택 / 맞춤 세션 --> */

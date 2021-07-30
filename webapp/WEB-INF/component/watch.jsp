@@ -71,7 +71,7 @@
 				<div class="series_6 black_background middle price">₩539,000부터</div>
 				<div class="series_6 button more_info_wrapper">
 					<div class="button buy">구입하기</div>
-					<div class="more_info_sub_wrapper black_background">
+					<div class="series_6 more_info_sub_wrapper black_background">
 						<div class="button more_info">더 알아보기</div>
 						<div class="big right_arrow_icon"></div>
 					</div>
@@ -346,10 +346,10 @@
 			<div class="music background">
 				<div class="music icon_title"></div>
 				<div class="music middle subtitle">7천5백만 곡 이상. 첫 3개월은 무료.</div>
-				<div class="music more_info_wrapper">
-					<div class="more_info_sub_wrapper">
+				<div class="music middle more_info_wrapper">
+					<div class="music more_info_sub_wrapper">
 						<div class="button try">무료 체험하기</div>
-						<div class="button note">7</div>
+						<div class="music button note">7</div>
 						<div class="diagonal_arrow_icon"></div>
 					</div>
 					<div class="more_info_sub_wrapper">
@@ -359,10 +359,9 @@
 				</div>
 			</div>
 			<div class="fitness background">
-				<div class="fitness black_background big title">자신만의 이야기를 새기다.</div>
-				<div class="fitness black_background middle subtitle">AirPods을 위한 새로운 각인 옵션. 글자, 이모티콘, 숫자 조합으로 더욱 개성 있게.</div>
+				<div class="fitness black_background big title">세 개의 링. 하나의 목표.</div>
 				<div class="fitness black_background button more_info_wrapper">
-					<div class="more_info_sub_wrapper black_background">
+					<div class="fitness middle more_info_sub_wrapper black_background">
 						<div class="button more_info">Apple Watch의 활동 링 채우는 방법 살펴보기</div>
 						<div class="right_arrow_icon"></div>
 					</div>
