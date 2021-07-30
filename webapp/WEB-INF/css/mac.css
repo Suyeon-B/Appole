@@ -26,10 +26,6 @@ body {
 	display: inline-block;
 }
 
-.move_button{
-	background: yellow;
-}
-
 .banner_wrapper {
     height: 35px;
     background: #f5f5f7;
