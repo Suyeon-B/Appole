@@ -12,7 +12,12 @@
 <%@ include file="../component/top.jsp" %>
 <div class = "title">
 	<div class = "titleBanner">
-		<div class = "titleBanner_image"></div>
+		<div class = "titleBanner_image">
+				<div class ="titleBanner_title">Apple 지원에 오신 것을 환영합니다</div>
+			<div class = "titleBanner_box">
+				<input class = "titleBanner_search" placeholder = "지원 검색하기" />
+			</div>
+		</div>
 	</div>
 	
 	<div class = "mainBanner">

@@ -1,5 +1,8 @@
 @charset "EUC-KR";
 
+.vsc-initialized{
+	margin: 0px;
+}
 .main{
 	background: white;
 	margin: 40px auto;
@@ -70,7 +73,7 @@
 }
 .chapter_ipad_mini{
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/ipadmini_light__fax9y0phijyq_large.svg);
-    width: 22px;
+    width: 23px;
 }
 .chapter_compare{
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/ipad_comp_light__dsuwb5gy4uqa_large.svg);
