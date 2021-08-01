@@ -626,7 +626,7 @@
 						</div>
 					</div>
 					<div class ="tip_image_box">
-						<div class = "tip_image tip_music_image"></div>	
+						<div class = "tip_image tip_edu_image"></div>	
 					</div>
 				</div>
 				
