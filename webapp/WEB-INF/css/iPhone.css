@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /*전체 페이지 wrapper start*/
-
+.vsc-initialized{
+	margin: 0px;
+}
 .main{
 	background: white;
 	color: black;
@@ -65,7 +67,7 @@
 
 .chapter_iPhome_12_pro{
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/chapternav/iphone_12_pro_dark__c1xodf0hb1w2_large.svg);
-    width: 37px;
+    width: 39px;
 }
 .chapter_iPhome_12{
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/chapternav/iphone_12_dark__d7asodlag7e6_large.svg);
@@ -77,11 +79,11 @@
 }
 .chapter_iPhome_11{
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/chapternav/iphone_11_dark__di5n0jory1me_large.svg);
-    width: 22px;
+    width: 23px;
 }
 .chapter_iPhome_xr{
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/chapternav/iphone_xr_dark__ft3blnh7c6q2_large.svg);
-    width: 22px;
+    width: 23px;
 }
 .chapter_compare{
     background-image: url(https://www.apple.com/v/iphone/home/ay/images/chapternav/iphone_comp_dark__yooc623t6cii_large.svg);

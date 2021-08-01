@@ -1,5 +1,8 @@
 @charset "EUC-KR";
 
+.vsc-initialized{
+	margin: 0px;
+}
 .main{
 	background: white;
 	margin: 40px auto;
@@ -70,7 +73,7 @@
 }
 .chapter_ipad_mini{
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/ipadmini_light__fax9y0phijyq_large.svg);
-    width: 22px;
+    width: 23px;
 }
 .chapter_compare{
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/chapternav/ipad_comp_light__dsuwb5gy4uqa_large.svg);
@@ -845,13 +848,18 @@ a.moreInfo:hover {
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/arcade/apple_arcade_logo_tile__eou5pui8amc2_large.png);
 }
 .tip_music_image{
-	width: 554px;
-    height: 384px;
-    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/more-iphone/apple_music__djgc9tilelm6_large.jpg);
+	width: 675px;
+    height: 339px;
+    background-image: url(https://www.apple.com/kr/ipad/home/bn/images/overview/apple_music__dq9f4czrhw6e_large.jpg);
 }
 .tip_arcade_image{
     height: 600px;
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/arcade/apple_arcade_tile__rpe6yxbxcnue_large.jpg);
+}
+.tip_edu_image{
+	background-size: 675px 600px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/ipad_for_education__rvh8drp6mfma_large.jpg);
 }
 .tip_grid{
 	margin-top:35px;
