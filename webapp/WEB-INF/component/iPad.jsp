@@ -658,7 +658,9 @@
 	
 	
 </div>
-<%@ include file="../component/bottom.jsp" %>
 <script src="/js/iPad.js"></script>
 </body>
 </html>
+
+<!-- footer -->
+<%@ include file="../component/bottom.jsp" %>
