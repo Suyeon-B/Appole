@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*전체 페이지 wrapper start*/
-.vsc-initialized{
+body{
 	margin: 0px;
 }
 .main{
@@ -247,11 +247,60 @@ a.moreInfo:hover {
     width: 980px;
 }
 .purchase_box{
-	display: flex;
-	justify-content: center;
+	margin: 0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
 }
-.purchase{
-	background: gray;
+.purchase_title{
+	margin-top: 150px;
+	margin-bottom: 100px;
+	text-align: center;
+	font-size: 56px;
+    font-weight: 600;
+}
+.purchase_tip{
+	width: 1379px;
+    height: 564px;
+    background-size: 1379px 564px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/iphone/home/ay/images/overview/retail/trade_in__f9u728r4pbqu_large.jpg);
+}
+.purchase_reason{
+	width: 1380px;
+    height: 560px;
+    background-size: 1380px 560px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/retail/why_apple__genwe8js9fee_large.jpg);
+}
+.purchase_os{
+	width: 1380px;
+    height: 560px;
+    background-size: 1380px 560px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/retail/ios15_preview__f7lrpcnc3eum_large.jpg);
+}
+.purchase_box_info{
+	padding-top: 150px;
+	text-align: center;
+}
+.purchase_info_title{
+	font-size: 48px;
+    font-weight: 600;
+}
+.purchase_info_subtitle{
+	margin-top: 20px;
+	font-size: 21px;
+    font-weight: 400;
+}
+.purchase_info_link{
+	margin-top: 20px;
+	font-size: 21px;
+    font-weight: 400;
+    color: #0080ff;
+}
+.purchase_info_link:hover{
+	cursor: pointer;
+	text-decoration: underline;
 }
 .no_info{
 	display: flex;
@@ -260,6 +309,103 @@ a.moreInfo:hover {
 }
 
 /* 그리드 뷰 안 css*/
+
+
+
+
+.accessories_container{
+	width: 1070px;
+	margin: 0 auto;
+}
+.accessories_box{
+	height: 530px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	align-items: center;
+    justify-content: space-around;
+	background-color: white;
+	display: flex;
+}
+.accessories_info_box{
+	text-align: center;
+}
+.accessories_title{
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 56px;
+    font-weight: 600;
+}
+.accessories_info_title{
+	font-size: 48px;
+    font-weight: 600;
+}
+.accessories_info_subtitle{
+	font-size: 21px;
+    font-weight: 400;
+}
+.accessories_info_link{
+	text-align: center;
+	color: #06c;
+	font-size: 21px;
+    font-weight: 400;
+}
+.accessories_info_link:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.accessories_link{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: #06c;
+	font-size: 21px;
+    font-weight: 400;
+}
+.accessories_link:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.accessories_image__mag_safe{
+	width: 389px;
+    height: 394px;
+    background-size: 389px 394px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/accessories/magsafe__b2nmlrkzfyxe_large.jpg);
+}
+.accessories_image__air_tag{
+	width: 699px;
+    height: 531px;
+    background-size: 699px 531px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/accessories/airtag__ctmtc9km6r2a_large.jpg);
+}
+.accessories_image__air_pods{
+	width: 473px;
+    height: 233px;
+    background-size: 473px 233px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/iphone/home/ay/images/overview/accessories/iphone_airpods_engraving_update__cisee7n0dxsi_large.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 그리드 뷰 안 iPhome 이미지 작업 */
 .iPhome_device_image_box{
@@ -506,6 +652,87 @@ a.moreInfo:hover {
 
 
 /*benefit end*/
+
+
+.everything_title{
+	margin-top: 150px;
+	margin-bottom: 50px;	
+	text-align: center;
+	font-size: 56px;
+    font-weight: 600;
+}
+.everything_box{
+	width: 675px;
+	height: 610px;
+	background-color: white;
+	text-align: center;
+}
+.everything_box_image{
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 1380px;
+    height: 500px;
+    background-size: 1380px 500px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/why-iphone/ios14__dlqyobhcmbau_large.jpg);
+}
+.everything_box_list{
+	margin-top: 20px;
+	display: flex;
+	margin: 0 auto;
+	width: 1380px;
+	justify-content: space-between;
+}
+.everything_info_box{
+	color: white;
+	text-align: center;
+	align-items: center;
+	padding-top: 120px;
+}
+
+.everything_info_subtitle{
+	margin-top: 20px;
+	font-size: 21px;
+    font-weight: 400;
+}
+.everything_info_title{
+	margin-top: 30px;
+	font-size: 48px;
+    font-weight: 600;
+}
+.everything_info_link{
+	color: #06c;
+	margin-top: 20px;
+	font-size: 21px;
+    font-weight: 400;
+}
+.everything_info_link:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.everything_info_image{
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.everything_change_image{
+	width: 455px;
+    height: 374px;
+    background-size: 455px 374px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/iphone/home/ay/images/overview/why-iphone/switch_to_iphone__dcdfmymgd5ci_large.jpg);
+}
+.everything_privacy_image{
+	margin-top: 150px;
+	width: 63px;
+    height: 85px;
+    background-size: 63px 85px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/why-iphone/privacy__chvi4opnmg5e_large.png);
+}
+
+
+
+
 /*tip start*/
 .tip_container{
 	font-size: 56px;
@@ -514,6 +741,8 @@ a.moreInfo:hover {
     margin: 0 auto;
 }
 .tip_title{
+	margin-top: 150px;
+	margin-bottom: 50px;
 	text-align: center;
 }
 .tip_box{
@@ -554,6 +783,7 @@ a.moreInfo:hover {
 	background-size: cover;
 }
 .tip_online_image{
+	margin-bottom: 15px;
 	background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/more-iphone/virtual_sessions__gio0zwbyrvmi_large.jpg);
     height: 504px;
 }

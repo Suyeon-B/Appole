@@ -67,4 +67,10 @@ public class HomeController {
 	public String signup() {
 	    return "component/signup";
 	}
+	
+	//현준 작업용 iPadPro
+	@GetMapping(value = "/iPadPro")
+	public String iPadPro() {
+		return "component/iPadPro";
+	}
 }

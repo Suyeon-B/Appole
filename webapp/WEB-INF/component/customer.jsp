@@ -60,7 +60,7 @@
 			</div>
 		</div>
 					
-					
+		<div class = "line"></div>			
 					
 		<div class = "mainBanner_surviceBanner">
 			<div class = "surviceBanner_box">
@@ -86,7 +86,7 @@
 			
 		</div>
 		
-		
+		<div class = "line"></div>
 		
 		<div class = "mainBanner_tipBanner">
 		
@@ -114,6 +114,8 @@
 			</div>
 		</div>
 		
+		<div class = "line"></div>
+		
 		<div class = "mainBanner_today">
 			<div class = "today_box">
 				<div class = "today_info_box">
@@ -128,6 +130,7 @@
 			</div>
 		</div>
 		
+		
 		<div class = "mainBanner_support">
 			<div class = "support_box">
 				<div class = "support_info_box">
@@ -141,6 +144,7 @@
 			</div>
 		</div>
 		
+		
 		<div class = "mainBanner_specialist">
 			<div class = "specialist_box">
 				<div class = "specialist_image_box">
@@ -153,9 +157,9 @@
 				</div>
 				
 			</div>
-		
-		
 		</div>
+		
+		<div class = "line"></div>
 		
 		<div class = "mainBanner_question">
 			<div class = "question_box">
@@ -170,6 +174,7 @@
 			</div>
 		</div>
 		
+		<div class = "line"></div>
 		
 		<div class = "mainBanner_warning">
 			<div class = "warning_box">
@@ -178,6 +183,8 @@
 				<div class = "warning_subtitle">정품이 아닌 교체용 디스플레이는 시각적 품질이 좋지 않거나 제대로 작동하지 않을 수 있습니다. 신뢰할 수 있는 전문가가 정품<br>Apple 부품만을 사용하여 Apple 인증 디스플레이 수리를 수행합니다.</div>
 			</div>
 		</div>
+		
+		<div class = "line"></div>
 		
 		<div class = "mainBanner_appleSurvice">
 			<div class = "appleSurvice_box">
