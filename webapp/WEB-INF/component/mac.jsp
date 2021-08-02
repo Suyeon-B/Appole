@@ -500,3 +500,6 @@
 	</div>
 </body>
 </html>
+
+<!-- footer -->
+<%@ include file="../component/bottom.jsp" %>

@@ -525,9 +525,10 @@
 	
 
 
-<%@ include file="../component/bottom.jsp" %>
-
 
 <script src="/js/iPhone.js"></script>
 </body>
 </html>
+
+<!-- footer -->
+<%@ include file="../component/bottom.jsp" %>

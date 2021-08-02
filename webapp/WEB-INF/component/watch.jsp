@@ -372,3 +372,6 @@
 	<script src="/js/watch.js"></script>
 </body>
 </html>
+
+<!-- footer -->
+<%@ include file="../component/bottom.jsp" %>
