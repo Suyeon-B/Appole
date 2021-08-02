@@ -581,7 +581,6 @@
 				</div>
 			</div>
 			
-			<!-- 박스명 수정할 것 -->
 			<div class = "tip_grid">
 			
 				<div class = "tip_grid_box">
@@ -592,6 +591,7 @@
 						<div class = "tip_info_subtitle">7천5백만 곡 이상. 첫 3개월은 무료.</div>
 						<div class = "tip_info_link_box">
 							<div class = "tip_info_link">무료 체험하기</div>
+							<div class = "tip_info_link">더 알아보기</div>
 						</div>
 					</div>
 					<div class ="tip_image_box">
@@ -616,32 +616,21 @@
 				</div>
 				
 				<div class = "tip_grid_box">
-					<div class ="tip_info_box">
-						<div class = "tip_info_topic_image_box">
-							<div class = "tip_image tip_info_topic_image_arcade"></div>
+					<div class = "tip_item_box apple_and_edu">
+						<div class = "tip_item_info_box">
+							<div class = "tip_item_title">Apple과 교육</div>
+							<div class = "tip_item_subtitle">더 나은 세상을 만들 수 있는 힘을<br>교육자와 학생들에게.</div>
+							<div class = "tip_item_link">더 알아보기</div>
 						</div>
-						<div class = "tip_info_subtitle">7천5백만 곡 이상. 첫 3개월은 무료.</div>
-						<div class = "tip_info_link_box">
-							<div class = "tip_info_link">무료 체험하기</div>
-						</div>
-					</div>
-					<div class ="tip_image_box">
-						<div class = "tip_image tip_edu_image"></div>	
 					</div>
 				</div>
 				
 				<div class = "tip_grid_box">
-					<div class ="tip_info_box">
-						<div class = "tip_info_topic_image_box">
-							<div class = "tip_image tip_info_topic_image"></div>
+					<div class = "tip_item_box apple_at_work">
+						<div class = "tip_item_info_box">
+							<div class = "tip_item_title">Apple at Work</div>
+							<div class = "tip_item_link">더 알아보기</div>
 						</div>
-						<div class = "tip_info_subtitle">7천5백만 곡 이상. 첫 3개월은 무료.</div>
-						<div class = "tip_info_link_box">
-							<div class = "tip_info_link">무료 체험하기</div>
-						</div>
-					</div>
-					<div class ="tip_image_box">
-						<div class = "tip_image tip_music_image"></div>	
 					</div>
 				</div>
 				
@@ -669,7 +658,7 @@
 	
 	
 </div>
-
+<%@ include file="../component/bottom.jsp" %>
 <script src="/js/iPad.js"></script>
 </body>
 </html>

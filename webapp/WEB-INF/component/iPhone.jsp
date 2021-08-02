@@ -346,13 +346,85 @@
 
 
 <div class ="submain">	
-	<div class = "purchase">
-		<div class = "purchase_box">
-			<h2 class = "purchase_item">iPhome을 구입하는 방법</h2>
-			<div class = "purchase_tip"></div>
+
+	<div class = "purchase_container">
+		<div class = "purchase_title">iPhome을 구입하는 방법</div>
+		
+		<div class = "purchase_box purchase_tip">
+			<div class ="purchase_box_info">
+				<div class = "purchase_info_title">스마트폰을 반납하고<br>크레딧으로 돌려받으세요.</div>
+				<div class = "purchase_info_subtitle">Apple Trade In을 통해 보상 판매 대상 스마트폰을<br>반납하고, 새 iPhone 구매 시 사용할 수 있는 크레딧으로<br>교환하세요.* 기기의 가치를 최대한 활용하는 것, 당신은 물론<br>지구에게도 좋은 일이죠.</div>
+				<div class = "purchase_info_link">더 알아보기</div>
+			</div>
+		</div>
+	
+		<div class = "purchase_box purchase_reason">
+			<div class ="purchase_box_info">
+				<div class = "purchase_info_title">iPhone, Apple에서 사면<br>가장 좋은 이유.</div>
+				<div class = "purchase_info_subtitle">자신에게 맞는 결제 옵션을 선택하고, 보상 판매를 통해<br>지불 금액을 줄이고, 신속하게 설정을 마칠 수 있습니다.<br>언제든 채팅을 통해 스페셜리스트와 상담할 수도 있죠.</div>
+				<div class = "purchase_info_link">더 알아보기</div>
+			</div>
 		</div>
 
+		<div class = "purchase_box purchase_os">
+			<div class ="purchase_box_info">
+				<div class = "purchase_info_title">iOS 15</div>
+				<div class = "purchase_info_subtitle">순간에 충실하게. 서로에 충실하게.</div>
+				<div class = "purchase_info_link">더 알아보기</div>
+			</div>
+		</div>
 	</div>
+	
+	
+	<div class = "accessories_container">
+		<div class = "accessories_title">추천 액세서리</div>
+		
+		<div class = "accessories_box">
+			<div class = "accessories_info_box">
+				<div class = "accessories_info_title">MagSafe</div>
+				<div class = "accessories_info_subtitle">마그네틱 케이스나 카드지갑, 아니면 둘<br>모두를 한꺼번에 착. 그리고 무선 충전도<br>더욱 빠르게.</div>
+				<div class = "accessories_info_link_box">
+					<div class = "accessories_info_link">MagSafe 액세서리 쇼핑하기</div>
+				</div>
+			</div>
+			<div class = "accessories_image_box">
+				<div class = "accessories_image accessories_image__mag_safe"></div>
+			</div>
+		</div>
+		
+		<div class = "accessories_box">
+			<div class = "accessories_image_box">
+				<div class = "accessories_image accessories_image__air_tag"></div>
+			</div>
+			<div class = "accessories_info_box">
+				<div class = "accessories_info_title">AirTag</div>
+				<div class = "accessories_info_subtitle">하나는 열쇠에, 또 하나는 백팩에. 이제 분실한<br>물건 찾기도 AirTag로 한결 손쉽게.</div>
+				<div class = "accessories_info_link_box">
+					<div class = "accessories_info_link">구입하기</div>
+					<div class = "accessories_info_link">더 알아보기</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class = "accessories_box">
+			<div class = "accessories_info_box">
+				<div class = "accessories_info_title">AirPods</div>
+				<div class = "accessories_info_subtitle">AirPods을 위한 새로운 각인 옵션.<br>글자, 이모티콘, 숫자 조합으로<br>더욱 개성 있게.</div>
+				<div class = "accessories_info_link_box">
+					<div class = "accessories_info_link">쇼핑하기</div>
+					<div class = "accessories_info_link">더 알아보기</div>
+				</div>
+			</div>
+			<div class = "accessories_image_box">
+				<div class = "accessories_image accessories_image__air_pods"></div>
+			</div>
+		</div>
+		
+		<div class = "accessories_link">iPhone 액세서리 모두 보기</div>
+	
+	</div>
+	
+	
 	
 	
 	
@@ -381,6 +453,42 @@
 		</div>
 	</div>
 	
+	
+	<div class = "everything_container">
+		<div class = "everything_title">iPhone을 iPhone답게 만드는 모든 것.</div>
+		
+		<div class = "everything_box_image">
+			<div class = "everything_info_box">
+				<div class = "everything_info_subtitle">iOS 14</div>
+				<div class = "everything_info_title">확연히 새로운 모습.<br>여전히 친숙한 느낌.</div>
+				<div class = "everything_info_link">더 알아보기</div>
+			</div>
+		</div>
+		
+		<div class = "everything_box_list">
+			<div class = "everything_box">
+				<div class = "everything_info_title">iPhone으로 갈아타기</div>
+				<div class = "everything_info_subtitle">이유는 한가득. 방법은 초간단.</div>
+				<div class = "everything_info_link">더 알아보기</div>
+				<div class = "everything_info_image_box">
+					<div class = "everything_info_image everything_change_image"></div>
+				</div>
+			</div>
+			<div class = "everything_box">
+				<div class = "everything_info_image_box">
+					<div class = "everything_info_image everything_privacy_image"></div>
+				</div>
+				<div class = "everything_info_title">개인 정보 보호</div>
+				<div class = "everything_info_subtitle">어떤 정보를 공유할지는 당신만의 선택.</div>
+				<div class = "everything_info_link">더 알아보기</div>
+			</div>
+		</div>
+	
+	
+	</div>
+	
+	
+	
 	<div class = "tip_container">
 		<div class = "tip_title">iPhome을 더욱더 잘 활용하는 법.</div>
 		<div class = "tip">
@@ -397,102 +505,27 @@
 				</div>
 			</div>
 			
-			<!-- 박스명 수정할 것 -->
-			<div class = "tip_grid">
-			
-				<div class = "tip_grid_box">
-					<div class ="tip_info_box">
-						<div class = "tip_info_topic_image_box">
-							<div class = "tip_image tip_info_topic_image"></div>
-						</div>
-						<div class = "tip_info_subtitle">7천5백만 곡 이상. 첫 3개월은 무료.</div>
-						<div class = "tip_info_link_box">
-							<div class = "tip_info_link">무료 체험하기</div>
-						</div>
+			<div class = "tip_lists">
+				<div class = "tip_list">
+					<div class = "tip_list_info_box">
+						<div class = "tip_list_info_title"></div>
 					</div>
-					<div class ="tip_image_box">
-						<div class = "tip_image tip_music_image"></div>	
-					</div>
+					<div class = "tip_list_image_box"></div>
 				</div>
-				
-				<div class = "tip_grid_box">
-					<div class ="tip_info_box">
-						<div class = "tip_info_topic_image_box">
-							<div class = "tip_image tip_info_topic_image"></div>
-						</div>
-						<div class = "tip_info_subtitle">iPad를 구입하면 Apple Arcade가<br>3개월 무료.</div>
-						<div class = "tip_info_link_box">
-							<div class = "tip_info_link">무료 체험하기</div>
-							<div class = "tip_info_link">더 알아보기</div>
-						</div>
-					</div>
-					<div class ="tip_image_box">
-						<div class = "tip_image tip_music_image"></div>	
-					</div>
-				</div>
-				
-				<div class = "tip_grid_box">
-					<div class ="tip_info_box">
-						<div class = "tip_info_topic_image_box">
-							<div class = "tip_image tip_info_topic_image"></div>
-						</div>
-						<div class = "tip_info_subtitle">7천5백만 곡 이상. 첫 3개월은 무료.</div>
-						<div class = "tip_info_link_box">
-							<div class = "tip_info_link">무료 체험하기</div>
-						</div>
-					</div>
-					<div class ="tip_image_box">
-						<div class = "tip_image tip_music_image"></div>	
-					</div>
-				</div>
-				
-				<div class = "tip_grid_box">
-					<div class ="tip_info_box">
-						<div class = "tip_info_topic_image_box">
-							<div class = "tip_image tip_info_topic_image"></div>
-						</div>
-						<div class = "tip_info_subtitle">7천5백만 곡 이상. 첫 3개월은 무료.</div>
-						<div class = "tip_info_link_box">
-							<div class = "tip_info_link">무료 체험하기</div>
-						</div>
-					</div>
-					<div class ="tip_image_box">
-						<div class = "tip_image tip_music_image"></div>	
-					</div>
-				</div>
-				
-				
+				<div class = "tip_list"></div>
 			</div>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		</div>
+	</div>
 	
-	
-	
-	
-	
-	
+	<div class = "lower_container">
 	</div>
 	
 	
 </div>		
 	
-	
-	<div class = "section"></div>
-	<div class = "section"></div>
-	<div class = "section"></div>
 
 
-
-
+<%@ include file="../component/bottom.jsp" %>
 
 
 <script src="/js/iPhone.js"></script>
