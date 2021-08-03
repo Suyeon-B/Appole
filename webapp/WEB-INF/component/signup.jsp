@@ -10,6 +10,16 @@
 <!--  상단 메뉴바 -->
 <%@ include file="../component/top.jsp" %>
 
+<div class = "main">
+	<div class = "box name_box">
+		<div class = "item"></div>
+	</div>
+	<div class = "box"></div>
+	<div class = "box"></div>
+	<div class = "box"></div>
+
+
+</div>
 
 
 <script src="/js/signup.js"></script>

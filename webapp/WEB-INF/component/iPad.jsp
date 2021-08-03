@@ -4,6 +4,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="/css/iPad.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <meta charset="UTF-8">
 <title>iPab</title>
 </head>
@@ -14,7 +15,7 @@
 	<div class = "chapter_container">
 		<div class = "chapter_box">
 			<div class = "chapter_items">	
-				<div class = "chapter_item">
+				<div class = "chapter_item chapter_iPadPro">
 					<div class = "chapter_image_box">
 						<div class = "chapter_image chapter_ipad_pro"></div>
 					</div>
@@ -89,7 +90,7 @@
 
 
 	<div class = "titleBanner">
-		<div class = "titleBanner_container">
+		<div class = "titleBanner_container" data-aos="zoom-in-right">
 			<div class = "titleBanner__info_box ">
 				<div class = "titleBanner__info_status">new</div>
 				<div class = "titleBanner__info_title">iPab Pro</div>
@@ -103,7 +104,7 @@
 			</div>
 		</div>
 		
-		<div class = "titleBanner_container">
+		<div class = "titleBanner_container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<div class = "titleBanner__image_box">
 				<div class = "titleBanner__ipad_air_image"></div>
 			</div>
@@ -659,6 +660,10 @@
 	
 </div>
 <script src="/js/iPad.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+	AOS.init();
+</script>
 </body>
 </html>
 
