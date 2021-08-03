@@ -133,12 +133,10 @@ body{
 }
 
 /* music 차트 swiper */
-html{
-	position: relative;
-}
 .swiper-container {
 	width: 100%;
 	height: 100%;
+	height: 228px;
 }
 .swiper-slide {
 	text-align: center;
@@ -181,6 +179,61 @@ html{
 .swiper-pagination-bullet-active {
 	color:#fff;
 	background: #007aff;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    border-radius: 0;
+    color: transparent !important;
+    background-color: transparent !important;
+    -webkit-tap-highlight-color: transparent;
+    height: 228px;
+    width: calc(( 100% - 980px )/2 - 20px);
+}
+
+/* 차트 제목 */
+.chart_box {
+    margin: 20px 0px 42px;
+}
+.chart_name_wrapper {
+	margin: 0 34px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 222px;
+    font-weight: 700;
+    padding-bottom: 3px;
+    font-size: 16px;
+    line-height: 1;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    color: #bcbcbc;
+    text-align: left;
+    z-index: 0;
+    width: fit-content;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #c7c7c7;
+}
+.chart_name {
+	pointer-events: none;
+    color: #bcbcbc;
+    text-decoration: none;
+    z-index: 10;
+    margin-right: 38px;
+    position: relative;
+}
+.button.chart_name.new {
+    margin-right: 0;
+}
+.favourites {
+    color: #e85f82;
+}
+.favourites:after {
+    left: 0;
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    border-bottom: 1px solid #e85f82;
+    content: '';
 }
 
 
@@ -462,16 +515,136 @@ html{
     width: 980px;
     margin: 0 auto;
 }
-
-/* music_memo */
-.music_memo.icon {
+.music_app_icon {
+    margin: 0 auto;
     width: 71px;
     height: 90px;
     background-size: 71px 90px;
     background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/music/s/images/overview/musicmemos__d67dg2t2c66a_large_2x.jpg);
-    top: 9px;
 }
-.music_memo.black_background.middle.title {
+.music_memo.music_app_icon {
+    background-image: url(https://www.apple.com/v/music/s/images/overview/musicmemos__d67dg2t2c66a_large_2x.jpg);
+}
+.GarageBand.music_app_icon {
+    background-image: url(https://www.apple.com/v/music/s/images/overview/garageband__bfloyybsgche_large_2x.jpg);
+}
+.LogicPro.music_app_icon {
+    background-image: url(https://www.apple.com/v/music/s/images/overview/logicprox__ezsst8llu24i_large_2x.jpg);
+}
+.MainStage.music_app_icon {
+    background-image: url(https://www.apple.com/v/music/s/images/overview/mainstage3__fesr1aswedm6_large_2x.jpg);
+}
+.black_background.middle.title {
     margin-top: 15px;
+}
+.music_app.background {
+    width: 1792px;
+    height: 505px;
+    background-size: 1792px 505px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/music/s/images/overview/appsfromapple__ccg14s8qy6qa_large_2x.jpg);
+    position: relative;
+    left: 50%;
+    margin-left: -896px;
+    margin-top: 73px;
+    margin-bottom: -4px;
+}
+.music_memo.more_info_wrapper {
+    color: #06c;
+    margin-top: -3px;
+}
+
+
+/* <!-- Apple Music과 함께 하는 법. --> */
+.music_partner.icon {
+    width: 73px;
+    height: 73px;
+    background-size: 73px 73px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/music/s/images/overview/apple_music__ff0xz76umvue_large_2x.png);
+    position: relative;
+    left: 50%;
+    margin-left: -36.5px;
+    margin-bottom: 13px;
+    margin-top: 140px;
+}
+.music_partner.more_info_wrapper {
+    margin-bottom: 140px;
+}
+.music_partner.small.title {
+    font-weight: 350;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 29px;
+}
+.music_partner.more_info_sub_wrapper {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+/* <!-- benefit_container --> */
+.benefit_container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    word-break: keep-all;
+    background-color: #f5f5f7;
+}
+.benefit {
+    display: flex;
+    justify-content: center;
+}
+.benefit_box {
+    padding: 58px;
+    line-height: 1.31579;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.benefit__image {
+    width: 100%;
+    height: 56px;
+    background-size: 100% 56px;
+    background-repeat: no-repeat;
+}
+.benefit__title {
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .525em;
+}
+.benefit__subtitle{
+	margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 1.5;
+}
+.delivery_image {
+    background-image: url(https://www.apple.com/ac/globalfooter/6/ko_KR/assets/ac-buystrip/shipping/icon_large.svg);
+}
+.carving_image {
+    background-image: url(https://www.apple.com/ac/globalfooter/6/ko_KR/assets/ac-buystrip/engraving/icon_large.svg);
+}
+
+
+/* <!-- terms --> */
+.terms {
+    width: 980px;
+    margin: 0 auto;
+    font-size: 11px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border-bottom: 1px solid #d2d2d7;
+    border-top: 1px solid #d2d2d7;
+    padding: 17px 0 11px;
+    text-align: initial;
+    padding-bottom: 26.68px;
+}
+.terms_box {
+    background-color: #f5f5f7;
+    color: #86868b;
 }
