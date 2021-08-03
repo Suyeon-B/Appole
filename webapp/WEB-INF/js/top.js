@@ -34,3 +34,6 @@ $('.Search').click(function() {
 $('.cart').click(function() {
 	location.href = '/cart';
 });
+
+
+
