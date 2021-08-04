@@ -81,17 +81,17 @@
 			</div>
 		</div>
 	</div>
-
+	
 	<!-- 교육 할인 스토어 배너 -->
-	<div class="eduBanner">
-		<div class="eduBanner_info">iPab를 Apple 교육 할인 스토어에서 최저 419,000원에 구입할 수 있습니다.*</div>
-		<a class="eduBanner_button">쇼핑하기</a>
+	<div class="eduBanner" data-aos="flip-right" data-aos-duration="1000">
+		<div class="eduBanner_info">iPab를 Apple 교육 할인 스토어에서 최저 419,000원에 구입할 수 있습니다.* </div>
+		<a class="eduBanner_button moreInfo"> 쇼핑하기</a>
 	</div>
 
 
 	<div class = "titleBanner">
-		<div class = "titleBanner_container" data-aos="zoom-in-right">
-			<div class = "titleBanner__info_box ">
+		<div class = "titleBanner_container">
+			<div class = "titleBanner__info_box">
 				<div class = "titleBanner__info_status">new</div>
 				<div class = "titleBanner__info_title">iPab Pro</div>
 				<div class = "titleBanner__info_subtitle">궁극의 iPab란 이런 것.</div>
@@ -104,8 +104,8 @@
 			</div>
 		</div>
 		
-		<div class = "titleBanner_container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<div class = "titleBanner__image_box">
+		<div class = "titleBanner_container">
+			<div class = "titleBanner__image_box" data-aos="fade-right" data-aos-offset="300" data-aos-duration="500">
 				<div class = "titleBanner__ipad_air_image"></div>
 			</div>
 			<div class = "titleBanner__info_box right_box">
@@ -114,10 +114,7 @@
 				<div class = "titleBanner__info_price">\779,000부터</div>
 				<div class = "titleBanner__info_button"></div>
 				<div class = "titleBanner__info_moreInfo"></div>
-			
-			
 			</div>
-			
 		</div>
 		
 		<div class = "titleBanner_container">
@@ -128,13 +125,13 @@
 				<div class = "titleBanner__info_button"></div>
 				<div class = "titleBanner__info_moreInfo"></div>
 			</div>
-			<div class = "titleBanner__image_box">
+			<div class = "titleBanner__image_box" data-aos="fade-left" data-aos-offset="300" data-aos-duration="500">
 				<div class = "titleBanner__ipad_image"></div>
 			</div>
 		</div>
 		
 		<div class = "titleBanner_container">
-			<div class = "titleBanner__image_box">
+			<div class = "titleBanner__image_box" data-aos="fade-right" data-aos-offset="300" data-aos-duration="500">
 				<div class = "titleBanner__ipad_mini_image"></div>
 			</div>
 			<div class = "titleBanner__info_box right_box">
@@ -163,7 +160,7 @@
 				<div class = "compareTable">
 					
 					<div class = "ipad_pro_device">
-						<div class = "ipad_device_image_box">
+						<div class = "ipad_device_image_box" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 							<div class = "ipad_pro_device_image"></div>
 						</div>
 						<div class = "ipad_pro_device_info">
@@ -183,21 +180,21 @@
 						</div>
 					</div>
 					
-					<div class = "ipad_pro_chip">
+					<div class = "compareTable_chip" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image pro_chip_image"></div>
 						</div>
 						<div class = "info__title">M1 칩</div>
 					</div>
 					
-					<div class = "ipad_pro_connecter">
+					<div class = "compareTable_connecter" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image pro_connecter_image"></div>
 						</div>
 						<div class = "info__title">Thunderbolt/USB 4를 지원하는<br>USB-C 커넥터</div>
 					</div>
 					
-					<div class = "ipad_pro_cellular">
+					<div class = "compareTable_cellular" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image pro_cellular_image"></div>
 						</div>
@@ -205,27 +202,27 @@
 					</div>
 					
 					
-					<div class = "ipad_pro_pencil">
+					<div class = "compareTable_pencil" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image pro_pencil_image"></div>
 						</div>
 						<div class = "info__title">Apple Pencil(2세대)과 호환</div>
 					</div>
 					
-					<div class = "ipad_pro_keyboard">
+					<div class = "compareTable_keyboard" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image pro_keyboard_image"></div>
 						</div>
 						<div class = "info__title">Magic Keyboard 및<br>Smart Keyboard Folio와<br>호환</div>
 					</div>
 					
-					<a class = "moreInfo grid_item">더 알아보기</a>
+					<a class = "moreInfo grid_item" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">더 알아보기</a>
 					
 					
 					
 					
 					<div class = "ipad_air_device">
-						<div class = "ipad_device_image_box">	
+						<div class = "ipad_device_image_box"  data-aos="fade-down-left" data-aos-offset="400" data-aos-duration="1000">	
 							<div class = "ipad_air_device_image"></div>
 						</div>
 						<div class = "ipad_air_device_info">
@@ -246,21 +243,21 @@
 						</div>
 					</div>
 					
-					<div class = "ipad_air_chip">
+					<div class = "compareTable_chip" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image air_chip_image"></div>
 						</div>
 						<div class = "info__title">A14 Bionic 칩</div>
 					</div>
 					
-					<div class = "ipad_pro_connecter">
+					<div class = "compareTable_connecter" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image air_connecter_image"></div>
 						</div>
 						<div class = "info__title">USB-C 커넥터</div>
 					</div>
 					
-					<div class = "ipad_pro_cellular">
+					<div class = "compareTable_cellular" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image air_cellular_image"></div>
 						</div>
@@ -268,26 +265,26 @@
 					</div>
 					
 					
-					<div class = "ipad_pro_pencil">
+					<div class = "compareTable_pencil" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image air_pencil_image"></div>
 						</div>
 						<div class = "info__title">Apple Pencil(2세대)과 호환</div>
 					</div>
 					
-					<div class = "ipad_pro_keyboard">
+					<div class = "compareTable_keyboard" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image air_keyboard_image"></div>
 						</div>
 						<div class = "info__title">Magic Keyboard 및<br>Smart Keyboard Folio와<br>호환</div>
 					</div>
 					
-					<a class = "moreInfo grid_item" href="/kr/iphone-12/">더 알아보기</a>
+					<a class = "moreInfo grid_item" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">더 알아보기</a>
 					
 					
 					
 					<div class = "ipad_se_device">
-						<div class = "ipad_device_image_box">
+						<div class = "ipad_device_image_box"  data-aos="fade-down-right" data-aos-offset="400" data-aos-duration="1000">
 							<div class = "ipad_device_image"></div>
 						</div>
 						<div class = "ipad_se_device_info">
@@ -303,21 +300,21 @@
 					
 					<div class = "ipad_se_display grid_item">Retina 디스플레이</div>
 					
-					<div class = "ipad_chip">
+					<div class = "compareTable_chip" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image ipad_chip_image"></div>
 						</div>
 						<div class = "info__title">A12 Bionic 칩</div>
 					</div>
 					
-					<div class = "ipad_pro_connecter">
+					<div class = "compareTable_connecter" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image ipad_connecter_image"></div>
 						</div>
 						<div class = "info__title">Lightning 커넥터</div>
 					</div>
 					
-					<div class = "ipad_pro_cellular">
+					<div class = "compareTable_cellular" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image ipad_cellular_image"></div>
 						</div>
@@ -325,27 +322,27 @@
 					</div>
 					
 					
-					<div class = "ipad_pro_pencil">
+					<div class = "compareTable_pencil" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image ipad_pencil_image"></div>
 						</div>
 						<div class = "info__title">Apple Pencil(1세대)와 호환</div>
 					</div>
 					
-					<div class = "ipad_pro_keyboard">
+					<div class = "compareTable_keyboard" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image ipad_keyboard_image"></div>
 						</div>
 						<div class = "info__title">Smart Keyboard와 호환</div>
 					</div>
 					
-					<a class = "moreInfo grid_item">더 알아보기</a>
+					<a class = "moreInfo grid_item" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">더 알아보기</a>
 					
 					
 					
 					
 					<div class = "ipad_mini_device">
-						<div class = "ipad_device_image_box">
+						<div class = "ipad_device_image_box"  data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
 							<div class = "ipad_mini_device_image"></div>
 						</div>
 						<div class = "ipad_11_device_info">
@@ -360,21 +357,21 @@
 					
 					<div class = "ipad_mini_display">Retina 디스플레이</div>
 					
-					<div class = "ipad_pro_chip">
+					<div class = "compareTable_chip" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image mini_chip_image"></div>
 						</div>
 						<div class = "info__title">A12 Bionic 칩</div>
 					</div>
 					
-					<div class = "ipad_pro_connecter">
+					<div class = "compareTable_connecter" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image mini_connecter_image"></div>
 						</div>
 						<div class = "info__title">Lightning 커넥터</div>
 					</div>
 					
-					<div class = "ipad_pro_cellular">
+					<div class = "compareTable__cellular" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image mini_cellular_image"></div>
 						</div>
@@ -382,21 +379,21 @@
 					</div>
 					
 					
-					<div class = "ipad_pro_pencil">
+					<div class = "compareTable_pencil" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image mini_pencil_image"></div>
 						</div>
 						<div class = "info__title">Apple Pencil(1세대)와 호환</div>
 					</div>
 					
-					<div class = "ipad_pro_keyboard">
+					<div class = "compareTable_keyboard" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 						<div class = "info__image_box">
 							<div class = "info__image mini_keyboard_image"></div>
 						</div>
 						<div class = "info__title"> Bluetooth 키보드와 호환</div>
 					</div>
 					
-					<a class = "moreInfo grid_item">더 알아보기</a>
+					<a class = "moreInfo grid_item" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">더 알아보기</a>
 				</div>
 			</div>
 		</div>
@@ -413,7 +410,9 @@
 		
 			<div class = "trade_info_box">
 				<div class = "trade_info__title">사용하던 iPab를 보상 판매하면 새 모델 구매 시 쓸 수 있는 크레딧이.</div>
-				<div class = "trade_info__subtitle">Apple Trade In을 통해 보상 판매 대상 iPad를 새 iPad 구매 시 쓸 수 있는 크레딧으로 교환할 수 있습니다. 기기의 가치를 최대한 활용하는 것, 당신은 물론 지구에게도 좋은 일이죠.</div>
+				<div class = "trade_info__subtitle">
+				Apple Trade In을 통해 보상 판매 대상 iPad를 새 iPad 구매 시 쓸 수 있는 크레딧으로 교환할 수 있습니다. 
+				기기의 가치를 최대한 활용하는 것, 당신은 물론 지구에게도 좋은 일이죠.</div>
 				<a class = "moreInfo">더 알아보기</a>
 			</div>
 		</div>
@@ -455,7 +454,8 @@
 			<div class ="benefit_box">
 				<div class="benefit__image personal_image"></div>
 				<div class="benefit__title">자신만의 것이라는 증표</div>
-				<div class="benefit__subtitle">자신의 이름이나 개성있는<br>문구를 Apple 제품에 무료로<br>각인할 수 있습니다.<br>Apple에서만 제공합니다. </div>
+				<div class="benefit__subtitle">
+				자신의 이름이나 개성있는<br>문구를 Apple 제품에 무료로<br>각인할 수 있습니다.<br>Apple에서만 제공합니다. </div>
 				<div class="benefit__moreInfo moreInfo">더 알아보기</div>
 			</div>
 		</div>
@@ -468,7 +468,7 @@
 		<div class = "essential_title">iPab와 천생연분</div>
 		<div class = "essential">
 			<div class = "essential_box">
-				<div class = "essential_info_box">
+				<div class = "essential_info_box upper_title">
 					<div class = "essential_info_title">Apple Pencil</div>
 					<div class = "essential_info_subtitle">상상을 적어내다.</div>
 					<div class = "essential_info_link_box"></div>
@@ -491,9 +491,10 @@
 			</div>
 			
 			<div class = "essential_box">
-				<div class = "essential_info_box">
+				<div class = "essential_info_box upper_title">
 					<div class = "essential_info_title">액세서리</div>
-					<div class = "essential_info_subtitle">케이스, 커버, AirPods, Apple Pencil, 그 밖에<br>다양한 액세서리를 만나보세요.</div>
+					<div class = "essential_info_subtitle">
+					케이스, 커버, AirPods, Apple Pencil, 그 밖에<br>다양한 액세서리를 만나보세요.</div>
 					<div class = "essential_info_link_box"></div>
 				</div>
 				<div class = "essential_image_box">
@@ -504,9 +505,10 @@
 			</div>
 			
 			<div class = "essential_box">
-				<div class = "essential_info_box">
+				<div class = "essential_info_box upper_title">
 					<div class = "essential_info_title">자신만의 이야기를 새기다</div>
-					<div class = "essential_info_subtitle">iPad, Apple Pencil, AirPods를 위한<br>새로운 각인 옵션. 글자, 이모티콘, 숫자<br>조합으로 더욱 개성 있게.</div>
+					<div class = "essential_info_subtitle">
+					iPad, Apple Pencil, AirPods를 위한<br>새로운 각인 옵션. 글자, 이모티콘, 숫자<br>조합으로 더욱 개성 있게.</div>
 					<div class = "essential_info_link_box"></div>
 				</div>
 				<div class = "essential_image_box">
@@ -574,7 +576,8 @@
 				<div class ="tip_info_box">
 					<div class = "tip_info_topic">Today at Apple</div>
 					<div class = "tip_info_title">온라인 세션</div>
-					<div class = "tip_info_subtitle">Apple 크리에이티브가 진행하는 라이브<br>세션에 참여하여 iPhone의 기본 기능을<br>배워보세요.</div>
+					<div class = "tip_info_subtitle">
+					Apple 크리에이티브가 진행하는 라이브<br>세션에 참여하여 iPhone의 기본 기능을<br>배워보세요.</div>
 					<div class = "tip_info_link">등록하기</div>
 				</div>
 				<div class ="tip_image_box">

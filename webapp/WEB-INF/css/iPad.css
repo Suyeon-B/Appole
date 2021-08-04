@@ -2,6 +2,8 @@
 
 body{
 	margin: 0px;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 .main{
 	background: white;
@@ -112,7 +114,8 @@ body{
     font-size: 12px;
     font-weight: 400;
 }
-.eduBanner_bitton{
+.eduBanner_button{
+	width: 70px;
 	align-items: center;
 	text-decoration:none;
 	cursor: pointer;
@@ -155,6 +158,7 @@ body{
 }
 
 .titleBanner__info_box{
+	z-index: 1;
 	width: 300px;
 }
 .left_box{
@@ -224,6 +228,7 @@ body{
 }
 a.moreInfo:hover {
    text-decoration: underline;
+   cursor: pointer;
 }
 
 
@@ -294,8 +299,15 @@ a.moreInfo:hover {
 	display: flex;
     justify-content: center;
 }
-
-
+.compareTable_connecter{
+	margin-top: 10px;
+}
+.compareTable_pencil{
+	margin-top: 30px;
+}
+.compareTable_keyboard{
+	margin-top: 10px;
+}
 
 
 .info__title{
@@ -659,6 +671,7 @@ a.moreInfo:hover {
 	background-repeat: no-repeat;
 }
 .essential_pencil_image{
+	margin-top: 45px;
 	width: 675px;
     height: 373px;
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/apple_pencil__ekq506kmmys2_large.jpg);
@@ -690,10 +703,13 @@ a.moreInfo:hover {
 }
 .essential_info_subtitle{
 	margin-top: 20px;
+	margin-bottom: 70px;
 	font-size: 21px;
     font-weight: 400;
 }
-
+.upper_title{
+	padding-top: 50px;
+}
 /*essential end*/
 /*everything start*/
 
