@@ -186,9 +186,12 @@ body {
     letter-spacing: 1px;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
-
-.button{
-	cursor: pointer;
+.button:hover {
+    cursor: pointer;
+}
+.button.more_info:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .button.buy {
@@ -232,19 +235,35 @@ body {
     align-items: center;
    	color: #0071e3;
 }
-
+.more_info_wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
 .button.more_info {
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
    	color: #0071e3;
+	margin-right: 5px;
 }
-
+.more_info_icon::after {
+    content: "〉";
+    font-size: 13px;
+    font-weight: bolder;
+    margin-left: 6px;
+    color: #0071e3;
+}
 .button.more_info_icon {
     width: 10px;
-    height: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.section_2.more_info_sub_wrapper {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -444,7 +463,7 @@ body {
     box-shadow: 0 0 0 4px rgb(0 125 250 / 60%);
     outline: none;
 }
-.button.laptop_models.more_info_wrapper {
+.laptop_models.more_info_wrapper {
 	margin-bottom: 100px;
     border-top: 1px solid #d2d2d7;
     padding-top: 22px;
