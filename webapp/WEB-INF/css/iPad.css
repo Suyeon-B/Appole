@@ -1,6 +1,7 @@
 @charset "EUC-KR";
 
 body{
+	font-family: "SF Pro KR";
 	margin: 0px;
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -174,22 +175,48 @@ body{
 	width: 1335px;
     height: 598px;
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/hero/ipad_pro_hero__bh3eq6sqfjw2_large.jpg);
+	animation: rightMovement 2s 1s infinite alternate;  /*iPadPro 처음에 글자 박스가 오른쪽에서 왼쪽으로 움직임*/
    
+   
+   
+}
+@keyframes rightMovement{
+  from{
+  	margin-left: 0%;
+  }
+  to{
+    margin-left: 20%;
+  }
+}
+@keyframes leftMovement{
+  from{
+  	margin-left: 0%;
+  }
+  to{
+    margin-left: -20%;
+  }
 }
 .titleBanner__ipad_air_image_box{
 	margin-right: 50px;
 }
 .titleBanner__ipad_air_image{
+	z-index: 1;
+	background-repeat: no-repeat;
+	animation: leftMovement 2s 1s infinite alternate;
 	width: 519px;
     height: 619px;
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/hero/ipad_air__d794tkovmk02_large.jpg);
 }
 .titleBanner__ipad_image{
+	animation: rightMovement 2s 1s infinite alternate;
 	width: 895px;
     height: 473px;
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/hero/ipad_102__6owpgpyhqyqy_large.jpg);
 }
 .titleBanner__ipad_mini_image{
+	z-index: 1;
+	background-repeat: no-repeat;
+	animation: leftMovement 2s 1s infinite alternate;
 	width: 660px;
     height: 548px;
     background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/hero/ipad_mini__dn6g8b0hw8om_large.jpg);
@@ -218,6 +245,24 @@ body{
 	font-size: 17px;
 	font-weight: 400;
 	color: black;
+}
+.titleBanner__info_button{
+	margin-top: 20px;
+	width: 60px;
+	align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 50px;
+    background: #0071e3;
+    color: #fff;
+    padding: 8px 16px 8px 16px;
+}
+.right_button{
+	display: flex;
+	justify-content: flex-end;
 }
 
 
@@ -577,7 +622,7 @@ a.moreInfo:hover {
     font-weight: 400;
 }
 .os_image{
-	
+	z-index: 1;
 	margin: 0 auto;
 	width: 1000px;
     height: 500px;

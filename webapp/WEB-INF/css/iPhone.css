@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*전체 페이지 wrapper start*/
 body{
+	font-family: "SF Pro KR";
 	margin: 0px;
 }
 .main{
@@ -345,6 +346,7 @@ a.moreInfo:hover {
     font-weight: 400;
 }
 .accessories_info_link{
+	margin-top: 10px;
 	text-align: center;
 	color: #06c;
 	font-size: 21px;
@@ -766,10 +768,12 @@ a.moreInfo:hover {
     font-weight: 600;
 }
 .tip_info_subtitle{
+	margin-top: 15px;
 	font-size: 21px;
     font-weight: 400;
 }
 .tip_info_link{
+	margin-top: 15px;
 	font-size: 21px;
     font-weight: 400;
     color: #06c;

@@ -96,7 +96,7 @@
 				<div class = "titleBanner__info_title">iPab Pro</div>
 				<div class = "titleBanner__info_subtitle">궁극의 iPab란 이런 것.</div>
 				<div class = "titleBanner__info_price">\999,000부터</div>
-				<div class = "titleBanner__info_button"></div>
+				<div class = "titleBanner__info_button">구입하기</div>
 				<div class = "titleBanner__info_moreInfo"></div>
 			</div>
 			<div class = "titleBanner__image_box">
@@ -105,14 +105,16 @@
 		</div>
 		
 		<div class = "titleBanner_container">
-			<div class = "titleBanner__image_box" data-aos="fade-right" data-aos-offset="300" data-aos-duration="500">
+			<div class = "titleBanner__image_box">
 				<div class = "titleBanner__ipad_air_image"></div>
 			</div>
 			<div class = "titleBanner__info_box right_box">
 				<div class = "titleBanner__info_title">iPab Air</div>
 				<div class = "titleBanner__info_subtitle">강력하다. 다채롭다. <br>경이롭다.</div>
 				<div class = "titleBanner__info_price">\779,000부터</div>
-				<div class = "titleBanner__info_button"></div>
+				<div class = "titleBanner__info_button_box right_button">
+					<div class = "titleBanner__info_button">구입하기</div>
+				</div>
 				<div class = "titleBanner__info_moreInfo"></div>
 			</div>
 		</div>
@@ -122,23 +124,25 @@
 				<div class = "titleBanner__info_title">iPab</div>
 				<div class = "titleBanner__info_subtitle">만족스러운 성능, <br>기분 좋은 가격.</div>
 				<div class = "titleBanner__info_price">\499,000부터</div>
-				<div class = "titleBanner__info_button"></div>
+				<div class = "titleBanner__info_button">구입하기</div>
 				<div class = "titleBanner__info_moreInfo"></div>
 			</div>
-			<div class = "titleBanner__image_box" data-aos="fade-left" data-aos-offset="300" data-aos-duration="500">
+			<div class = "titleBanner__image_box">
 				<div class = "titleBanner__ipad_image"></div>
 			</div>
 		</div>
 		
 		<div class = "titleBanner_container">
-			<div class = "titleBanner__image_box" data-aos="fade-right" data-aos-offset="300" data-aos-duration="500">
+			<div class = "titleBanner__image_box">
 				<div class = "titleBanner__ipad_mini_image"></div>
 			</div>
 			<div class = "titleBanner__info_box right_box">
 				<div class = "titleBanner__info_title">iPab mini</div>
 				<div class = "titleBanner__info_subtitle">작은 사이즈, <br>거대한 역량.</div>
 				<div class = "titleBanner__info_price">\499,000부터</div>
-				<div class = "titleBanner__info_button"></div>
+				<div class = "titleBanner__info_button_box right_button">
+					<div class = "titleBanner__info_button">구입하기</div>
+				</div>
 				<div class = "titleBanner__info_moreInfo"></div>
 			</div>
 		</div>
@@ -222,7 +226,7 @@
 					
 					
 					<div class = "ipad_air_device">
-						<div class = "ipad_device_image_box"  data-aos="fade-down-left" data-aos-offset="400" data-aos-duration="1000">	
+						<div class = "ipad_device_image_box" data-aos="fade-down-left" data-aos-offset="400" data-aos-duration="1000">	
 							<div class = "ipad_air_device_image"></div>
 						</div>
 						<div class = "ipad_air_device_info">
@@ -284,7 +288,7 @@
 					
 					
 					<div class = "ipad_se_device">
-						<div class = "ipad_device_image_box"  data-aos="fade-down-right" data-aos-offset="400" data-aos-duration="1000">
+						<div class = "ipad_device_image_box" data-aos="fade-down-right" data-aos-offset="400" data-aos-duration="1000">
 							<div class = "ipad_device_image"></div>
 						</div>
 						<div class = "ipad_se_device_info">
@@ -342,7 +346,7 @@
 					
 					
 					<div class = "ipad_mini_device">
-						<div class = "ipad_device_image_box"  data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
+						<div class = "ipad_device_image_box" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
 							<div class = "ipad_mini_device_image"></div>
 						</div>
 						<div class = "ipad_11_device_info">
@@ -404,7 +408,7 @@
 	<div class = "trade_container">
 		<div class ="trade">
 			<div class = "trade_image_box">
-				<div class = "trade_image"></div>
+				<div class = "trade_image" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1500"></div>
 			</div>
 		
 		
@@ -428,7 +432,7 @@
 			</div>
 			
 			<div class ="os_image_box">
-				<div class ="os_image"></div>
+				<div class ="os_image" data-aos="fade-up" data-aos-duration="2500" data-aos-anchor-placement="top-center"></div>
 			</div>
 		</div>
 	</div>
@@ -437,21 +441,22 @@
 	
 	<div class ="benefit_container">
 		<div class = "benefit">
-			<div class ="benefit_box">
+		
+			<div class ="benefit_box" data-aos="fade-up-left" data-aos-duration="1500">
 				<div class="benefit__image delivery_image"></div>
 				<div class="benefit__title">업무일 기준 무료 익일 배송</div>
 				<div class="benefit__subtitle">오후 3시 이전에 주문된<br>재고 보유 제품에 한합니다.</div>
 				<div class="benefit__moreInfo moreInfo">더 알아보기</div>
 			</div>
 			
-			<div class ="benefit_box">
+			<div class ="benefit_box" data-aos="fade-up" data-aos-duration="2000">
 				<div class="benefit__image finance_image"></div>
 				<div class="benefit__title">금융 혜택</div>
 				<div class="benefit__subtitle">무이자 할부를 통해 Apple<br> 제품을 부담 없이 구매하실 수<br> 있습니다.</div>
 				<div class="benefit__moreInfo moreInfo">더 알아보기</div>
 			</div>
 			
-			<div class ="benefit_box">
+			<div class ="benefit_box" data-aos="fade-up-right" data-aos-duration="1500">
 				<div class="benefit__image personal_image"></div>
 				<div class="benefit__title">자신만의 것이라는 증표</div>
 				<div class="benefit__subtitle">
@@ -467,19 +472,19 @@
 	<div class = "essential_container">
 		<div class = "essential_title">iPab와 천생연분</div>
 		<div class = "essential">
-			<div class = "essential_box">
+		
+			<div class = "essential_box" data-aos="fade-up-left" data-aos-duration="3000">
 				<div class = "essential_info_box upper_title">
 					<div class = "essential_info_title">Apple Pencil</div>
 					<div class = "essential_info_subtitle">상상을 적어내다.</div>
 					<div class = "essential_info_link_box"></div>
-				
 				</div>
 				<div class = "essential_image_box">
 					<div class = "essential_image essential_pencil_image"></div>
 				</div>
 			</div>
 			
-			<div class = "essential_box">
+			<div class = "essential_box" data-aos="fade-up-right" data-aos-duration="3000">
 				<div class = "essential_image_box">
 					<div class = "essential_image essential_keyboard_image"></div>
 				</div>	
@@ -490,7 +495,7 @@
 				</div>
 			</div>
 			
-			<div class = "essential_box">
+			<div class = "essential_box" data-aos="fade-down-left" data-aos-duration="2000">
 				<div class = "essential_info_box upper_title">
 					<div class = "essential_info_title">액세서리</div>
 					<div class = "essential_info_subtitle">
@@ -504,7 +509,7 @@
 				</div>	
 			</div>
 			
-			<div class = "essential_box">
+			<div class = "essential_box" data-aos="fade-down-right" data-aos-duration="2000">
 				<div class = "essential_info_box upper_title">
 					<div class = "essential_info_title">자신만의 이야기를 새기다</div>
 					<div class = "essential_info_subtitle">
@@ -587,7 +592,7 @@
 			
 			<div class = "tip_grid">
 			
-				<div class = "tip_grid_box">
+				<div class = "tip_grid_box"  data-aos="fade-up-left" data-aos-duration="3000">
 					<div class ="tip_info_box">
 						<div class = "tip_info_topic_image_box">
 							<div class = "tip_image tip_info_topic_image_music"></div>
@@ -603,7 +608,7 @@
 					</div>
 				</div>
 				
-				<div class = "tip_grid_box">
+				<div class = "tip_grid_box" data-aos="fade-up-right" data-aos-duration="3000">
 					<div class ="tip_info_box">
 						<div class = "tip_info_topic_image_box">
 							<div class = "tip_image tip_info_topic_image_arcade"></div>
@@ -619,7 +624,7 @@
 					</div>
 				</div>
 				
-				<div class = "tip_grid_box">
+				<div class = "tip_grid_box" data-aos="fade-down-left" data-aos-duration="2000">
 					<div class = "tip_item_box apple_and_edu">
 						<div class = "tip_item_info_box">
 							<div class = "tip_item_title">Apple과 교육</div>
@@ -629,7 +634,7 @@
 					</div>
 				</div>
 				
-				<div class = "tip_grid_box">
+				<div class = "tip_grid_box" data-aos="fade-down-right" data-aos-duration="2000">
 					<div class = "tip_item_box apple_at_work">
 						<div class = "tip_item_info_box">
 							<div class = "tip_item_title">Apple at Work</div>
