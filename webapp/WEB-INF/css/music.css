@@ -165,16 +165,9 @@ body{
 	margin: 0;
 }
 .swiper-pagination-bullet {
-	padding: 5px 10px;
-	border-radius: 0;
-	width: auto;
-	height: 30px;
-	text-align: center;
-	line-height: 30px;
-	font-size: 12px;
-	color:#000;
-	opacity: 1;
-	background: rgba(0,0,0,0.2);
+    width: fit-content !important;
+    height: fit-content !important;
+    opacity: .2;
 }
 .swiper-pagination-bullet-active {
 	color:#fff;
@@ -187,6 +180,15 @@ body{
     -webkit-tap-highlight-color: transparent;
     height: 228px;
     width: calc(( 100% - 980px )/2 - 20px);
+}
+.swiper-wrapper {
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+    margin: 0 130px;
 }
 
 /* 차트 제목 */
@@ -443,6 +445,9 @@ body{
     align-items: center;
 }
 /* AirPods_Pro */
+.AirPods_Pro.black_background.middle.title {
+    margin-top: 100px;
+}
 .AirPods_Pro.background {
     background-image: url(https://www.apple.com/v/music/s/images/overview/airpods_pro__ekx2tfj01uwm_large_2x.jpg);
     background-position-x: center;
