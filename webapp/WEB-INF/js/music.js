@@ -1,4 +1,4 @@
-var menu = ['Slide 1', 'Slide 2', 'Slide 3']
+var menu = ["Our Editor's Favorites", '오늘의 TOP 100', '방금 업데이트된 플레이리스트', '최신곡']
 var mySwiper = new Swiper ('.swiper-container', {
     // If we need pagination
     pagination: {
@@ -8,10 +8,11 @@ var mySwiper = new Swiper ('.swiper-container', {
           return '<span class="' + className + '">' + (menu[index]) + '</span>';
         },
     },
-
+	slidesPerView : '5',
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
   })
+
