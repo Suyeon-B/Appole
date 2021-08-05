@@ -285,10 +285,11 @@
 			<div class="mac_Accessories title">액세서리</div>
 			<div class="mac_Accessories main_title">Mac 액세서리 살펴보기.</div>
 			<div class="button buy mac_Accessories">쇼핑하기</div>
+			<div class="mac_Accessories image" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000"></div>
 		</div>
 		<div class="mac_credit_wrapper">
 			<div class="mac_credit title">Apple Trade In</div>
-			<div class="mac_credit main_title">새 Mac 구매 시 사용할 수 있는 크레딧을 받는 법.</div>
+			<div class="mac_credit main_title">새 Mac 구매 시 사용할 수 있는<br>크레딧을 받는 법.</div>
 			<div class="mac_credit subtitle_wrapper">
 				<div class="mac_credit subtitle">보상 판매 대상 컴퓨터를 크레딧으로 교환해드리거나, 무상으로 재활용해드립니다.<br>당신은 물론 지구에게도 좋은 일이죠.</div>
 				<div class="mac_credit subtitle_note_num">9</div>
@@ -297,11 +298,12 @@
 				<div class="button more_info">보상 판매 가격 알아보기</div>
 				<div class="more_info_icon"></div>
 			</div>
+			<div class="mac_credit image" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000"></div>
 		</div>
 	</div>
 	<!-- macOS Monterey -->
 	<div class="mac_Monterey_wrapper">
-		<div class="mac_Monterey_title_wrapper">
+		<div class="mac_Monterey_title_wrapper" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2500">
 			<div class="mac_Monterey title">macOS Monterey</div>
 			<div class="mac_Monterey main_title">더욱 반가운 소통을 위한 반가운 기술.</div>
 			<div class="more_info_wrapper">
@@ -309,32 +311,32 @@
 				<div class="more_info_icon"></div>
 			</div>
 		</div>
-		<div class="mac_Monterey_image"></div>
+		<div class="mac_Monterey_image" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000"></div>
 	</div>
 	<!-- 배송정보 / 금융혜택 / 문의하기 -->
 	<div class="delivery_benefits_help_wrapper">
-		<div class="col delivery_wrapper">
+		<div class="col delivery_wrapper" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 			<div class="delivery icon"></div>
 			<div class="delivery title">업무일 기준 무료 익일 배송</div>
-			<div class="delivery content">오후 3시 이전에 주문된 재고 보유 제품에 한합니다.</div>
+			<div class="delivery content">오후 3시 이전에 주문된<br>재고 보유 제품에 한합니다.</div>
 			<div class="more_info_wrapper">
 				<div class="button more_info">더 알아보기</div>
 				<div class="more_info_icon"></div>
 			</div>
 		</div>
-		<div class="col benefits_wrapper">
+		<div class="col benefits_wrapper" data-aos="fade-up" data-aos-offset="400" data-aos-duration="1000">
 			<div class="benefits icon"></div>
-			<div class="benefits title">업무일 기준 무료 익일 배송</div>
-			<div class="benefits content">오후 3시 이전에 주문된 재고 보유 제품에 한합니다.</div>
+			<div class="benefits title">금융혜택</div>
+			<div class="benefits content">무이자 할부를 통해 Apple 제품을<br>부담 없이 구매하실 수 있습니다.</div>
 			<div class="more_info_wrapper">
 				<div class="button more_info">더 알아보기</div>
 				<div class="more_info_icon"></div>
 			</div>
 		</div>
-		<div class="col help_wrapper">
+		<div class="col help_wrapper" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
 			<div class="help icon"></div>
 			<div class="help title">도움이 필요하다면</div>
-			<div class="help content">질문이 있으신가요? 전문가와 전화로 상담하거나 온라인으로 채팅하세요. 080-330-8877로 전화 주세요.</div>
+			<div class="help content">질문이 있으신가요? 전문가와 전화로<br>상담하거나 온라인으로 채팅하세요.<br>080-330-8877로 전화 주세요.</div>
 			<div class="more_info_wrapper">
 				<div class="button more_info">문의하기</div>
 				<div class="more_info_icon"></div>
@@ -343,7 +345,7 @@
 	</div>
 	<!-- Mac 프로모션 -->
 	<div class="mac_promo_section">
-		<div class="mac_promo bigger main_title">Mac을 더욱 Mac답게 만드는 모든 것.</div>
+		<div class="mac_promo bigger main_title" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2500">Mac을 더욱 Mac답게 만드는 모든 것.</div>
 		<div class="mac_promo_section_wrapper">
 			<div class="mac_promo section num1">
 				<div class="mac_promo title">Mac을 선택하는 이유</div>
@@ -352,10 +354,11 @@
 					<div class="button more_info">더 알아보기</div>
 					<div class="more_info_icon"></div>
 				</div>
+				<div class="mac_promo num1 image" data-aos="fade-up" data-aos-offset="400" data-aos-duration="1000"></div>
 			</div>
 			<div class="mac_promo section num2">
 				<div class="mac_promo section_2 title">macOS Big Sur</div>
-				<div class="mac_promo section_2 main_title">거칠 것 없는 능력.<br>완전히 새로운 방식.</div>
+				<div class="mac_promo section_2 main_title" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2500">거칠 것 없는 능력.<br>완전히 새로운 방식.</div>
 				<div class="mac_promo button section_2 more_info_wrapper">
 					<div class="section_2 more_info_sub_wrapper">
 						<div class="button more_info">더 알아보기</div>
@@ -376,6 +379,7 @@
 					<div class="button more_info">더 알아보기</div>
 					<div class="more_info_icon"></div>
 				</div>
+				<div class="mac_promo num3 image" data-aos="fade-up" data-aos-offset="400" data-aos-duration="1000"></div>
 			</div>
 			<div class="mac_promo section num4">
 				<div class="mac_promo title">iCloud</div>
@@ -384,13 +388,14 @@
 					<div class="button more_info">더 알아보기</div>
 					<div class="more_info_icon"></div>
 				</div>
+				<div class="mac_promo num4 image" data-aos="fade-up" data-aos-offset="400" data-aos-duration="1000"></div>
 			</div>
 		</div>	
 	</div>
 	<!-- 내장 앱 -->
 	<div class="built_in_app_section">
 		<div class="built_in_app main_title">내장 앱</div>
-		<div class="built_in_app subtitle">모든 Mac에는 창의성과 생산성을 위한 강력한 도구들이 함께합니다. 궁금한 것을 찾아볼 때나 다른 사람과 소통하고자 할 때, 혹은 더 효율적으로 업무를 하고 싶을 때 도움이 되는 앱들이죠.</div>
+		<div class="built_in_app subtitle">모든 Mac에는 창의성과 생산성을 위한 강력한 도구들이 함께합니다. 궁금한 것을 찾아볼 때나 다른 사람과 소통하고자 할 때,<br>혹은 더 효율적으로 업무를 하고 싶을 때 도움이 되는 앱들이죠.</div>
 		<div class="built_in_app icons_wrapper">
 			<div class="safari icon"></div>
 			<div class="photo icon"></div>
@@ -400,7 +405,7 @@
 			<div class="numbers icon"></div>
 			<div class="keynote icon"></div>
 		</div>
-		<div class="safari subtitle">웹을 더욱 즐길 수 있게 해주는 혁신적 기능을 갖춘 Safari. 이제 보다 다양한 측면에서 그 즐거움을 뒷받침해줍니다. 웹서핑 중에도 당신의 정보와 Mac을 안전하게 보호할 수 있도록 강력한 개인 정보 보호 기능이 내장되어 있고, 즐겨 찾는 웹사이트를 쉽고 빠르게 저장하고, 찾고, 공유할 수 있게 시작 페이지도 새롭게 업데이트되었습니다. 게다가 Siri 제안 기능이 책갈피, 읽기 목록의 링크, ‘iCloud 탭’, 메시지 앱에서 받은 링크 등을 표시해 더 나은 웹 경험을 구현하죠.</div>
+		<div class="safari subtitle">웹을 더욱 즐길 수 있게 해주는 혁신적 기능을 갖춘 Safari. 이제 보다 다양한 측면에서 그 즐거움을 뒷받침해줍니다.<br>웹서핑 중에도 당신의 정보와 Mac을 안전하게 보호할 수 있도록 강력한 개인 정보 보호 기능이 내장되어 있고,<br>즐겨 찾는 웹사이트를 쉽고 빠르게 저장하고, 찾고, 공유할 수 있게 시작 페이지도 새롭게 업데이트되었습니다.<br>게다가 Siri 제안 기능이 책갈피, 읽기 목록의 링크, ‘iCloud 탭’, 메시지 앱에서 받은 링크 등을 표시해 더 나은 웹 경험을 구현하죠.</div>
 		<div class="more_info_wrapper">
 			<div class="button more_info">Safari에 대해 더 알아보기</div>
 			<div class="more_info_icon"></div>
@@ -410,7 +415,7 @@
 	<!-- 프로용 앱 -->
 	<div class="pro_app_section">
 		<div class="pro_app main_title">프로용 앱</div>
-		<div class="pro_app subtitle">자신의 창의력을 끝까지 끌어낼 준비가 되어 있는 전문가들을 위해 마련된 업계 최고 수준의 앱들입니다. 음악이나 영화의 편집, 후반 작업, 완성에 이르는 모든 단계에서 당신에게 최대의 능력을 선사합니다.</div>
+		<div class="pro_app subtitle">자신의 창의력을 끝까지 끌어낼 준비가 되어 있는 전문가들을 위해 마련된 업계 최고 수준의 앱들입니다.<br>음악이나 영화의 편집, 후반 작업, 완성에 이르는 모든 단계에서 당신에게 최대의 능력을 선사합니다.</div>
 		<div class="pro_app icons_wrapper">
 			<div class="logic_pro icon"></div>
 			<div class="mainStage icon"></div>
@@ -418,7 +423,7 @@
 			<div class="motion icon"></div>
 			<div class="compressor icon"></div>
 		</div>
-		<div class="logic_pro subtitle">Mac에서 완전한 녹음 겸 MIDI 제작 스튜디오를 경험할 수 있게 해주는 Logic Pro. 그 어느 때보다 훌륭한 작곡, 녹음, 편집 그리고 믹싱 작업을 위한 모든 것을 갖추었죠. 게다가 수천 가지 사운드 및 루프와 더불어 모든 기능을 갖춘 방대한 플러그인 컬렉션은, 처음 떠오른 악상을 완성된 곡으로 마무리할 때까지 필요한 모든 것을 마련해줍니다. 만들고 싶은 음악의 종류와 상관없이 말이죠.</div>
+		<div class="logic_pro subtitle">Mac에서 완전한 녹음 겸 MIDI 제작 스튜디오를 경험할 수 있게 해주는 Logic Pro. 그 어느 때보다 훌륭한 작곡, 녹음, 편집 그리고 믹싱 작업을 위한 모든 것을 갖추었죠.<br>게다가 수천 가지 사운드 및 루프와 더불어 모든 기능을 갖춘 방대한 플러그인 컬렉션은, 처음 떠오른 악상을 완성된 곡으로 마무리할 때까지 필요한 모든 것을 마련해줍니다.<br>만들고 싶은 음악의 종류와 상관없이 말이죠.</div>
 		<div class="logic_pro more_info_wrapper">
 			<div class="button more_info">Logic Pro에 대해 더 알아보기</div>
 			<div class="more_info_icon"></div>
@@ -440,7 +445,7 @@
 	</div>
 	<!-- Mac을 더 잘 활용하는 법 -->
 	<div class="get_more_promo_section">
-		<div class="mac_promo bigger main_title">Mac을 더 잘 활용하는 법</div>
+		<div class="mac_promo bigger main_title" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2500">Mac을 더 잘 활용하는 법</div>
 		<!-- online_session -->
 		<div class="online_session_section">
 			<div class="online_session_title_wrapper">

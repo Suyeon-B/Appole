@@ -106,7 +106,10 @@ body{
 
 /* <!-- iPhone_12 --> */
 .home.iPhone_12 {
-    height: 582px;
+    background-color: #fbfbfd;
+}
+.iPhone_12.image {
+    height: 342px;
     background-size: 3010px 624px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/kr/home/ab/images/heroes/iphone-12/iphone_12_updated__jepm2xpxncuy_large_2x.jpg);
@@ -122,9 +125,15 @@ body{
     text-decoration: underline;
 }
 
+
 /* <!-- iPhone_12_Pro --> */
 .home.iPhone_12_Pro {
-    height: 582px;
+    background-color: black;
+	margin-top: 12px;
+    margin-bottom: 12px;
+}
+.iPhone_12_Pro.image {
+    height: 342px;
     background-size: 3010px 624px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/home/ab/images/heroes/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_large_2x.jpg);
@@ -135,7 +144,10 @@ body{
 
 /* <!-- iPad_Pro --> */
 .home.iPad_Pro {
-    height: 582px;
+    background-color: black;
+}
+.iPad_Pro.image {
+    height: 412px;
     background-size: 3010px 624px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/home/ab/images/heroes/ipad-pro/hero_ipad_pro_non_avail__fcrsmhs4b7ma_large_2x.jpg);
@@ -209,8 +221,13 @@ body{
     margin-left: 6px;
 }
 .AirTag.background {
+	margin-right: 6px;
+    background-color: #fbfbfd;
+    width: 50%;
+}
+.AirTag.image {
+    height: 460px;
     width: 100%;
-    height: 582px;
     background-size: 1262px 580px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/home/ab/images/promos/airtag/promo_airtag__e6b73a64nno2_large_2x.jpg);
@@ -219,8 +236,12 @@ body{
     margin-right: 6px;
 }
 .AirPodsPro.background {
-    width: 100%;
-    height: 582px;
+	width: 50%;
+    margin-left: 6px;
+    background-color: black;
+}
+.AirPodsPro.image {
+    height: 460px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/home/ab/images/promos/airpods-pro/tile__cauwwcyyn9hy_large_2x.jpg);
     background-position-x: center;
