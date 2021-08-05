@@ -168,6 +168,15 @@ body{
 .right_box{
 	text-align: right;
 }
+.titleBanner__info_moreInfo{
+	margin-top: 15px;
+	text-decoration:none;
+	color: #0071e3;
+	cursor: pointer;
+}
+.titleBanner__info_moreInfo:hover{
+	text-decoration: underline;
+}
 .titleBanner__image_box{
 	width: 600px;
 }
@@ -180,6 +189,7 @@ body{
    
    
 }
+
 @keyframes rightMovement{
   from{
   	margin-left: 0%;
@@ -223,11 +233,21 @@ body{
 }
 
 .titleBanner__info_status{
+	animation: slidein 25s 1s infinite alternate;
+	margin-left: 290px;
 	font-size: 12px;
     font-weight: 400;
     color: red;
 }
 
+@keyframes slidein{
+  from{
+    margin-left: 290px;
+  }
+  to{
+    margin-left: 0px;
+  }
+}
 
 .titleBanner__info_title{
 	font-size: 56px;
@@ -235,10 +255,21 @@ body{
 	color: black;
 }
 .titleBanner__info_subtitle{
+	animation: font-size 1s 1s infinite alternate;
+	height: 50px;
 	margin-top: 3px;
 	font-size: 24px;
 	font-weight: 600;
 	color: black;
+}
+
+@keyframes font-size{
+  from{
+  	font-size: 24px;
+  }
+  to{
+    font-size: 27px;
+  }
 }
 .titleBanner__info_price{
 	margin-top: 19px;

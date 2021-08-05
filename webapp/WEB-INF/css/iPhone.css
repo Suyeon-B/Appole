@@ -3,6 +3,8 @@
 body{
 	font-family: "SF Pro KR";
 	margin: 0px;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 .main{
 	background: white;
@@ -141,9 +143,24 @@ body{
     display: flex;
 }
 .theme_main_item{
+	animation: font-size 1s 1s infinite alternate;
 	font-size: 50px;
 	font-weight: 600;
+	height: 80px;
 }
+
+
+@keyframes font-size{
+  from{
+  	font-size: 35px;
+  }
+  to{
+    font-size: 38px;
+  }
+}
+
+
+
 .theme_price{
 	margin-top: 30px;
 	margin-bottom: 30px;

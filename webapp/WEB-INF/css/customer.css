@@ -2,6 +2,8 @@
 
 body{
 	margin: 0px;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 .line{
 	margin-top: 50px;
@@ -323,4 +325,5 @@ body{
 .mainBanner_appleSurvice{
 	width: 940px;
 	margin: 0 auto;
+	margin-bottom: 100px;
 }

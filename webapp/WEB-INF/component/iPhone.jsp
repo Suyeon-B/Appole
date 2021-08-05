@@ -12,7 +12,7 @@
 <!--  상단 메뉴바 -->
 <%@ include file="../component/top.jsp" %>
 <div class ="main">
-	<div class = "chapter_container">
+	<div class = "chapter_container" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000">
 		<div class = "chapter_box">
 			<div class = "chapter_items">	
 				<div class = "chapter_item">
@@ -87,7 +87,7 @@
 			<div class ="titleBanner_themeWhite_box">
 				<div class = "titleBanner_themeWhite_items">
 					<h5 class = "titleBanner_themeWhite_item">iPhome 12 및 iPhome 12 mini</h5>
-					<h2 class = "titleBanner_themeWhite_item theme_main_item">스피드 그 이상의 스피드.</h2>
+					<div class = "titleBanner_themeWhite_item theme_main_item">스피드 그 이상의 스피드.</div>
 					<div class = "titleBanner_themeWhite_item theme_price">\950,000부터(보상 판매* 미적용 가격)</div>
 				</div>
 				<div class = "titleBanner_themeWhite_item">
@@ -105,7 +105,7 @@
 			<div class ="titleBanner_themeDark_box">
 				<div class = "titleBanner_themeDark_items">
 					<h5 class = "titleBanner_themeDark_item">iPhome 12 pro 및 iPhome 12 pro max</h5>
-					<h2 class = "titleBanner_themeDark_item theme_main_item">도약의 시간.</h2>
+					<div class = "titleBanner_themeDark_item theme_main_item">도약의 시간.</div>
 					<div class = "titleBanner_themeDark_item theme_price">\1,350,000부터(보상 판매* 미적용 가격)</div>
 				</div>
 				<div class = "titleBanner_themeDark_item">
@@ -503,7 +503,7 @@
 		<div class = "everything_title">iPhome을 iPhome답게 만드는 모든 것.</div>
 		
 		<div class = "everything_box_image">
-			<div class = "everything_info_box">
+			<div class = "everything_info_box" data-aos="zoom-out" data-aos-offset="400" data-aos-duration="1000">
 				<div class = "everything_info_subtitle">iOS 14</div>
 				<div class = "everything_info_title">확연히 새로운 모습.<br>여전히 친숙한 느낌.</div>
 				<div class = "everything_info_link">더 알아보기</div>
