@@ -5,12 +5,14 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="/css/home.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body> 
 	<!-- top -->
 	<%@ include file="../component/top.jsp" %>
 	<!-- 배너 -->
-	<div class="banner_wrapper">
+	<div class="banner_wrapper" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 		<div class="button banner_button">온라인으로 쇼핑</div>
 		<div class="banner">하고 무료 배송, 스페셜리스트 지원 등의 혜택을 받으세요.</div>
 	</div>
@@ -33,6 +35,7 @@
 				<div class="more_info_icon"></div>
 			</div>
 		</div>
+		<div class="iPhone_12 image" data-aos="fade-up" data-aos-offset="400" data-aos-duration="1000"></div>
 	</div>
 	<div class="home iPhone_12_Pro">
 		<div class="iPhone_12_Pro big black_background title">iPhone 12 Pro</div>
@@ -52,6 +55,7 @@
 				<div class="more_info_icon"></div>
 			</div>
 		</div>
+		<div class="iPhone_12_Pro image" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000"></div>
 	</div>
 	<div class="home iPad_Pro">
 		<div class="iPad_Pro big black_background title">iPad Pro</div>
@@ -66,11 +70,12 @@
 				<div class="more_info_icon"></div>
 			</div>
 		</div>
+		<div class="iPad_Pro image" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000"></div>
 	</div>
 	<!-- 메인 작은 블록 6개 : iMac / Watch / MacBookAir / Arcade / AirTag / AirPodsPro -->
 	<div class="home ETC">
 		<div class="home ETC iMac_Watch">
-			<div class="iMac background">
+			<div class="iMac background" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2500">
 				<div class="iMac small_title">iMac</div>
 				<div class="iMac subtitle">이제 새롭게 만날 시간.</div>
 				<div class="iMac small button more_info_wrapper">
@@ -84,7 +89,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="Watch background">
+			<div class="Watch background" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2500">
 				<div class="Watch black_background Watch small_title"></div>
 				<div class="Watch black_background Watch subtitle">건강의 미래, 이미 손목 위에.</div>
 				<div class="Watch small button more_info_wrapper">
@@ -99,7 +104,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="home ETC MacBookAir_Arcade">
+		<div class="home ETC MacBookAir_Arcade" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
 			<div class="MacBookAir background">
 				<div class="MacBookAir black_background MacBookAir small_title">MacBook Air</div>
 				<div class="MacBookAir black_background MacBookAir subtitle">Air의 흐름을 바꾸다.</div>
@@ -144,6 +149,7 @@
 						<div class="small more_info_icon"></div>
 					</div>
 				</div>
+				<div class="AirTag image" data-aos="fade-up" data-aos-offset="400" data-aos-duration="1000"></div>
 			</div>
 			<div class="AirPodsPro background">
 				<div class="AirPodsPro black_background small_title">AirPods Pro</div>
@@ -158,9 +164,19 @@
 						<div class="small more_info_icon"></div>
 					</div>
 				</div>
+				<div class="AirPodsPro image" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000"></div>
 			</div>
 		</div>
 	</div>
+	
 	<script src="/js/home.js"></script>
+	<!-- Script -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script type="text/javascript">
+		AOS.init();
+	</script>
 </body>
 </html>
+
+<!-- footer -->
+<%@ include file="../component/bottom.jsp" %>
