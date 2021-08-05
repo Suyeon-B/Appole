@@ -4,6 +4,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="/css/customer.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <meta charset="UTF-8">
 <title>비공식 Apple 지원</title>
 </head>
@@ -12,76 +13,84 @@
 <%@ include file="../component/top.jsp" %>
 <div class = "title">
 	<div class = "titleBanner">
-		<div class = "titleBanner_image">
-				<div class ="titleBanner_title">Apple 지원에 오신 것을 환영합니다</div>
+		<div class = "titleBanner_image" data-aos="zoom-out" data-aos-offset="0" data-aos-duration="2000">
+				<div class ="titleBanner_title" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2000">Apple 지원에 오신 것을 환영합니다</div>
 			<div class = "titleBanner_box">
 				<input class = "titleBanner_search" placeholder = "지원 검색하기" />
 			</div>
 		</div>
 	</div>
 	
+	
 	<div class = "mainBanner">
 		<div class = "mainBanner_choiceBanner">
+		
 			<div class = "mainBanner_choiceBanner__box">
 				<div class = "choiceBanner__image_box">
-					<div class = "choiceBanner__image iphone_image"></div>
+					<div class = "choiceBanner__image iphone_image" data-aos="zoom-in" data-aos-offset="400" data-aos-duration="2500"></div>
 				</div>
-				<div class = "choiceBanner__title">iPhone</div>
+				<div class = "choiceBanner__title" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000">iPhone</div>
 			</div>
+			
 			<div class = "mainBanner_choiceBanner__box">
 				<div class = "choiceBanner__image_box">
-					<div class = "choiceBanner__image mac_image"></div>
+					<div class = "choiceBanner__image mac_image" data-aos="zoom-in" data-aos-offset="400" data-aos-duration="2500"></div>
 				</div>
-				<div class = "choiceBanner__title">Mac</div>
+				<div class = "choiceBanner__title" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000">Mac</div>
 			</div>
+			
 			<div class = "mainBanner_choiceBanner__box">
 				<div class = "choiceBanner__image_box">
-					<div class = "choiceBanner__image ipad_image"></div>
+					<div class = "choiceBanner__image ipad_image" data-aos="zoom-in" data-aos-offset="400" data-aos-duration="2500"></div>
 				</div>
-				<div class = "choiceBanner__title">iPad</div>
+				<div class = "choiceBanner__title" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000">iPad</div>
 			</div>
+			
 			<div class = "mainBanner_choiceBanner__box">
 				<div class = "choiceBanner__image_box">
-					<div class = "choiceBanner__image watch_image"></div>
+					<div class = "choiceBanner__image watch_image" data-aos="zoom-in" data-aos-offset="400" data-aos-duration="2500"></div>
 				</div>
-				<div class = "choiceBanner__title">Watch</div>
+				<div class = "choiceBanner__title" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000">Watch</div>
 			</div>
+			
 			<div class = "mainBanner_choiceBanner__box">
 				<div class = "choiceBanner__image_box">
-					<div class = "choiceBanner__image airpods_image"></div>
+					<div class = "choiceBanner__image airpods_image" data-aos="zoom-in" data-aos-offset="400" data-aos-duration="2500"></div>
 				</div>
-				<div class = "choiceBanner__title">AirPods</div>
+				<div class = "choiceBanner__title" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000">AirPods</div>
 			</div>
+			
 			<div class = "mainBanner_choiceBanner__box">
 				<div class = "choiceBanner__image_box">
-					<div class = "choiceBanner__image music_image"></div>
+					<div class = "choiceBanner__image music_image" data-aos="zoom-in" data-aos-offset="400" data-aos-duration="2500"></div>
 				</div>
-				<div class = "choiceBanner__title">Music</div>
+				<div class = "choiceBanner__title" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000">Music</div>
 			</div>
+			
 		</div>
 					
 		<div class = "line"></div>			
 					
 		<div class = "mainBanner_surviceBanner">
 			<div class = "surviceBanner_box">
-				<div class = "surviceBanner_image_box">
+				<div class = "surviceBanner_image_box" data-aos="fade-up-left" data-aos-offset="300" data-aos-duration="3000">
 					<div class = "surviceBanner_image surviceBanner_forgot_image"></div>
 				</div>
-				<div class = "surviceBanner_info">Apple ID 또는 암호를 잊어버림</div>
+				<div class = "surviceBanner_info" data-aos="fade-down" data-aos-offset="300" data-aos-duration="1000">Apple ID 또는 암호를 잊어버림</div>
 			</div>
 			
 			<div class = "surviceBanner_box">
-				<div class = "surviceBanner_image_box">
+				<div class = "surviceBanner_image_box" data-aos="fade-up" data-aos-offset="300" data-aos-duration="3000">
 					<div class = "surviceBanner_image surviceBanner_repair_image"></div>
 				</div>
-				<div class = "surviceBanner_info">Apple 수리</div>
+				<div class = "surviceBanner_info" data-aos="fade-down" data-aos-offset="300" data-aos-duration="1000">Apple 수리</div>
 			</div>
 			
 			<div class = "surviceBanner_box">
-				<div class = "surviceBanner_image_box">
+				<div class = "surviceBanner_image_box" data-aos="fade-up-right" data-aos-offset="300" data-aos-duration="3000">
 					<div class = "surviceBanner_image surviceBanner_subscribe_image"></div>
 				</div>
-				<div class = "surviceBanner_info">청구 및 구독</div>
+				<div class = "surviceBanner_info" data-aos="fade-down" data-aos-offset="300" data-aos-duration="1000">청구 및 구독</div>
 			</div>
 			
 		</div>
@@ -92,9 +101,9 @@
 		
 			<div class = "tipBanner_box">
 				<div class = "tipBanner_image_box">
-					<div class = "tipBanner_image tipBanner_design_image"></div>
+					<div class = "tipBanner_image tipBanner_design_image" data-aos="zoom-in" data-aos-offset="400" data-aos-duration="1000"></div>
 				</div>
-				<div class = "tipBanner_info_box">
+				<div class = "tipBanner_info_box" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 					<div class = "tipBanner_info_title">모두를 위한 설계</div>
 					<div class = "tipBanner_info_subtitle">모든 Apple 기기에 내장된 강력한 보조 기능을 통해 이제 다양한<br>방식으로 정보를 탐색하고 작업하며 즐길 수 있게 되었습니다.</div>
 					<div class = "tipBanner_info_link">손쉬운 사용 기능 탐색하기</div>
@@ -104,9 +113,9 @@
 		
 			<div class = "tipBanner_box tipBanner_box_right">
 				<div class = "tipBanner_image_box">
-					<div class = "tipBanner_image tipBanner_help_image"></div>
+					<div class = "tipBanner_image tipBanner_help_image" data-aos="zoom-in" data-aos-offset="400" data-aos-duration="1000"></div>
 				</div>
-				<div class = "tipBanner_info_box">
+				<div class = "tipBanner_info_box" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
 					<div class = "tipBanner_info_title">가족과 자녀에게 도움이 되는 기능<br>알아보기</div>
 					<div class = "tipBanner_info_subtitle">자녀를 위한 Apple 기기 관리, 가족 공유 및 스크린 타임 제한 설정 등<br>다양한 정보를 확인해 보세요.</div>
 					<div class = "tipBanner_info_link">자녀를 위해 설정하기</div>	
@@ -116,7 +125,7 @@
 		
 		<div class = "line"></div>
 		
-		<div class = "mainBanner_today">
+		<div class = "mainBanner_today" data-aos="zoom-in" data-aos-offset="400" data-aos-duration="1000">
 			<div class = "today_box">
 				<div class = "today_info_box">
 					<div class = "today_info_title">Today at Apple의 온라인<br>세션</div>
@@ -132,8 +141,8 @@
 		
 		
 		<div class = "mainBanner_support">
-			<div class = "support_box">
-				<div class = "support_info_box">
+			<div class = "support_box"  data-aos="zoom-out" data-aos-offset="0" data-aos-duration="2000">
+				<div class = "support_info_box" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2000">
 					<div class = "support_info_title">지원받기</div>
 					<div class = "support_info_subtitle">제품을 선택하고 가장 적합한 해결 방법을 확인할 수 있습니다.</div>
 					<div class = "support_info_link_box">
@@ -146,7 +155,7 @@
 		
 		
 		<div class = "mainBanner_specialist">
-			<div class = "specialist_box">
+			<div class = "specialist_box" data-aos="fade-right" data-aos-offset="300" data-aos-duration="3000">
 				<div class = "specialist_image_box">
 					<div class = "specialist_image"></div>
 				</div>
@@ -162,7 +171,7 @@
 		<div class = "line"></div>
 		
 		<div class = "mainBanner_question">
-			<div class = "question_box">
+			<div class = "question_box" data-aos="fade-left" data-aos-offset="300" data-aos-duration="3000">
 				<div class = "question_info_box">
 					<div class = "question_info_title">질문이 있으십니까?</div>
 					<div class = "question_info_subtitle">질문에 대한 답변을 얻을 수 있습니다. Apple 지원 커뮤니티에서<br>답변을 얻으실 수 있습니다.</div>
@@ -177,7 +186,7 @@
 		<div class = "line"></div>
 		
 		<div class = "mainBanner_warning">
-			<div class = "warning_box">
+			<div class = "warning_box" data-aos="fade-up" data-aos-offset="300" data-aos-duration="3000">
 				<div class = "warning_title">유사/모조품 주의</div>
 				<div class = "warning_subtitle">일부 유사/모조품과 타사 배터리 및 전원 어댑터는 제대로 설계되지 않아 안전 관련 문제를 초래할 수 있습니다. 배터리 교체 시 정품<br>Apple 배터리로 교체하기 위해서는 Apple Store, Apple 공인 서비스 제공업체 또는 무선 이동통신사 서비스 센터를 방문하시는<br>것이 좋습니다. Apple 기기 충전용 어댑터를 교체해야 한다면 Apple 전원 어댑터로 교체하시는 것이 좋습니다.</div>
 				<div class = "warning_subtitle">정품이 아닌 교체용 디스플레이는 시각적 품질이 좋지 않거나 제대로 작동하지 않을 수 있습니다. 신뢰할 수 있는 전문가가 정품<br>Apple 부품만을 사용하여 Apple 인증 디스플레이 수리를 수행합니다.</div>
@@ -224,5 +233,11 @@
 
 
 <script src="/js/customer.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+	AOS.init();
+</script>
 </body>
 </html>
+<!-- footer -->
+<%@ include file="../component/bottom.jsp" %>

@@ -12,7 +12,7 @@
 <!--  상단 메뉴바 -->
 <%@ include file="../component/top.jsp" %>
 <div class ="main">
-	<div class = "chapter_container">
+	<div class = "chapter_container" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000">
 		<div class = "chapter_box">
 			<div class = "chapter_items">	
 				<div class = "chapter_item chapter_iPadPro">
@@ -97,7 +97,7 @@
 				<div class = "titleBanner__info_subtitle">궁극의 iPab란 이런 것.</div>
 				<div class = "titleBanner__info_price">\999,000부터</div>
 				<div class = "titleBanner__info_button">구입하기</div>
-				<div class = "titleBanner__info_moreInfo"></div>
+				<div class = "titleBanner__info_moreInfo">더 알아보기</div>
 			</div>
 			<div class = "titleBanner__image_box">
 				<div class = "titleBanner__ipad_pro_image"></div>
@@ -115,7 +115,7 @@
 				<div class = "titleBanner__info_button_box right_button">
 					<div class = "titleBanner__info_button">구입하기</div>
 				</div>
-				<div class = "titleBanner__info_moreInfo"></div>
+				<div class = "titleBanner__info_moreInfo">더 알아보기</div>
 			</div>
 		</div>
 		
@@ -125,7 +125,7 @@
 				<div class = "titleBanner__info_subtitle">만족스러운 성능, <br>기분 좋은 가격.</div>
 				<div class = "titleBanner__info_price">\499,000부터</div>
 				<div class = "titleBanner__info_button">구입하기</div>
-				<div class = "titleBanner__info_moreInfo"></div>
+				<div class = "titleBanner__info_moreInfo">더 알아보기</div>
 			</div>
 			<div class = "titleBanner__image_box">
 				<div class = "titleBanner__ipad_image"></div>
@@ -143,7 +143,7 @@
 				<div class = "titleBanner__info_button_box right_button">
 					<div class = "titleBanner__info_button">구입하기</div>
 				</div>
-				<div class = "titleBanner__info_moreInfo"></div>
+				<div class = "titleBanner__info_moreInfo">더 알아보기</div>
 			</div>
 		</div>
 	</div>
@@ -532,7 +532,7 @@
 		
 			<div class = "everything_box">
 				<div class = "everything_image_box">
-					<div class = "everything_image everything_choice_image"></div>
+					<div class = "everything_image everything_choice_image" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="3000"></div>
 				</div>
 				<div class = "everything_info_box">
 					<div class = "everything_info_title">iPab를<br>선택하는 이유</div>
@@ -545,7 +545,7 @@
 			</div>
 			
 			<div class = "everything_os_box">
-				<div class = "everything_image everything_os_image">
+				<div class = "everything_image everything_os_image" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="3000">
 					
 					<div class = "everything_info_box white_box">
 						<div class = "everything_info_title">iPabOS</div>
@@ -560,7 +560,7 @@
 			
 			<div class = "everything_box">
 				<div class = "everything_image_box">
-					<div class = "everything_image everything_iCloud_image"></div>
+					<div class = "everything_image everything_iCloud_image" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="3000"></div>
 				</div>
 				<div class = "everything_info_box">
 					<div class = "everything_info_title">iCloud</div>
@@ -586,13 +586,13 @@
 					<div class = "tip_info_link">등록하기</div>
 				</div>
 				<div class ="tip_image_box">
-					<div class = "tip_image tip_online_image"></div>	
+					<div class = "tip_image tip_online_image" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="3000"></div>	
 				</div>
 			</div>
 			
 			<div class = "tip_grid">
 			
-				<div class = "tip_grid_box"  data-aos="fade-up-left" data-aos-duration="3000">
+				<div class = "tip_grid_box" data-aos="fade-up-left" data-aos-duration="3000">
 					<div class ="tip_info_box">
 						<div class = "tip_info_topic_image_box">
 							<div class = "tip_image tip_info_topic_image_music"></div>

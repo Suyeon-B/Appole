@@ -57,7 +57,8 @@ body{
 
 /*animation 첫 번째 오른쪽에서 왼쪽으로 움직이는 대표 이미지 속 글자 박스*/
 .title_info_box{
-	animation: slidein 2s 1s 1 alternate;  /*iPadPro 처음에 글자 박스가 오른쪽에서 왼쪽으로 움직임*/
+	animation: slidein 10s 1s infinite alternate;  /*iPadPro 처음에 글자 박스가 오른쪽에서 왼쪽으로 움직임*/
+    margin-left: 100%;
     padding-top: 200px;	
 	text-align: center;
 }
@@ -163,7 +164,11 @@ body{
 	font-size: 28px;
     font-weight: 600;
 }
+.chip_image_box{
+	height: 1020px;
+}
 .chip_image{
+	animation: size 1s 1s infinite alternate;
 	margin: 0 auto;
 	width: 1010px;
 	height: 1010px;
@@ -173,8 +178,16 @@ body{
 
 
 
-
-
+@keyframes size{
+  from{
+  	width: 1010px;
+  	height: 1010px;
+  }
+  to{
+    width: 800px;
+  	height: 800px;
+  }
+}
 
 
 
