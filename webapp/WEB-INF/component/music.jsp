@@ -83,30 +83,28 @@
 		</div>
 	</div>
 	 
-	<!-- music 차트 -->
-	<div class="chart_box">
-		<div class="chart_name_wrapper">
-			<div class="button chart_name favourites">Our Editor's Favorites</div>
-			<div class="button chart_name Top100">오늘의 TOP 100</div>
-			<div class="button chart_name updates">방금 업데이트된 플레이리스트</div>
-			<div class="button chart_name new">최신곡</div>
-		</div>
-	</div>
-	
 	<!-- music 차트 슬라이더 -->
 	<!-- Slider main container -->
-	<div class="swiper-container">
+	 <div class="swiper-container">
 	    <!-- Additional required wrapper -->
-	    <div class="swiper-wrapper">
+	    <div class="swiper-wrapper" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 	    	<!-- Slides -->
-	       	<div class="swiper-slide">Slide 1</div>
-		    <div class="swiper-slide">Slide 2</div>
-		    <div class="swiper-slide">Slide 3</div>
-		    <div class="swiper-slide">Slide 4</div>
-		    <div class="swiper-slide">Slide 5</div>
-		    <div class="swiper-slide">Slide 6</div>
-		    <div class="swiper-slide">Slide 7</div>
-		    <div class="swiper-slide">Slide 8</div>
+	       	<div class="swiper-slide num1"></div>
+		    <div class="swiper-slide num2"></div>
+		    <div class="swiper-slide num3"></div>
+		    <div class="swiper-slide num4"></div>
+		    <div class="swiper-slide num5"></div>
+		    <div class="swiper-slide num6"></div>
+		    <div class="swiper-slide num7"></div>
+		    <div class="swiper-slide num8"></div>
+		    <div class="swiper-slide num9"></div>
+		    <div class="swiper-slide num10"></div>
+		    <div class="swiper-slide num11"></div>
+		    <div class="swiper-slide num12"></div>
+		    <div class="swiper-slide num13"></div>
+		    <div class="swiper-slide num14"></div>
+		    <div class="swiper-slide num15"></div>
+		    <div class="swiper-slide num16"></div>
 	    </div>
 	    <!-- If we need pagination -->
 	    <div class="swiper-pagination"></div>
