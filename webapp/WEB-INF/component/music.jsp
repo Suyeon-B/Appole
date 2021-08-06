@@ -128,63 +128,64 @@
 		</div>
 	</div>
 		
-	<!-- AirPods_ETC : AirPods_Pro / AirPods / iPod_touch / accessories-->
-	<div class="AirPods_ETC">
-		<div class="AirPods_ETC AirPods_Pro_AirPods">
-			<div class="AirPods_Pro background" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000">
-				<div class="AirPods_Pro black_background middle title">AirPods Pro</div>
-				<div class="AirPods_Pro black_background big title">새롭게 귓가를<br>찾아온 매혹.</div>
-				<div class="AirPods_Pro more_info_wrapper">
-					<div class="more_info_sub_wrapper black_background">
-						<div class="button buy">구입하기</div>
+	<div class = "AirPods_ETC_container">	
+		<!-- AirPods_ETC : AirPods_Pro / AirPods / iPod_touch / accessories-->
+		<div class="AirPods_ETC">
+			<div class="AirPods_ETC AirPods_Pro_AirPods">
+				<div class="AirPods_Pro background" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000">
+					<div class="AirPods_Pro black_background middle title">AirPods Pro</div>
+					<div class="AirPods_Pro black_background big title">새롭게 귓가를<br>찾아온 매혹.</div>
+					<div class="AirPods_Pro more_info_wrapper">
+						<div class="more_info_sub_wrapper black_background">
+							<div class="button buy">구입하기</div>
+						</div>
+						<div class="more_info_sub_wrapper black_background">
+							<div class="button more_info">더 알아보기</div>
+							<div class="small right_arrow_icon"></div>
+						</div>
 					</div>
-					<div class="more_info_sub_wrapper black_background">
-						<div class="button more_info">더 알아보기</div>
-						<div class="small right_arrow_icon"></div>
+				</div>
+				<div class="AirPods background" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000">
+					<div class="AirPods Watch middle title">AirPods</div>
+					<div class="AirPods Watch big title">그 어느 때보다<br>신기롭다.</div>
+					<div class="AirPods more_info_wrapper">
+						<div class="more_info_sub_wrapper">
+							<div class="button buy">구입하기</div>
+						</div>
+						<div class="more_info_sub_wrapper">
+							<div class="button more_info">더 알아보기</div>
+							<div class="small right_arrow_icon"></div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="AirPods background" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000">
-				<div class="AirPods Watch middle title">AirPods</div>
-				<div class="AirPods Watch big title">그 어느 때보다<br>신기롭다.</div>
-				<div class="AirPods more_info_wrapper">
-					<div class="more_info_sub_wrapper">
-						<div class="button buy">구입하기</div>
-					</div>
-					<div class="more_info_sub_wrapper">
-						<div class="button more_info">더 알아보기</div>
-						<div class="small right_arrow_icon"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="AirPods_ETC iPod_touch_accessories" >
-			<div class="iPod_touch background" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2500">
-				<div class="iPod_touch MacBookAir middle title">iPod touch</div>
-				<div class="iPod_touch MacBookAir big title">음악을 사랑한다면,<br>어디서나 함께.</div>
-				<div class="iPod_touch MacBookAir more_info_wrapper">
-					<div class="more_info_sub_wrapper">
-						<div class="button buy">구입하기</div>
-					</div>
-					<div class="more_info_sub_wrapper">
-						<div class="button more_info">더 알아보기</div>
-						<div class="small right_arrow_icon"></div>
+			<div class="AirPods_ETC iPod_touch_accessories" >
+				<div class="iPod_touch background" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2500">
+					<div class="iPod_touch MacBookAir middle title">iPod touch</div>
+					<div class="iPod_touch MacBookAir big title">음악을 사랑한다면,<br>어디서나 함께.</div>
+					<div class="iPod_touch MacBookAir more_info_wrapper">
+						<div class="more_info_sub_wrapper">
+							<div class="button buy">구입하기</div>
+						</div>
+						<div class="more_info_sub_wrapper">
+							<div class="button more_info">더 알아보기</div>
+							<div class="small right_arrow_icon"></div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="accessories background" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2500">
-				<div class="accessories middle title">액세서리</div>
-				<div class="accessories big title">새로운<br>음악감상 룩.</div>
-				<div class="accessories more_info_wrapper">
-					<div class="button more_info_sub_wrapper">
-						<div class="button shopping">헤드폰 및 스피커 쇼핑하기</div>
-						<div class="small right_arrow_icon"></div>
+				<div class="accessories background" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2500">
+					<div class="accessories middle title">액세서리</div>
+					<div class="accessories big title">새로운<br>음악감상 룩.</div>
+					<div class="accessories more_info_wrapper">
+						<div class="button more_info_sub_wrapper">
+							<div class="button shopping">헤드폰 및 스피커 쇼핑하기</div>
+							<div class="small right_arrow_icon"></div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	
 	<!-- Apple이 만든 음악 창작 앱. -->
 	<div class="music_app_box">
 		<div class="accessories black_background big title" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2500">Apple이 만든 음악 창작 앱.</div>

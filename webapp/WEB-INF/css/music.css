@@ -410,6 +410,10 @@ body{
 
 /* <!-- AirPods_ETC : AirPods_Pro / AirPods / iPod_touch / accessories--> */
 /* 공통부분 */
+.AirPods_ETC_container{
+	width: 1440px;
+	margin: 0 auto;
+}
 .AirPods_ETC {
     margin-top: 20px;
 }
