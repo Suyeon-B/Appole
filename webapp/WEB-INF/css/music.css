@@ -543,17 +543,25 @@ body{
     margin-top: 15px;
 }
 .music_app.background {
+	animation: rightMovement 2s 1s infinite alternate;
     width: 1792px;
     height: 505px;
     background-size: 1792px 505px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/kr/music/s/images/overview/appsfromapple__ccg14s8qy6qa_large_2x.jpg);
     position: relative;
-    left: 50%;
-    margin-left: -896px;
     margin-top: 73px;
     margin-bottom: -4px;
 }
+@keyframes rightMovement{
+  from{
+  	margin-right: -20%;
+  }
+  to{
+    margin-left: -20%;
+  }
+}
+
 .music_memo.more_info_wrapper {
     color: #06c;
     margin-top: -3px;
