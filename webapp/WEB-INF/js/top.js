@@ -27,13 +27,5 @@ $('.customer').click(function() {
 	location.href = '/customer';
 });
 
-$('.Search').click(function() {
-	location.href = '/Search';
-});
-
-$('.cart').click(function() {
-	location.href = '/cart';
-});
-
 
 

@@ -5,12 +5,17 @@ body{
     letter-spacing: 0em;
     font-family: "SF Pro KR","SF Pro Text","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
     color: #1d1d1f;
+    overflow-x: hidden;
+	overflow-y: auto;
     text-align: center;
 }
 .topContainer_wrapper {
     position: absolute !important;
 }
-
+.main{
+	width: 1440px;
+	margin: 0 auto;
+}
 /* <!-- 상단 메뉴바 --> */
 .menu_bar_wrapper{
 	margin: 0 auto;
@@ -31,6 +36,9 @@ body{
     display: inline-block;
     vertical-align: top;
 	margin: 0 0.03em;
+}
+.menu_block:hover{
+	color:#0080FF;
 }
 
 .menu_block.series_6 {
@@ -60,7 +68,6 @@ body{
     width: 100%;
 }
 .menu_button {
-	color: #1d1d1f;
     font-size: 11px;
     line-height: 1.33337;
     letter-spacing: -.01em;
@@ -857,57 +864,56 @@ span {
     margin-top: 40px;
 }
 
-/* <!-- 배송정보 / 금융혜택 / 맞춤 세션 --> */
-.benefit_container {
-    margin: 0 auto;
+/* <!-- 배송정보 / 금융혜택 / 문의하기 --> */
+.delivery_benefits_help_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
     display: flex;
-    justify-content: center;
-    width: 1440px;
-    word-break: keep-all;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    max-width: 1450px;
+    text-align: center;
+    margin-top: 50px;
 }
-.benefit{
-	display: flex;
-    width: 1440px;
-    justify-content: space-evenly;
+.col {
+    width: 33.33333%;
 }
-.benefit_box{
-	margin: 40px;
+
+.delivery.icon {
+    width: 40px;
+    height: 44px;
+    background-size: 40px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/buystrip/icon-delivery__fo8kz72740ae_large.png);
+    position: relative;
+    left: 50%;
+    margin-left: -20px;
+	margin-bottom: .70588em;
 }
-.benefit__image{
-	margin: 0 auto;
-	justify-content: center;
-    display: flex;
-    width: 55px;
-    height: 75px;
-    
-    background-size: cover;
+.benefits.icon {
+    background-image: url(https://www.apple.com/kr/mac/home/bh/images/overview/buystrip/icon-finance__bz6oi5bk7f2a_large.svg);
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-size: 100% 73px;
+    background-position-y: -14px;
+    height: 44px;
+    width: 459.88px;
 }
-.benefit__title{
-	margin-top: 20px;
-	text-align: center;
-	font-size: 25px;
-    font-weight: 600;
+.help.icon {
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/buystrip/icon-help__f19n32h1h26a_large.svg);
+    background-repeat: no-repeat;
+    background-position-y: -4px;
+    height: 44px;
+    width: 459.88px;
+    background-size: 100% 56px;
 }
-.benefit__subtitle{
-	margin-top: 10px;
-	text-align: center;
-	font-size: 21px;
-    font-weight: 400;
-    line-height: 1.5;
+.benefits.title, .help.title {
+    margin-top: 10px;
 }
-.delivery_image{
-    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/icon_delivery__bs8f0g1fv0eu_medium.png);
-}
-.finance_image{
-    background-image: url(https://www.apple.com/v/ipad/home/bn/images/overview/icon_financing__ctvbzjuwg02u_large.png);
-}
-.personal_image{
-	width: 75px;
-    background-image: url(https://www.apple.com/v/iphone/home/ay/images/overview/buystrip/icon_personal_session__pcs30obpmp6m_large.png);
-}
-.benefit__moreInfo{
-	font-size: 21px;
-	margin: 20px;
-	display: flex;
-	justify-content: center;
+.more_info_icon::after {
+    content: "〉";
+    font-size: 9px;
+    font-weight: bolder;
+    margin-left: 6px;
 }

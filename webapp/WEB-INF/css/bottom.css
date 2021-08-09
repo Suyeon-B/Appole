@@ -2,6 +2,7 @@
 
 .bottom{
 	background: #f5f5f7;
+	text-align: initial;
 }
 .bottom_container{
 	display: flex;
@@ -29,6 +30,7 @@
 }
 
 .footer_container{
+	font-size: 15px;
 	font-weight: 200;
 	color: #4d4d4d;
 	width: 1440px;
